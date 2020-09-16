@@ -1,0 +1,48 @@
+﻿191919129 = {
+	name = "dynn_Toth"
+	culture = "hungarian"
+}
+191919159 = {
+	name = "dynn_Heim"
+	culture = "swabian"
+}
+191919120 = {
+	name = "dynn_Waagner"
+	culture = "swabian"
+}
+191919121 = {
+	name = "dynn_Gustafson"
+	culture = "swedish"
+}
+191919122 = {
+	name = "dynn_Hanson"
+	culture = "swedish"
+}
+191919123 = {
+	name = "dynn_Lasbleiz"
+	culture = "breton"
+}
+191919124 = {
+	name = "dynn_watanabe"
+	culture = "japanese"
+}
+191919125 = {
+	name = "dynn_Ahiskalioghlu"
+	culture = "turkish"
+}
+191919130 = {
+	name = "dynn_Puranik"
+	culture = "marathi"
+}
+191919127 = {
+	name = "dynn_Slade"
+	culture = "english"
+}
+191919128 = {
+	name = "dynn_Miyamoto"
+	culture = "japanese"
+}
+191919131 = {
+	name = "dynn_Akman"
+	culture = "turkish"
+}

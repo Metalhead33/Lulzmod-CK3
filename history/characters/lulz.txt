@@ -1,0 +1,298 @@
+1000260786 = {
+	name = "Zsolt"
+	dynasty = 191919129
+	religion = "catholic"
+	culture = "hungarian"
+	dna = dna_zsolt_toth
+	trait = education_stewardship_4
+	trait = lazy
+	trait = arrogant
+	trait = stubborn
+	trait = intellect_good_3
+	trait = scholar
+	trait = fornicator
+	trait = deviant
+	trait = drunkard
+	trait = depressed_1
+	trait = whole_of_body
+	1042.6.26 = {
+		birth = yes
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:1000260787 }
+		effect = { set_relation_friend = character:1000260788 }
+		effect = { set_relation_friend = character:1000260789 }
+		effect = { set_relation_friend = character:1000260790 }
+		effect = { set_relation_friend = character:1000260791 }
+		effect = { set_relation_friend = character:1000260792 }
+		effect = { set_relation_friend = character:1000260793 }
+		effect = { set_relation_friend = character:1000260794 }
+		effect = { set_relation_friend = character:1000260795 }
+		effect = { set_relation_friend = character:1000260796 }
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+1000260787 = {
+	name = "Rohan"
+	dynasty = 191919130
+	religion = "catholic"
+	culture = "marathi"
+	dna = dna_rohan
+	trait = education_learning_4
+	trait = diligent
+	trait = gregarious
+	trait = compassionate
+	trait = intellect_good_3
+	trait = scholar
+	trait = shrewd
+	1047.9.3 = {
+		birth = yes
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:1000260786 }
+		effect = { set_relation_friend = character:1000260794 }
+		employer = 1000260786 # Zsolt
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+1000260788 = {
+	name = "Nathan"
+	dynasty = 191919127
+	religion = "catholic"
+	culture = "english"
+	dna = dna_nate
+	trait = education_stewardship_4
+	trait = lazy
+	trait = arrogant
+	trait = stubborn
+	trait = intellect_good_3
+	trait = scholar
+	trait = fornicator
+	trait = deviant
+	trait = drunkard
+	1040.11.18 = {
+		birth = yes
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:1000260786 }
+		effect = { set_relation_friend = character:1000260793 }
+		employer = 1000260786 # Zsolt
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+1000260789 = {
+	name = "Naoki"
+	dynasty = 191919124
+	religion = "magyar_pagan"
+	culture = "japanese"
+	dna = dna_naoki
+	trait = education_diplomacy_4
+	trait = cynical
+	trait = honest
+	trait = stubborn
+	trait = intellect_good_3
+	trait = scholar
+	trait = diplomat
+	1047.1.4 = {
+		birth = yes
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:1000260786 }
+		employer = 1000260786 # Zsolt
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+1000260790 = {
+	name = "Petter"
+	dynasty = 191919121
+	religion = "catholic"
+	culture = "swedish"
+	dna = dna_petter
+	trait = education_intrigue_4
+	trait = calm
+	trait = honest
+	trait = cynical
+	trait = reveler_3
+	trait = intellect_good_3
+	trait = scholar
+	trait = fornicator
+	trait = physique_good_3
+	trait = beauty_good_2
+	1040.1.30 = {
+		birth = yes
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:1000260786 }
+		effect = { set_relation_friend = character:1000260792 }
+		employer = 1000260786 # Zsolt
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+1000260791 = {
+	name = "Adrien"
+	dynasty = 191919123
+	religion = "pagan"
+	culture = "breton"
+	dna = dna_adrien
+	trait = education_martial_4
+	trait = vengeful
+	trait = sadistic
+	trait = patient
+	trait = intellect_good_3
+	trait = scholar
+	trait = fornicator
+	trait = physique_good_2
+	trait = blademaster_3
+	1048.1.30 = {
+		birth = yes
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:1000260786 }
+		employer = 1000260786 # Zsolt
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+1000260792 = {
+	name = "Roland"
+	dynasty = 191919159
+	religion = "catholic"
+	culture = "swabian"
+	dna = dna_roland
+	trait = education_martial_4
+	trait = physique_good_2
+	trait = blademaster_3
+	trait = cynical
+	trait = arrogant
+	trait = stubborn
+	trait = intellect_good_3
+	trait = scholar
+	trait = fornicator
+	trait = shrewd
+	1040.8.22 = {
+		birth = yes
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:1000260786 }
+		effect = { set_relation_friend = character:1000260790 }
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+1000260793 = {
+	name = "Rachel"
+	female = yes
+	dynasty = 191919128
+	religion = "catholic"
+	culture = "japanese"
+	dna = dna_rachel_miyamoto
+	trait = education_stewardship_4
+	trait = gregarious
+	trait = temperate
+	trait = compassionate
+	trait = intellect_good_3
+	trait = scholar
+	trait = beauty_good_3
+	1048.5.15 = { # Originally 1038.5.15
+		birth = yes
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:1000260786 }
+		effect = { set_relation_friend = character:1000260788 }
+		employer = 1000260786 # Zsolt
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+1000260794 = {
+	name = "Emil"
+	dynasty = 191919122
+	religion = "catholic"
+	culture = "swedish"
+	dna = dna_emil_hanson
+	trait = education_learning_4
+	trait = blademaster_3
+	trait = compassionate
+	trait = zealous
+	trait = honest
+	trait = intellect_good_3
+	trait = scholar
+	trait = theologian
+	1048.7.1 = {
+		birth = yes
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:1000260786 }
+		effect = { set_relation_friend = character:1000260787 }
+		effect = { set_relation_friend = character:1000260795 }
+		employer = 1000260786 # Zsolt
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+1000260795 = {
+	name = "Omer"
+	dynasty = 191919125
+	religion = "quranist"
+	culture = "turkish"
+	dna = dna_omer
+	trait = education_martial_prowess_4
+	trait = blademaster_3
+	trait = honest
+	trait = trusting
+	trait = stubborn
+	trait = intellect_good_3
+	trait = scholar
+	1047.9.3 = {
+		birth = yes
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:1000260786 }
+		effect = { set_relation_friend = character:1000260794 }
+		effect = { set_relation_friend = character:1000260796 }
+		employer = 1000260786 # Zsolt
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+
+1000260796 = {
+	name = "Ismail_Akman"
+	dynasty = 191919131
+	religion = "qarmatian"
+	culture = "turkish"
+	dna = dna_ismail_akman
+	trait = education_martial_prowess_4
+	trait = blademaster_3
+	trait = honest
+	trait = cynical
+	trait = stubborn
+	trait = intellect_good_3
+	trait = scholar
+	1047.6.18 = {
+		birth = yes
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:1000260786 }
+		effect = { set_relation_friend = character:1000260795 }
+		employer = 1000260786 # Zsolt
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
