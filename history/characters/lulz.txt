@@ -482,7 +482,6 @@
 	dna = dna_wongjihim
 	sexuality = heterosexual
 	trait = education_learning_4
-	trait = blademaster_3
 	trait = honest
 	trait = lustful
 	trait = content
