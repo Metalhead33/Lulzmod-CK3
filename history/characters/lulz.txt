@@ -212,6 +212,7 @@
 	dna = dna_petter
 	sexuality = heterosexual
 	trait = education_intrigue_4
+	trait = blademaster_1
 	trait = calm
 	trait = honest
 	trait = cynical
