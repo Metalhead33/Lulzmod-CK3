@@ -4,6 +4,7 @@
 	religion = "catholic"
 	culture = "hungarian"
 	dna = dna_zsolt_toth
+	sexuality = heterosexual
 	trait = education_stewardship_4
 	trait = lazy
 	trait = arrogant
@@ -20,15 +21,77 @@
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260787 }
+		add_opinion = {
+			target = character:1000260787
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260788 }
+		add_opinion = {
+			target = character:1000260788
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260789 }
+		add_opinion = {
+			target = character:1000260789
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260790 }
+		add_opinion = {
+			target = character:1000260790
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260791 }
+		add_opinion = {
+			target = character:1000260791
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260792 }
+		add_opinion = {
+			target = character:1000260792
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260793 }
+		add_opinion = {
+			target = character:1000260793
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260794 }
+		add_opinion = {
+			target = character:1000260794
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260795 }
+		add_opinion = {
+			target = character:1000260795
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260796 }
+		add_opinion = {
+			target = character:1000260796
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260797 }
+		add_opinion = {
+			target = character:1000260797
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260798 }
+		add_opinion = {
+			target = character:1000260798
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 	}
 	1083.1.1 = {
 		death = yes
@@ -40,7 +103,9 @@
 	religion = "catholic"
 	culture = "marathi"
 	dna = dna_rohan
-	trait = education_learning_4
+	sexuality = heterosexual
+	stewardship = 15
+	trait = education_stewardship_4
 	trait = diligent
 	trait = gregarious
 	trait = compassionate
@@ -52,7 +117,17 @@
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260786 }
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260794 }
+		add_opinion = {
+			target = character:1000260794
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		employer = 1000260786 # Zsolt
 	}
 	1083.1.1 = {
@@ -65,6 +140,7 @@
 	religion = "catholic"
 	culture = "english"
 	dna = dna_nate
+	sexuality = bisexual
 	trait = education_stewardship_4
 	trait = lazy
 	trait = arrogant
@@ -74,12 +150,24 @@
 	trait = fornicator
 	trait = deviant
 	trait = drunkard
+	trait = hashishiyah
+	trait = sodomite
 	1040.11.18 = {
 		birth = yes
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260786 }
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260793 }
+		add_opinion = {
+			target = character:1000260793
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		employer = 1000260786 # Zsolt
 	}
 	1083.1.1 = {
@@ -92,6 +180,7 @@
 	religion = "magyar_pagan"
 	culture = "japanese"
 	dna = dna_naoki
+	sexuality = heterosexual
 	trait = education_diplomacy_4
 	trait = cynical
 	trait = honest
@@ -104,6 +193,11 @@
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260786 }
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		employer = 1000260786 # Zsolt
 	}
 	1083.1.1 = {
@@ -116,6 +210,7 @@
 	religion = "catholic"
 	culture = "swedish"
 	dna = dna_petter
+	sexuality = heterosexual
 	trait = education_intrigue_4
 	trait = calm
 	trait = honest
@@ -131,7 +226,17 @@
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260786 }
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260792 }
+		add_opinion = {
+			target = character:1000260792
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		employer = 1000260786 # Zsolt
 	}
 	1083.1.1 = {
@@ -144,6 +249,8 @@
 	religion = "pagan"
 	culture = "breton"
 	dna = dna_adrien
+	sexuality = heterosexual
+	martial = 20
 	trait = education_martial_4
 	trait = vengeful
 	trait = sadistic
@@ -158,6 +265,11 @@
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260786 }
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		employer = 1000260786 # Zsolt
 	}
 	1083.1.1 = {
@@ -170,6 +282,7 @@
 	religion = "catholic"
 	culture = "swabian"
 	dna = dna_roland
+	sexuality = heterosexual
 	trait = education_martial_4
 	trait = physique_good_2
 	trait = blademaster_3
@@ -185,7 +298,17 @@
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260786 }
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260790 }
+		add_opinion = {
+			target = character:1000260790
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 	}
 	1083.1.1 = {
 		death = yes
@@ -198,6 +321,7 @@
 	religion = "catholic"
 	culture = "japanese"
 	dna = dna_rachel_miyamoto
+	sexuality = heterosexual
 	trait = education_stewardship_4
 	trait = gregarious
 	trait = temperate
@@ -210,7 +334,17 @@
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260786 }
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260788 }
+		add_opinion = {
+			target = character:1000260788
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		employer = 1000260786 # Zsolt
 	}
 	1083.1.1 = {
@@ -223,6 +357,7 @@
 	religion = "catholic"
 	culture = "swedish"
 	dna = dna_emil_hanson
+	sexuality = heterosexual
 	trait = education_learning_4
 	trait = blademaster_3
 	trait = compassionate
@@ -236,8 +371,23 @@
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260786 }
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260787 }
+		add_opinion = {
+			target = character:1000260787
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260795 }
+		add_opinion = {
+			target = character:1000260795
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		employer = 1000260786 # Zsolt
 	}
 	1083.1.1 = {
@@ -245,11 +395,12 @@
 	}
 }
 1000260795 = {
-	name = "Omer"
+	name = "Char_Omer"
 	dynasty = 191919125
 	religion = "quranist"
 	culture = "turkish"
 	dna = dna_omer
+	sexuality = heterosexual
 	trait = education_martial_prowess_4
 	trait = blademaster_3
 	trait = honest
@@ -262,8 +413,23 @@
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260786 }
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260794 }
+		add_opinion = {
+			target = character:1000260794
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260796 }
+		add_opinion = {
+			target = character:1000260796
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		employer = 1000260786 # Zsolt
 	}
 	1083.1.1 = {
@@ -277,6 +443,7 @@
 	religion = "qarmatian"
 	culture = "turkish"
 	dna = dna_ismail_akman
+	sexuality = heterosexual
 	trait = education_martial_prowess_4
 	trait = blademaster_3
 	trait = honest
@@ -289,7 +456,85 @@
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260786 }
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260795 }
+		add_opinion = {
+			target = character:1000260795
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		employer = 1000260786 # Zsolt
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+
+1000260797 = {
+	name = "char_Jihim"
+	dynasty = 191919133
+	religion = "catholic"
+	culture = "han"
+	dna = dna_wongjihim
+	sexuality = heterosexual
+	trait = education_learning_4
+	trait = blademaster_3
+	trait = honest
+	trait = lustful
+	trait = content
+	trait = intellect_good_3
+	trait = scholar
+	trait = mystic_3
+	trait = physician_3
+	1043.11.3 = {
+		birth = yes
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:1000260786 }
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		employer = 1000260786 # Zsolt
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+
+
+1000260798 = {
+	name = "ch_DSonck"
+	dynasty = 191919132
+	religion = "catholic"
+	culture = "dutch"
+	dna = dna_dsonck
+	martial = 15
+	sexuality = heterosexual
+	trait = education_stewardship_4
+	trait = honest
+	trait = diligent
+	trait = cynical
+	trait = intellect_good_3
+	trait = scholar
+	trait = architect
+	trait = administrator
+	trait = military_engineer
+	1043.11.3 = {
+		birth = yes
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:1000260786 }
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		employer = 1000260786 # Zsolt
 	}
 	1083.1.1 = {

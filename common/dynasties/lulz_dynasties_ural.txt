@@ -46,3 +46,11 @@
 	name = "dynn_Akman"
 	culture = "turkish"
 }
+191919132 = {
+	name = "dynn_Sonck"
+	culture = "dutch"
+}
+191919133 = {
+	name = "dynn_WongJihim"
+	culture = "han"
+}
