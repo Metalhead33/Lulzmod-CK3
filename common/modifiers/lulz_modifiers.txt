@@ -1,4 +1,10 @@
 ﻿zsolts_court = {
 	icon = rapeman
 	knight_limit = 8
+	ai_boldness = 100
+	ai_war_chance = 50
+	ai_vengefulness = 50
+	ai_energy = 50
+	martial = 10
+	prowess = 10
 }

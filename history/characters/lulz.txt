@@ -171,11 +171,12 @@
 	culture = "english"
 	dna = dna_nate
 	sexuality = bisexual
-	trait = education_stewardship_4
+	trait = education_martial_4
 	trait = lazy
 	trait = arrogant
 	trait = stubborn
 	trait = intellect_good_3
+	trait = blademaster_3
 	trait = scholar
 	trait = fornicator
 	trait = deviant
@@ -199,7 +200,12 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		employer = 1000260786 # Zsolt
+		add_opinion = {
+			target = character:1000260792
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		employer = 1000260792 # Roland
 	}
 	1083.1.1 = {
 		death = yes
@@ -271,7 +277,7 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		employer = 1000260786 # Zsolt
+		employer = 1000260792 # Zsolt
 	}
 	1083.1.1 = {
 		death = yes
@@ -358,6 +364,26 @@
 		effect = { set_relation_friend = character:1000260790 }
 		add_opinion = {
 			target = character:1000260790
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		add_opinion = {
+			target = character:1000260798
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		add_opinion = {
+			target = character:1000260799
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		add_opinion = {
+			target = character:1000260788
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		add_opinion = {
+			target = character:1000260796
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -538,7 +564,12 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		employer = 1000260786 # Zsolt
+		add_opinion = {
+			target = character:1000260792
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		employer = 1000260792 # Zsolt
 	}
 	1083.1.1 = {
 		death = yes
@@ -608,7 +639,12 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		employer = 1000260786 # Zsolt
+		add_opinion = {
+			target = character:1000260792
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		employer = 1000260792 # Zsolt
 	}
 	1083.1.1 = {
 		death = yes
@@ -622,7 +658,7 @@
 	culture = "dutch"
 	dna = dna_geard_koetje
 	sexuality = heterosexual
-	trait = education_stewardship_4
+	trait = education_diplomacy_4
 	trait = honest
 	trait = diligent
 	trait = patient
@@ -642,7 +678,12 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		employer = 1000260786 # Zsolt
+		add_opinion = {
+			target = character:1000260792
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		employer = 1000260792 # Zsolt
 	}
 	1083.1.1 = {
 		death = yes
