@@ -1,0 +1,3 @@
+﻿zsolts_court = {
+	knight_limit = 8
+}

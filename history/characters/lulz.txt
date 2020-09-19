@@ -94,6 +94,23 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+		effect = { set_relation_friend = character:1000260802 }
+		add_opinion = {
+			target = character:1000260802
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		add_opinion = {
+			target = character:1000260803
+			modifier = friendliness_opinion
+			opinion = 150
+		}
+		effect = { set_relation_friend = character:1000260804 }
+		add_opinion = {
+			target = character:1000260804
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 	}
 	1083.1.1 = {
 		death = yes
@@ -465,6 +482,12 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+		effect = { set_relation_friend = character:1000260804 }
+		add_opinion = {
+			target = character:1000260804
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		employer = 1000260786 # Zsolt
 	}
 	1083.1.1 = {
@@ -500,6 +523,12 @@
 		effect = { set_relation_friend = character:1000260795 }
 		add_opinion = {
 			target = character:1000260795
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260804 }
+		add_opinion = {
+			target = character:1000260804
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -701,6 +730,12 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+		effect = { set_relation_friend = character:1000260804 }
+		add_opinion = {
+			target = character:1000260804
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260786 }
 		add_opinion = {
 			target = character:1000260786
@@ -723,7 +758,7 @@
 	trait = education_martial_4
 	trait = lazy
 	trait = arrogant
-	trait = stubborn
+	trait = lustful
 	trait = intellect_good_3
 	trait = scholar
 	trait = deviant
@@ -777,15 +812,71 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 150
+		}
 		effect = { set_relation_friend = character:1000260802 }
 		effect = { set_relation_soulmate = character:1000260802 }
 		add_opinion = {
-			target = character:1000260793
+			target = character:1000260802
 			modifier = friendliness_opinion
 			opinion = 200
 		}
 		employer = 1000260786 # Zsolt
 		add_spouse = 1000260802
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+1000260804 = {
+	name = "Sedat"
+	dynasty = 191919139
+	religion = "ashari"
+	culture = "turkish"
+	dna = dna_sedat_atalay
+	sexuality = heterosexual
+	trait = education_martial_4
+	trait = vengeful
+	trait = arrogant
+	trait = wrathful
+	trait = intellect_good_3
+	trait = scholar
+	trait = deviant
+	trait = blademaster_3
+	trait = physique_good_2
+	trait = dog_preference
+	1037.4.19 = {
+		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:1000260786 }
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260801 }
+		add_opinion = {
+			target = character:1000260801
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260795 }
+		add_opinion = {
+			target = character:1000260795
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260796 }
+		add_opinion = {
+			target = character:1000260796
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 	}
 	1083.1.1 = {
 		death = yes
