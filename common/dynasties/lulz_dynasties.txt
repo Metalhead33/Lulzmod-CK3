@@ -66,3 +66,11 @@
 	name = "dynn_Beato"
 	culture = "portuguese"
 }
+191919137 = {
+	name = "dynn_JMuzumi"
+	culture = "japanese"
+}
+191919138 = {
+	name = "Rakukoo_LastName"
+	culture = "han"
+}

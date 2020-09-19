@@ -713,3 +713,81 @@
 		death = yes
 	}
 }
+1000260802 = {
+	name = "char_JYuzuko"
+	dynasty = 191919137
+	religion = "shinto"
+	culture = "japanese"
+	dna = dna_yuzuko
+	sexuality = bisexual
+	trait = education_martial_4
+	trait = lazy
+	trait = arrogant
+	trait = stubborn
+	trait = intellect_good_3
+	trait = scholar
+	trait = deviant
+	trait = blademaster_3
+	trait = sodomite
+	trait = cat_preference
+	1046.6.26 = { # 1042 = 1992 -> 1048 = 1998 
+		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:1000260786 }
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260803 }
+		effect = { set_relation_soulmate = character:1000260803 }
+		add_opinion = {
+			target = character:1000260803
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		employer = 1000260786 # Zsolt
+		add_spouse = 1000260803
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+1000260803 = {
+	name = "Rakukoo_FirstName"
+	female = yes
+	dynasty = 191919138
+	religion = "zhengyi"
+	culture = "han"
+	dna = dna_rakukoo
+	sexuality = heterosexual
+	trait = education_diplomacy_4
+	trait = lazy
+	trait = arrogant
+	trait = stubborn
+	trait = intellect_good_3
+	trait = scholar
+	trait = physician_3
+	trait = beauty_good_3
+	trait = cat_preference
+	1045.6.11 = { # 1042 = 1992 -> 1045 = Jun 11, 1995
+		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:1000260802 }
+		effect = { set_relation_soulmate = character:1000260802 }
+		add_opinion = {
+			target = character:1000260793
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		employer = 1000260786 # Zsolt
+		add_spouse = 1000260802
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
