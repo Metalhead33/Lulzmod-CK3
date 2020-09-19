@@ -25,6 +25,12 @@
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
 		}
+		effect = { set_relation_friend = character:1000260805 }
+		add_opinion = {
+			target = character:1000260805
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260787 }
 		add_opinion = {
 			target = character:1000260787
@@ -111,6 +117,12 @@
 		effect = { set_relation_friend = character:1000260804 }
 		add_opinion = {
 			target = character:1000260804
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260806 }
+		add_opinion = {
+			target = character:1000260806
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -271,13 +283,19 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+		effect = { set_relation_friend = character:1000260805 }
+		add_opinion = {
+			target = character:1000260805
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260792 }
 		add_opinion = {
 			target = character:1000260792
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		employer = 1000260792 # Zsolt
+		employer = 1000260792 # Roland
 	}
 	1083.1.1 = {
 		death = yes
@@ -358,6 +376,12 @@
 		}
 		add_opinion = {
 			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260806 }
+		add_opinion = {
+			target = character:1000260806
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -921,6 +945,95 @@
 		effect = { set_relation_friend = character:1000260796 }
 		add_opinion = {
 			target = character:1000260796
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		employer = 1000260786 # Zsolt
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+1000260805 = {
+	name = "Zsolt"
+	dynasty = 191919140
+	religion = "catholic"
+	culture = "hungarian"
+	dna = dna_zsolt_abraham
+	sexuality = heterosexual
+	trait = education_martial_4
+	trait = diligent
+	trait = content
+	trait = calm
+	trait = intellect_good_3
+	trait = scholar
+	trait = fornicator
+	trait = blademaster_3
+	trait = physique_good_2
+	1040.6.27 = { # 1990-06-27 1987-05-16
+		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:1000260806 }
+		add_opinion = {
+			target = character:1000260806
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260790 }
+		add_opinion = {
+			target = character:1000260790
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260786 }
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		employer = 1000260786 # Zsolt
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+1000260806 = {
+	name = "Kriszta"
+	female = yes
+	dynasty = 191919141
+	religion = "catholic"
+	culture = "hungarian"
+	dna = dna_kriszta
+	sexuality = heterosexual
+	trait = education_martial_4
+	trait = stubborn
+	trait = shy
+	trait = cynical
+	trait = intellect_good_3
+	trait = scholar
+	trait = dwarf
+	1037.5.16 = { # 1987-05-16
+		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:1000260786 }
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260805 }
+		add_opinion = {
+			target = character:1000260805
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260792 }
+		add_opinion = {
+			target = character:1000260792
 			modifier = friendliness_opinion
 			opinion = 200
 		}

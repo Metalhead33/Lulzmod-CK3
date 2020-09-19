@@ -78,3 +78,11 @@
 	name = "dynn_Atalay"
 	culture = "turkish"
 }
+191919140 = {
+	name = "dynn_Aabrahaam"
+	culture = "hungarian"
+}
+191919141 = {
+	name = "dynn_Incognito"
+	culture = "hungarian"
+}
