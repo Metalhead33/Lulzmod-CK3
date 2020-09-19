@@ -19,6 +19,7 @@
 	trait = cat_preference
 	1042.6.26 = {
 		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260787 }
@@ -116,6 +117,7 @@
 	trait = cat_preference
 	1047.9.3 = {
 		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260786 }
@@ -162,6 +164,7 @@
 	trait = sodomite
 	1040.11.18 = {
 		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260786 }
@@ -198,6 +201,7 @@
 	trait = diplomat
 	1047.1.4 = {
 		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260786 }
@@ -232,6 +236,7 @@
 	trait = beauty_good_2
 	1040.1.30 = {
 		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260786 }
@@ -271,6 +276,7 @@
 	trait = blademaster_3
 	1048.1.30 = {
 		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260800 }
@@ -317,6 +323,7 @@
 	trait = cat_preference
 	1040.8.22 = {
 		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260786 }
@@ -354,6 +361,7 @@
 	trait = cat_preference
 	1048.5.15 = { # Originally 1038.5.15
 		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260786 }
@@ -392,6 +400,7 @@
 	trait = dog_preference
 	1048.7.1 = {
 		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260786 }
@@ -435,6 +444,7 @@
 	trait = cat_preference
 	1047.9.3 = {
 		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260786 }
@@ -478,6 +488,7 @@
 	trait = scholar
 	1047.6.18 = {
 		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260786 }
@@ -516,6 +527,7 @@
 	trait = physician_3
 	1043.11.3 = {
 		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260786 }
@@ -552,6 +564,7 @@
 	trait = dog_preference
 	1042.6.26 = {
 		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260786 }
@@ -585,6 +598,7 @@
 	trait = dog_preference
 	1043.11.3 = {
 		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260786 }
@@ -620,6 +634,7 @@
 	trait = cat_preference
 	1040.2.11 = {
 		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260791 }
@@ -665,6 +680,7 @@
 	trait = bird_preference
 	1035.2.1 = {
 		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:1000260791 }
