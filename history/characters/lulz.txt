@@ -16,6 +16,7 @@
 	trait = drunkard
 	trait = depressed_1
 	trait = whole_of_body
+	trait = cat_preference
 	1042.6.26 = {
 		birth = yes
 	}
@@ -112,6 +113,7 @@
 	trait = intellect_good_3
 	trait = scholar
 	trait = shrewd
+	trait = cat_preference
 	1047.9.3 = {
 		birth = yes
 	}
@@ -119,6 +121,12 @@
 		effect = { set_relation_friend = character:1000260786 }
 		add_opinion = {
 			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260801 }
+		add_opinion = {
+			target = character:1000260801
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -265,6 +273,18 @@
 		birth = yes
 	}
 	1066.1.1={
+		effect = { set_relation_friend = character:1000260800 }
+		add_opinion = {
+			target = character:1000260800
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260801 }
+		add_opinion = {
+			target = character:1000260801
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260786 }
 		add_opinion = {
 			target = character:1000260786
@@ -294,6 +314,7 @@
 	trait = scholar
 	trait = fornicator
 	trait = shrewd
+	trait = cat_preference
 	1040.8.22 = {
 		birth = yes
 	}
@@ -330,6 +351,7 @@
 	trait = intellect_good_3
 	trait = scholar
 	trait = beauty_good_3
+	trait = cat_preference
 	1048.5.15 = { # Originally 1038.5.15
 		birth = yes
 	}
@@ -367,6 +389,7 @@
 	trait = intellect_good_3
 	trait = scholar
 	trait = theologian
+	trait = dog_preference
 	1048.7.1 = {
 		birth = yes
 	}
@@ -409,6 +432,7 @@
 	trait = stubborn
 	trait = intellect_good_3
 	trait = scholar
+	trait = cat_preference
 	1047.9.3 = {
 		birth = yes
 	}
@@ -525,10 +549,142 @@
 	trait = architect
 	trait = administrator
 	trait = military_engineer
+	trait = dog_preference
+	1042.6.26 = {
+		birth = yes
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:1000260786 }
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		employer = 1000260786 # Zsolt
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+
+1000260799 = {
+	name = "char_DGerard"
+	dynasty = 191919134
+	religion = "catholic"
+	culture = "dutch"
+	dna = dna_geard_koetje
+	sexuality = heterosexual
+	trait = education_stewardship_4
+	trait = honest
+	trait = diligent
+	trait = patient
+	trait = intellect_good_3
+	trait = scholar
+	trait = theologian
+	trait = physique_good_3
+	trait = dog_preference
 	1043.11.3 = {
 		birth = yes
 	}
 	1066.1.1={
+		effect = { set_relation_friend = character:1000260786 }
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		employer = 1000260786 # Zsolt
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+1000260800 = {
+	name = "char_SIngrid"
+	female = yes
+	dynasty = 191919135
+	religion = "catholic"
+	culture = "catalan"
+	dna = dna_ingrid_benson
+	martial = 20
+	sexuality = heterosexual
+	trait = education_martial_4
+	trait = honest
+	trait = diligent
+	trait = patient
+	trait = intellect_good_3
+	trait = scholar
+	trait = blademaster_3
+	trait = physician_3
+	trait = beauty_good_3
+	trait = cat_preference
+	1040.2.11 = {
+		birth = yes
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:1000260791 }
+		add_opinion = {
+			target = character:1000260791
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260801 }
+		add_opinion = {
+			target = character:1000260801
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260786 }
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		employer = 1000260786 # Zsolt
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+1000260801 = {
+	name = "char_PInes"
+	female = yes
+	dynasty = 191919136
+	religion = "catholic"
+	culture = "portuguese"
+	dna = dna_ines_beato
+	sexuality = heterosexual
+	trait = education_intrigue_4
+	trait = honest
+	trait = diligent
+	trait = patient
+	trait = intellect_good_3
+	trait = scholar
+	trait = physician_3
+	trait = beauty_good_2
+	trait = bird_preference
+	1035.2.1 = {
+		birth = yes
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:1000260791 }
+		add_opinion = {
+			target = character:1000260791
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260800 }
+		add_opinion = {
+			target = character:1000260800
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260787 }
+		add_opinion = {
+			target = character:1000260787
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260786 }
 		add_opinion = {
 			target = character:1000260786

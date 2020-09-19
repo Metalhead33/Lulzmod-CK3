@@ -54,3 +54,15 @@
 	name = "dynn_WongJihim"
 	culture = "han"
 }
+191919134 = {
+	name = "dynn_Koetje"
+	culture = "dutch"
+}
+191919135 = {
+	name = "dynn_Benson"
+	culture = "english"
+}
+191919136 = {
+	name = "dynn_Beato"
+	culture = "portuguese"
+}
