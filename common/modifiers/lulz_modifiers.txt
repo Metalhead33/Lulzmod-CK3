@@ -1,3 +1,4 @@
 ﻿zsolts_court = {
+	icon = rapeman
 	knight_limit = 8
 }
