@@ -604,7 +604,7 @@
 	name = "char_Jihim"
 	dynasty = 191919133
 	religion = "catholic"
-	culture = "han"
+	culture = "cantonese"
 	dna = dna_wongjihim
 	sexuality = heterosexual
 	trait = education_learning_4
