@@ -86,3 +86,7 @@
 	name = "dynn_Incognito"
 	culture = "hungarian"
 }
+191919142 = {
+	name = "dynn_Tsoupi"
+	culture = "greek"
+}

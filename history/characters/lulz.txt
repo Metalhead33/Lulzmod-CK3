@@ -126,6 +126,12 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+		effect = { set_relation_friend = character:1000260807 }
+		add_opinion = {
+			target = character:1000260807
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 	}
 	1083.1.1 = {
 		death = yes
@@ -152,6 +158,9 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
 		effect = { set_relation_friend = character:1000260786 }
 		add_opinion = {
 			target = character:1000260786
@@ -200,6 +209,9 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
 		effect = { set_relation_friend = character:1000260786 }
 		add_opinion = {
 			target = character:1000260786
@@ -242,6 +254,9 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
 		effect = { set_relation_friend = character:1000260786 }
 		add_opinion = {
 			target = character:1000260786
@@ -277,6 +292,9 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
 		effect = { set_relation_friend = character:1000260786 }
 		add_opinion = {
 			target = character:1000260786
@@ -323,6 +341,9 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
 		effect = { set_relation_friend = character:1000260800 }
 		add_opinion = {
 			target = character:1000260800
@@ -370,6 +391,27 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
+		add_pressed_claim = d_bavaria
+		add_pressed_claim = d_nordgau
+		add_pressed_claim = d_salzburg
+		add_pressed_claim = d_augsburg
+		add_pressed_claim = d_steyermark
+		add_pressed_claim = d_osterreich
+		add_pressed_claim = d_tyrol
+		add_pressed_claim = d_carinthia
+		add_pressed_claim = c_regensburg
+		add_pressed_claim = c_munchen
+		add_pressed_claim = c_eschenlohe
+		add_pressed_claim = c_rothenburg
+		add_pressed_claim = c_geisenhausen
+		add_pressed_claim = c_frontenhausen
+		add_pressed_claim = c_falkenstein
+		add_pressed_claim = c_ingolstadt
+		add_pressed_claim = c_passau
+		add_pressed_claim = c_eichstadt
+		add_pressed_claim = c_leuchtenburg
+		add_pressed_claim = c_parsberg
+		add_pressed_claim = c_augsburg
 		effect = { set_relation_friend = character:1000260786 }
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
@@ -437,6 +479,9 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
 		effect = { set_relation_friend = character:1000260786 }
 		add_opinion = {
 			target = character:1000260786
@@ -476,6 +521,9 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
 		effect = { set_relation_friend = character:1000260786 }
 		add_opinion = {
 			target = character:1000260786
@@ -520,6 +568,9 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
 		effect = { set_relation_friend = character:1000260786 }
 		add_opinion = {
 			target = character:1000260786
@@ -570,6 +621,9 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
 		effect = { set_relation_friend = character:1000260786 }
 		add_opinion = {
 			target = character:1000260786
@@ -620,6 +674,9 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
 		effect = { set_relation_friend = character:1000260786 }
 		add_opinion = {
 			target = character:1000260786
@@ -657,6 +714,9 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
 		effect = { set_relation_friend = character:1000260786 }
 		add_opinion = {
 			target = character:1000260786
@@ -696,6 +756,9 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
 		effect = { set_relation_friend = character:1000260786 }
 		add_opinion = {
 			target = character:1000260786
@@ -737,6 +800,9 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
 		effect = { set_relation_friend = character:1000260791 }
 		add_opinion = {
 			target = character:1000260791
@@ -783,6 +849,11 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
+		add_spouse = 1000260804
+		effect = { set_relation_soulmate = character:1000260804 }
 		effect = { set_relation_friend = character:1000260791 }
 		add_opinion = {
 			target = character:1000260791
@@ -841,6 +912,9 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
 		effect = { set_relation_friend = character:1000260786 }
 		add_opinion = {
 			target = character:1000260786
@@ -883,6 +957,9 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
 		add_opinion = {
 			target = character:1000260786
 			modifier = friendliness_opinion
@@ -922,8 +999,25 @@
 	1037.4.19 = {
 		birth = yes
 		effect = { add_character_flag = has_scripted_appearance }
+		add_pressed_claim = d_azerbaijan
+		add_pressed_claim = c_tabriz
+		add_pressed_claim = c_talish
+		add_pressed_claim = c_ardabil
+		add_pressed_claim = c_maragha
+		add_pressed_claim = c_bailaqan
+		add_pressed_claim = c_urmiya
+		add_pressed_claim = d_shirvan
+		add_pressed_claim = c_shirvan
+		add_pressed_claim = c_shaki
+		add_pressed_claim = c_aran
+		add_pressed_claim = c_mugan
 	}
 	1066.1.1={
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
+		add_spouse = 1000260801
+		effect = { set_relation_soulmate = character:1000260801 }
 		effect = { set_relation_friend = character:1000260786 }
 		add_opinion = {
 			target = character:1000260786
@@ -975,6 +1069,9 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
 		effect = { set_relation_friend = character:1000260806 }
 		add_opinion = {
 			target = character:1000260806
@@ -1019,6 +1116,9 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
 		effect = { set_relation_friend = character:1000260786 }
 		add_opinion = {
 			target = character:1000260786
@@ -1034,6 +1134,42 @@
 		effect = { set_relation_friend = character:1000260792 }
 		add_opinion = {
 			target = character:1000260792
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		employer = 1000260786 # Zsolt
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+1000260807 = {
+	name = "Aikaterine"
+	female = yes
+	dynasty = 191919142
+	religion = "orthodox"
+	culture = "greek"
+	dna = dna_katerina_tsoupi
+	sexuality = bisexual
+	trait = education_diplomacy_4
+	trait = shy
+	trait = cynical
+	trait = stubborn
+	trait = intellect_good_3
+	trait = scholar
+	trait = beauty_good_3
+	trait = cat_preference
+	1049.3.31 = {
+		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
+	}
+	1066.1.1={
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
+		effect = { set_relation_friend = character:1000260786 }
+		add_opinion = {
+			target = character:1000260786
 			modifier = friendliness_opinion
 			opinion = 200
 		}
