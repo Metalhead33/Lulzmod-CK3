@@ -2430,7 +2430,7 @@ dna_katerina_tsoupi = {
  		gene_forehead_width={ "forehead_width_pos" 153 "forehead_width_pos" 153 }
  		gene_forehead_height={ "forehead_height_neg" 122 "forehead_height_neg" 122 }
  		gene_head_height={ "head_height_pos" 187 "head_height_pos" 135 }
- 		gene_head_width={ "head_width_pos" 81 "head_width_pos" 145 }
+ 		gene_head_width={ "head_width_pos" 0 "head_width_pos" 145 }
  		gene_head_profile={ "head_profile_pos" 124 "head_profile_pos" 176 }
  		gene_head_top_height={ "head_top_height_pos" 140 "head_top_height_pos" 140 }
  		gene_head_top_width={ "head_top_width_pos" 163 "head_top_width_pos" 163 }
@@ -2517,8 +2517,6 @@ dna_katerina_tsoupi = {
  		eye_accessory={ "normal_eyes_asian" 164 "normal_eyes" 16 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "asian_eyelashes" 255 "normal_eyelashes" 243 }
- 		clothes={ "byzantine_low_nobility_clothes" 0 "most_clothes" 0 }
- 		headgear={ "" 0 "no_headgear" 0 }
 		}
 	}
 	enabled=yes

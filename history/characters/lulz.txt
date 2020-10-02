@@ -22,6 +22,43 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
+		add_pressed_claim = k_hungary
+		add_pressed_claim = c_bacs
+		add_pressed_claim = c_bodrog
+		add_pressed_claim = c_keve
+		add_pressed_claim = c_krasso
+		add_pressed_claim = c_temes
+		add_pressed_claim = c_macva
+		add_pressed_claim = c_szerem
+		add_pressed_claim = c_beograd
+		add_pressed_claim = c_rashka
+		add_pressed_claim = c_podrinje
+		add_pressed_claim = k_croatia
+		add_pressed_claim = d_slavonia
+		add_pressed_claim = c_vukovar
+		add_pressed_claim = c_zagorje
+		add_pressed_claim = c_zagreb
+		add_pressed_claim = c_pozega
+		add_pressed_claim = c_soli
+		add_pressed_claim = c_usora
+		add_pressed_claim = c_vhrbosna
+		add_pressed_claim = c_rama
+		add_pressed_claim = c_vrbas
+		add_pressed_claim = d_croatia
+		add_pressed_claim = c_gacka
+		add_pressed_claim = c_modrus
+		add_pressed_claim = c_lika
+		add_pressed_claim = d_dalmatia
+		add_pressed_claim = c_zadar
+		add_pressed_claim = c_knin
+		add_pressed_claim = c_cetina
+		add_pressed_claim = c_pagania
+		add_pressed_claim = d_usora
+		add_pressed_claim = c_zachlumia
+		add_pressed_claim = c_zavrsje
+		add_pressed_claim = d_bosna 
+		add_pressed_claim = c_pset
+		add_pressed_claim = c_donjikraji
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
 		}
@@ -1164,9 +1201,9 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
-		effect = {
-			add_character_modifier = { modifier = zsolts_court }
-		}
+		#effect = {
+		#	add_character_modifier = { modifier = zsolts_court }
+		#}
 		effect = { set_relation_friend = character:1000260786 }
 		add_opinion = {
 			target = character:1000260786
