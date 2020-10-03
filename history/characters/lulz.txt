@@ -359,7 +359,7 @@
 1000260791 = {
 	name = "Adrien"
 	dynasty = 191919123
-	religion = "pagan"
+	religion = "khorne_faith"
 	culture = "breton"
 	dna = dna_adrien
 	sexuality = heterosexual
