@@ -1,0 +1,50 @@
+﻿#############
+# Shinto #
+#############
+
+# Khorne
+
+edge_of_world = {
+	county = c_fante
+
+	character_modifier = {
+		diplomacy = 1
+		martial = 1
+	}
+}
+
+african_jungle_one = {
+	county = c_kyadya
+
+	character_modifier = {
+		diplomacy = 1
+		martial = 1
+	}
+}
+
+african_jungle_two = {
+	county = c_ijaw
+
+	character_modifier = {
+		diplomacy = 1
+		martial = 1
+	}
+}
+
+game_workshop = {
+	county = c_nottinghamshire
+
+	character_modifier = {
+		diplomacy = 1
+		martial = 1
+	}
+}
+
+ignacy_przybylski = {
+	county = c_czerska
+
+	character_modifier = {
+		diplomacy = 1
+		martial = 1
+	}
+}
