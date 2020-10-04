@@ -30,6 +30,8 @@
  ordo_23_name:0 "Ordo Sicarius"
  ordo_24_name:0 "Ordo Thanatos"
  ordo_25_name:0 "Ordo Vigilus"
+ d_imperial_cult:0 "Imperial Cult"
+ d_imperial_cult_adj:0 "Imperial Cult"
 
 
  councillor_court_chaplain_imperial_duchy:0 "Court Priest"
