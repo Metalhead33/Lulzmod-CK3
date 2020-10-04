@@ -1,0 +1,19 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+
+# EMPIRES
+
+# special titles
+d_imperial_cult = {
+	color = { 130 180 240 }
+	color2 = { 255 20 20 }
+
+	definite_form = yes
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	capital = c_karakorum
+}
