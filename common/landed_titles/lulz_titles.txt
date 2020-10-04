@@ -8,12 +8,11 @@
 d_imperial_cult = {
 	color = { 130 180 240 }
 	color2 = { 255 20 20 }
-
 	definite_form = yes
-	
-	ai_primary_priority = {
-		add = @always_primary_score
-	}
-
-	capital = c_karakorum
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	destroy_if_invalid_heir = yes
+	can_be_named_after_dynasty = no
+	capital = c_czerska
 }
