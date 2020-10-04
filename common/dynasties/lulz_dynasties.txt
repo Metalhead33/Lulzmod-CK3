@@ -98,3 +98,11 @@
 	name = "dynn_Skierska"
 	culture = "polish"
 }
+191919145 = {
+	name = "dynn_Wirhalh"
+	culture = "anglo_saxon"
+}
+191919146 = {
+	name = "dynn_Passalacqua"
+	culture = "italian"
+}

@@ -344,9 +344,27 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+		effect = { set_relation_friend = character:1000260810 }
+		add_opinion = {
+			target = character:1000260810
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260805 }
 		add_opinion = {
 			target = character:1000260805
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260808 }
+		add_opinion = {
+			target = character:1000260808
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260809 }
+		add_opinion = {
+			target = character:1000260809
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -402,6 +420,12 @@
 		effect = { set_relation_friend = character:1000260786 }
 		add_opinion = {
 			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260811 }
+		add_opinion = {
+			target = character:1000260811
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -534,6 +558,12 @@
 		effect = { set_relation_friend = character:1000260788 }
 		add_opinion = {
 			target = character:1000260788
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260811 }
+		add_opinion = {
+			target = character:1000260811
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -861,6 +891,12 @@
 		effect = { set_relation_friend = character:1000260786 }
 		add_opinion = {
 			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260811 }
+		add_opinion = {
+			target = character:1000260811
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -1258,6 +1294,18 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+		effect = { set_relation_friend = character:1000260790 }
+		add_opinion = {
+			target = character:1000260790
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260811 }
+		add_opinion = {
+			target = character:1000260811
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 	}
 	1083.1.1 = {
 		death = yes
@@ -1289,6 +1337,111 @@
 		effect = { set_relation_friend = character:1000260808 }
 		add_opinion = {
 			target = character:1000260808
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260790 }
+		add_opinion = {
+			target = character:1000260790
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+
+1000260810 = {
+	name = "Eadweard"
+	dynasty = 191919145
+	religion = "norse_pagan"
+	culture = "anglo_saxon"
+	dna = dna_edddie_wirhalh
+	sexuality = heterosexual
+	trait = education_martial_4
+	trait = honest
+	trait = stubborn
+	trait = just
+	trait = intellect_good_3
+	trait = blademaster_3
+	trait = hunter_3
+	trait = scholar
+	1040.1.30 = {
+		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:1000260786 }
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260790 }
+		add_opinion = {
+			target = character:1000260790
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+
+1000260811 = {
+	name = "Davide"
+	dynasty = 191919146
+	religion = "catholic"
+	culture = "italian"
+	dna = dna_davide_passalacqua
+	sexuality = heterosexual
+	trait = education_martial_4
+	trait = honest
+	trait = stubborn
+	trait = just
+	trait = intellect_good_3
+	trait = reveler_3
+	trait = scholar
+	1040.8.4 = {
+		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:1000260786 }
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260791 }
+		add_opinion = {
+			target = character:1000260791
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260808 }
+		add_opinion = {
+			target = character:1000260808
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260800 }
+		add_opinion = {
+			target = character:1000260800
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260793 }
+		add_opinion = {
+			target = character:1000260793
 			modifier = friendliness_opinion
 			opinion = 200
 		}
