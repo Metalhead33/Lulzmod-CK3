@@ -113,14 +113,7 @@
 				OR = {
 					is_theocratic_lessee = yes
 					AND = { is_ruler = yes has_government = theocracy_government }
-				}
-				religion = religion:imperial_religion
-				NAND = {
-					faith = faith:catholic
-					faith.religious_head = this
-				}
-				NOT = {
-					faith = faith:orthodox
+					religion = religion:imperial_religion
 				}
 			}
 	    }
@@ -151,7 +144,7 @@
 	        base = 0
 	        modifier = {
 	            add = 120
-				faith = faith:catholic
+				religion = religion:imperial_religion
 				faith.religious_head = this
 	        }
 	    }
