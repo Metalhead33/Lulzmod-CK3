@@ -1,0 +1,36 @@
+# 8068 - ILE-IFE
+8068 = {	# 8068 - ILE-IFE
+	
+	# Misc
+	culture = yoruba
+	religion = khorne_faith
+	
+	# History
+
+}
+
+# 8071 - BENIN
+8071 = {	# 8071 - BENIN
+	
+	# Misc
+	culture = edo
+	religion = khorne_faith
+	
+	# History
+
+}
+
+# 8072 - BENIN CITY
+8072 = {	# 8072 - BENIN CITY
+	
+	# Misc
+	culture = edo
+	religion = khorne_faith
+	
+	# History
+	867.1.1 = {
+		special_building_slot = walls_of_benin_01
+	}
+
+}
+
