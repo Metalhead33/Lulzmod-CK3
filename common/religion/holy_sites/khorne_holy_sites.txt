@@ -1,5 +1,5 @@
 ﻿#############
-# Shinto #
+# Chaos #
 #############
 
 # Khorne
@@ -8,8 +8,10 @@ edge_of_world = {
 	county = c_fante
 
 	character_modifier = {
-		diplomacy = 1
 		martial = 1
+		prowess = 2
+		prowess_per_piety_level = 1
+		max_combat_roll = 4
 	}
 }
 
@@ -17,8 +19,10 @@ african_jungle_one = {
 	county = c_kyadya
 
 	character_modifier = {
-		diplomacy = 1
 		martial = 1
+		prowess = 2
+		prowess_per_piety_level = 1
+		max_combat_roll = 4
 	}
 }
 
@@ -26,8 +30,10 @@ african_jungle_two = {
 	county = c_ijaw
 
 	character_modifier = {
-		diplomacy = 1
 		martial = 1
+		prowess = 2
+		prowess_per_piety_level = 1
+		max_combat_roll = 4
 	}
 }
 
@@ -35,8 +41,10 @@ game_workshop = {
 	county = c_nottinghamshire
 
 	character_modifier = {
-		diplomacy = 1
 		martial = 1
+		prowess = 2
+		prowess_per_piety_level = 1
+		max_combat_roll = 4
 	}
 }
 
@@ -44,7 +52,9 @@ ignacy_przybylski = {
 	county = c_czerska
 
 	character_modifier = {
-		diplomacy = 1
 		martial = 1
+		prowess = 2
+		prowess_per_piety_level = 1
+		max_combat_roll = 4
 	}
 }
