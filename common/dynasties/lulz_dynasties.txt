@@ -90,3 +90,11 @@
 	name = "dynn_Tsoupi"
 	culture = "greek"
 }
+191919143 = {
+	name = "dynn_Przybylski"
+	culture = "polish"
+}
+191919144 = {
+	name = "dynn_Skierska"
+	culture = "polish"
+}

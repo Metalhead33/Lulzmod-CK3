@@ -169,6 +169,12 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+		effect = { set_relation_friend = character:1000260808 }
+		add_opinion = {
+			target = character:1000260808
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 	}
 	1083.1.1 = {
 		death = yes
@@ -225,7 +231,7 @@
 1000260788 = {
 	name = "Nathan"
 	dynasty = 191919127
-	religion = "catholic"
+	religion = "khorne_faith"
 	culture = "english"
 	dna = dna_nate
 	sexuality = bisexual
@@ -1211,6 +1217,83 @@
 			opinion = 200
 		}
 		employer = 1000260786 # Zsolt
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+
+1000260808 = {
+	name = "Ignacy"
+	dynasty = 191919143
+	religion = "imperial_cult"
+	culture = "polish"
+	dna = dna_ignacy_przybylski
+	sexuality = heterosexual
+	trait = education_martial_4
+	trait = honest
+	trait = cynical
+	trait = just
+	trait = intellect_good_3
+	trait = blademaster_3
+	trait = scholar
+	trait = cat_preference
+	1039.11.7 = {
+		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
+	}
+	1066.1.1={
+		add_spouse = 1000260809
+		effect = { set_relation_soulmate = character:1000260809 }
+		effect = { set_relation_friend = character:1000260809 }
+		add_opinion = {
+			target = character:1000260809
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
+		effect = { set_relation_friend = character:1000260786 }
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+
+1000260809 = {
+	name = "Katarzyna"
+	female = yes
+	dynasty = 191919144
+	religion = "slavic_pagan"
+	culture = "polish"
+	dna = dna_katarzyna_skierska
+	sexuality = heterosexual
+	trait = education_learning_1
+	trait = callous
+	trait = zealous
+	trait = deceitful
+	trait = just
+	trait = scholar
+	trait = cat_preference
+	1046.3.22 = {
+		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
+	}
+	1066.1.1={
+		add_spouse = 1000260808
+		effect = { set_relation_soulmate = character:1000260808 }
+		effect = { set_relation_friend = character:1000260808 }
+		add_opinion = {
+			target = character:1000260808
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 	}
 	1083.1.1 = {
 		death = yes

@@ -2,8 +2,6 @@
 # Chaos #
 #############
 
-# Khorne
-
 edge_of_world = {
 	county = c_fante
 
@@ -36,6 +34,10 @@ african_jungle_two = {
 		max_combat_roll = 4
 	}
 }
+
+#############
+# Imperium #
+#############
 
 game_workshop = {
 	county = c_nottinghamshire
