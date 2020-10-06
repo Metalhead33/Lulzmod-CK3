@@ -106,3 +106,7 @@
 	name = "dynn_Passalacqua"
 	culture = "italian"
 }
+191919147 = {
+	name = "dynn_ap_Taran"
+	culture = "welsh"
+}
