@@ -110,3 +110,8 @@
 	name = "dynn_ap_Taran"
 	culture = "welsh"
 }
+191919148 = {
+	name = "dynn_Ekengren"
+	culture = "swedish"
+}
+

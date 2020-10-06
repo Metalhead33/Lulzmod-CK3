@@ -104,6 +104,12 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+		effect = { set_relation_friend = character:1000260813 }
+		add_opinion = {
+			target = character:1000260813
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260793 }
 		add_opinion = {
 			target = character:1000260793
@@ -447,6 +453,12 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+		effect = { set_relation_friend = character:1000260813 }
+		add_opinion = {
+			target = character:1000260813
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		employer = 1000260786 # Zsolt
 	}
 	1083.1.1 = {
@@ -544,6 +556,12 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+		effect = { set_relation_friend = character:1000260813 }
+		add_opinion = {
+			target = character:1000260813
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 	}
 	1083.1.1 = {
 		death = yes
@@ -624,6 +642,12 @@
 		effect = { set_relation_friend = character:1000260786 }
 		add_opinion = {
 			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260813 }
+		add_opinion = {
+			target = character:1000260813
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -862,6 +886,12 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+		effect = { set_relation_friend = character:1000260813 }
+		add_opinion = {
+			target = character:1000260813
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		add_opinion = {
 			target = character:1000260792
 			modifier = friendliness_opinion
@@ -903,6 +933,12 @@
 		effect = { set_relation_friend = character:1000260791 }
 		add_opinion = {
 			target = character:1000260791
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260813 }
+		add_opinion = {
+			target = character:1000260813
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -960,6 +996,12 @@
 		effect = { set_relation_friend = character:1000260791 }
 		add_opinion = {
 			target = character:1000260791
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260813 }
+		add_opinion = {
+			target = character:1000260813
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -1274,6 +1316,12 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+		effect = { set_relation_friend = character:1000260813 }
+		add_opinion = {
+			target = character:1000260813
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		employer = 1000260786 # Zsolt
 	}
 	1083.1.1 = {
@@ -1516,6 +1564,12 @@
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
 		}
+		effect = { set_relation_friend = character:1000260813 }
+		add_opinion = {
+			target = character:1000260813
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:1000260786 }
 		add_opinion = {
 			target = character:1000260786
@@ -1559,6 +1613,94 @@
 			opinion = 200
 		}
 		employer = 1000260792 # Roland
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+
+
+1000260813 = {
+	name = "Zebulon"
+	dynasty = 191919148
+	religion = "catholic"
+	culture = "swedish"
+	dna = dna_zeb_ekengren
+	sexuality = heterosexual
+	trait = education_martial_4
+	trait = ambitious
+	trait = lustful
+	trait = vengeful
+	trait = intellect_good_3
+	trait = blademaster_3
+	trait = scholar
+	trait = hunter_3
+	trait = physique_good_3
+	trait = beauty_good_3
+	trait = diplomat
+	1047.8.19 = { # August 19, 1997
+		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
+	}
+	1066.1.1={
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
+		effect = { set_relation_friend = character:1000260786 }
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260792 }
+		add_opinion = {
+			target = character:1000260792
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		employer = 1000260792 # Roland
+		effect = { set_relation_friend = character:1000260791 }
+		add_opinion = {
+			target = character:1000260791
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260794 }
+		add_opinion = {
+			target = character:1000260794
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260812 }
+		add_opinion = {
+			target = character:1000260812
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260807 }
+		add_opinion = {
+			target = character:1000260807
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260799 }
+		add_opinion = {
+			target = character:1000260799
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260800 }
+		add_opinion = {
+			target = character:1000260800
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260801 }
+		add_opinion = {
+			target = character:1000260801
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 	}
 	1083.1.1 = {
 		death = yes
