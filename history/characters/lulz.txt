@@ -479,6 +479,7 @@
 	trait = arrogant
 	trait = stubborn
 	trait = intellect_good_3
+	trait = beauty_good_3
 	trait = scholar
 	trait = fornicator
 	trait = shrewd
@@ -488,6 +489,9 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
+		add_spouse = 7757
+		effect = { set_relation_soulmate = character:7757 }
+		effect = { set_relation_friend = character:7757 }
 		add_pressed_claim = d_bavaria
 		add_pressed_claim = d_nordgau
 		add_pressed_claim = d_salzburg
