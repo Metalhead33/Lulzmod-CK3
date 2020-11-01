@@ -222,6 +222,7 @@
 			holy_site = ugarit
 			holy_site = gomorrah
 			
+			doctrine = doctrine_clerical_function_prostitution
 			doctrine = doctrine_gender_equal
 			doctrine = doctrine_clerical_gender_either
 			doctrine = carn_doctrine_prostitution_accepted

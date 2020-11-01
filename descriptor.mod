@@ -12,4 +12,5 @@ dependencies={
 	"Far Eastern Cultures for CK3"
 	"Animal Preference Traits"
 	"Cheri - Carnalitas Mundi"
+	"AdroitReligion"
 }
