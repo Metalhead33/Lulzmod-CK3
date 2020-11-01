@@ -11,4 +11,5 @@ path = "mod/lulz_mod"
 dependencies={
 	"Far Eastern Cultures for CK3"
 	"Animal Preference Traits"
+	"Cheri - Carnalitas Mundi"
 }

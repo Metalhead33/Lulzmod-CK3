@@ -32,6 +32,14 @@
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
 	
+	#Carnalitas
+	doctrine = carn_doctrine_same_slavery_accepted
+	doctrine = carn_doctrine_other_slavery_accepted
+	doctrine = carn_doctrine_prostitution_accepted
+
+	#Carnalitas Mundi
+	doctrine = carnm_doctrine_lust_accepted
+	
 	traits = {
 		virtues = { wrathful callous sadistic torturer possessed_1 possessed_genetic lunatic_1 lunatic_genetic }
 		sins = { compassionate craven calm }
@@ -210,16 +218,18 @@
 
 			holy_site = game_workshop
 			holy_site = ignacy_przybylski
-			holy_site = baghdad
-			holy_site = sinjar
-			holy_site = lalish
+			holy_site = babylon
+			holy_site = ugarit
+			holy_site = gomorrah
 			
 			doctrine = doctrine_gender_equal
 			doctrine = doctrine_clerical_gender_either
+			doctrine = carn_doctrine_prostitution_accepted
+			doctrine = carnm_doctrine_lust_exalted
 			doctrine = unreformed_faith_doctrine
 
 			doctrine = tenet_false_conversion_sanction
-			doctrine = tenet_carnal_exaltation
+			doctrine = carnm_tenet_tantric_sex
 			doctrine = tenet_hedonistic
 			
 			icon = slaanesh

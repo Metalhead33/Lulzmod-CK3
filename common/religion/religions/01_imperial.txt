@@ -30,6 +30,14 @@
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
 	
+	#Carnalitas
+	doctrine = carn_doctrine_same_slavery_accepted
+	doctrine = carn_doctrine_other_slavery_accepted
+	doctrine = carn_doctrine_prostitution_crime
+	
+	#Carnalitas Mundi
+	doctrine = carnm_doctrine_lust_shunned
+	
 	traits = {
 		virtues = { zealous callous brave wrathful flagellant }
 		sins = { compassionate trusting forgiving craven possessed_1 possessed_genetic }
