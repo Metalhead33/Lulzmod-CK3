@@ -591,6 +591,7 @@ dna_petter = {
 			custom_hair=cfp_male_hair_bald_western_02
 		}
 	}
+	}
 	enabled=yes
 }
 dna_adrien = {
@@ -1319,7 +1320,6 @@ dna_dsonck = {
 	portrait_info = {
 	type=male
 	age=0.335000
-	genes={
 	genes={ 		hair_color={ 132 198 94 82 }
  		skin_color={ 122 86 122 86 }
  		eye_color={ 250 36 250 176 }
