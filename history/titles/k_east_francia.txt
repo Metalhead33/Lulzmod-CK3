@@ -2182,7 +2182,7 @@ c_nordlingen = {
 		liege = "d_swabia"
 	}
 	1066.1.1 = {
-		holder = 1000260792
+		holder = 1388
 	}
 	1080.10.15 = {
 		holder = 1390
@@ -3423,6 +3423,9 @@ d_swabia = {
 		holder = 20261
 	}
 	1057.1.1 = {
+		holder = 1388
+	}
+	1066.1.1 = {
 		holder = 1000260792
 	}
 	1079.1.1 = {
@@ -3514,7 +3517,7 @@ c_ulm = {
 		liege = "d_swabia"
 	}
 	1066.1.1 = {
-		holder = 1000260792 #Rudolf von Rheinfelden
+		holder = 1000260792
 	}
 	1079.1.1 = {
 		holder = 7054 #Friedrich I von Hohenstaufen
@@ -3618,6 +3621,9 @@ c_grunningen = {
 	1054.1.7 = {
 		holder = 7054 #Friedrich I von Hohenstaufen
 	}
+	1066.1.1 = {
+		holder = 1000260792
+	}
 	1105.7.21 = {
 		holder = 212495 #Friedrich II von Hohenstaufen
 	}
@@ -3704,7 +3710,7 @@ c_wurttemberg = {
 		liege = "d_swabia"
 	}
 	1066.1.1 = {
-		holder = 10087
+		holder = 1000260792
 	}
 	1080.10.15 = {
 		holder = 1390
@@ -3763,7 +3769,7 @@ c_baden = {
 		liege = "d_swabia"
 	}
 	1066.1.1 = {
-		holder = 10087
+		holder = 1000260792
 	}
 	1074.4.25 = {
 		holder = 213153
@@ -3823,7 +3829,7 @@ c_zollern = {
 		liege = "d_swabia"
 	}
 	1066.1.1 = {
-		holder = 1337
+		holder = 1000260792
 	}
 	1080.10.15 = {
 		holder = 1390
@@ -3905,7 +3911,7 @@ c_hohenberg = {
 		liege = d_swabia
 	}
 	1066.1.1 = {
-		holder = 1337
+		holder = 1000260792
 	}
 	1079.1.1 = {
 		holder = 7054 #Friedrich I von Hohenstaufen
@@ -4004,7 +4010,7 @@ c_furstenberg = {
 		liege = d_swabia
 	}
 	1066.1.1 = {
-		holder = 20245
+		holder = 1000260792
 	}
 	1079.1.1 = {
 		holder = 7054 #Friedrich I von Hohenstaufen

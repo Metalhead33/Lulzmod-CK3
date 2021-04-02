@@ -603,7 +603,7 @@ c_ferrara = {
 		holder = 7758 # Federigo of Tuscany
 	}
 	1055.7.1 = {
-		holder = 7757 # Matilda of Tuscany
+		holder = 1000260811 # Matilda of Tuscany
 	}
 	1115.7.24 = {
 		government = republic_government
@@ -1086,7 +1086,7 @@ c_fermo = {
 		holder = 7758
 	}
 	1057.1.1 = {
-		holder = 7757
+		holder = 1000260811
 	}
 	1060.1.1 = {
 		holder = 7804
@@ -1095,7 +1095,7 @@ c_fermo = {
 		holder = 73471
 	}
 	1086.1.1 = {
-		holder = 7757
+		holder = 1000260811
 	}
 	1093.1.1 = {
 		holder = 30657
@@ -1246,7 +1246,7 @@ d_spoleto = {
 		holder = 7758
 	}
 	1057.1.1 = {
-		holder = 7757
+		holder = 1000260811
 	}
 	1082.1.1 = {
 		holder = 73471
@@ -1410,17 +1410,17 @@ c_spoleto = {
 		holder = 7758
 	}
 	1057.1.1 = {
-		holder = 7757
+		holder = 1000260811
 		liege = d_toscana
 	}
 	1060.1.1 =  {
-		holder = 1000260811
+		holder = 167671
 	}
 	1082.1.1 = {
 		holder = 73471
 	}
 	1086.1.1 = {
-		holder = 7757
+		holder = 1000260811
 	}
 	1093.1.1 = {
 		holder = 30657
@@ -1574,7 +1574,6 @@ c_orvieto = {
 	}
 }
 
-
 c_teramo = {
 	762.1.1 = {
 		liege = d_benevento
@@ -1626,7 +1625,7 @@ c_teramo = {
 		holder = 7758
 	}
 	1057.1.1 = {
-		holder = 7757
+		holder = 1000260811
 	}
 	1060.1.1 = {
 		holder = 7804
@@ -1635,7 +1634,7 @@ c_teramo = {
 		holder = 73471
 	}
 	1086.1.1 = {
-		holder = 7757
+		holder = 1000260811
 	}
 	1093.1.1 = {
 		holder = 30657
@@ -1704,7 +1703,6 @@ c_teramo = {
 		holder = 73491
 	}
 }
-
 
 c_lanciano = {
 	571.1.1 = {
@@ -1927,7 +1925,7 @@ c_abruzzi = {
 		holder = 7758
 	}
 	1057.1.1 = {
-		holder = 7757
+		holder = 1000260811
 	}
 	1060.1.1 = {
 		holder = 7804
@@ -1936,7 +1934,7 @@ c_abruzzi = {
 		holder = 73471
 	}
 	1086.1.1 = {
-		holder = 7757
+		holder = 1000260811
 	}
 	1093.1.1 = {
 		holder = 30657

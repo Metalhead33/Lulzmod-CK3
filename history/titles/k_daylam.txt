@@ -667,7 +667,7 @@ c_gurgan = {
 	}
 	
 	867.1.1 = {
-		liege = 0
+		liege = k_khorasan
 		holder = 45107 # Vandad Karen
 	}
 	935.1.1 = {
@@ -747,7 +747,7 @@ c_dihistan = {
 	
 	867.1.1 = {
 		#liege = d_khuttal
-		liege = 0
+		liege = k_khorasan
 		holder = 45107 # Vandad Karen
 	}
 	935.1.1 = {
@@ -815,11 +815,10 @@ d_azerbaijan = {
 		holder = sogdian0009
 	}
 	1066.1.1 = {
-		liege = 0
 		holder = 1000260804
 	}
 	1067.2.24 = {
-		liege = k_persia
+		liege = "e_persia"
 	}
 	1071.1.1 = {
 		holder = 3040
