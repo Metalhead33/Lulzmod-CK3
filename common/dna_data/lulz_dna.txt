@@ -1,7 +1,7 @@
 ﻿dna_zsolt_toth = {
 	portrait_info = {
-	type=male
-	genes={ 		hair_color={ 178 176 178 176 }
+	genes={
+ 		hair_color={ 178 176 178 176 }
  		skin_color={ 38 36 51 83 }
  		eye_color={ 154 29 224 173 }
  		gene_chin_forward={ "chin_forward_pos" 129 "chin_forward_pos" 129 }
@@ -120,8 +120,8 @@
 }
 dna_rohan = {
 	portrait_info = {
-	type=male
-	genes={ 		hair_color={ 114 247 114 247 }
+	genes={
+ 		hair_color={ 114 247 114 247 }
  		skin_color={ 96 90 123 149 }
  		eye_color={ 73 242 73 242 }
  		gene_chin_forward={ "chin_forward_neg" 102 "chin_forward_neg" 102 }
@@ -238,8 +238,8 @@ dna_rohan = {
 }
 dna_nate = {
 	portrait_info = {
-	type=male
-	genes={ 		hair_color={ 123 250 123 250 }
+	genes={
+ 		hair_color={ 123 250 123 250 }
  		skin_color={ 26 22 156 114 }
  		eye_color={ 12 192 12 192 }
  		gene_chin_forward={ "chin_forward_neg" 125 "chin_forward_neg" 125 }
@@ -358,8 +358,8 @@ dna_nate = {
 }
 dna_naoki = {
 	portrait_info = {
-	type=male
-	genes={ 		hair_color={ 1 254 208 254 }
+	genes={
+ 		hair_color={ 1 254 208 254 }
  		skin_color={ 62 18 150 114 }
  		eye_color={ 25 255 25 255 }
  		gene_chin_forward={ "chin_forward_pos" 129 "chin_forward_pos" 129 }
@@ -476,8 +476,8 @@ dna_naoki = {
 }
 dna_petter = {
 	portrait_info = {
-	type=male
-	genes={ 		hair_color={ 154 155 149 134 }
+	genes={
+ 		hair_color={ 154 155 149 134 }
  		skin_color={ 119 90 119 90 }
  		eye_color={ 209 53 144 183 }
  		gene_chin_forward={ "chin_forward_neg" 125 "chin_forward_neg" 125 }
@@ -596,8 +596,8 @@ dna_petter = {
 }
 dna_adrien = {
 	portrait_info = {
-	type=male
-	genes={ 		hair_color={ 62 239 166 221 }
+	genes={
+ 		hair_color={ 62 239 166 221 }
  		skin_color={ 32 29 196 115 }
  		eye_color={ 26 202 26 202 }
  		gene_chin_forward={ "chin_forward_neg" 107 "chin_forward_neg" 107 }
@@ -716,9 +716,8 @@ dna_adrien = {
 }
 dna_roland = {
 	portrait_info = {
-	type=male
-	age=0.335000
-	genes={ 		hair_color={ 176 183 176 183 }
+	genes={
+ 		hair_color={ 176 183 176 183 }
  		skin_color={ 94 64 94 64 }
  		eye_color={ 255 156 255 156 }
  		gene_chin_forward={ "chin_forward_pos" 128 "chin_forward_pos" 128 }
@@ -837,8 +836,8 @@ dna_roland = {
 }
 dna_rachel_miyamoto = {
 	portrait_info = {
-	type=female
-	genes={ 		hair_color={ 107 253 123 237 }
+	genes={
+ 		hair_color={ 107 253 123 237 }
  		skin_color={ 115 37 149 111 }
  		eye_color={ 25 247 25 247 }
  		gene_chin_forward={ "chin_forward_pos" 142 "chin_forward_pos" 142 }
@@ -955,8 +954,8 @@ dna_rachel_miyamoto = {
 }
 dna_emil_hanson = {
 	portrait_info = {
-	type=male
-	genes={ 		hair_color={ 54 232 54 232 }
+	genes={
+ 		hair_color={ 54 232 54 232 }
  		skin_color={ 35 13 152 114 }
  		eye_color={ 44 128 44 128 }
  		gene_chin_forward={ "chin_forward_pos" 140 "chin_forward_pos" 140 }
@@ -1075,8 +1074,8 @@ dna_emil_hanson = {
 }
 dna_omer = {
 	portrait_info = {
-	type=male
-	genes={ 		hair_color={ 64 252 64 252 }
+	genes={
+ 		hair_color={ 64 252 64 252 }
  		skin_color={ 17 10 231 107 }
  		eye_color={ 34 252 34 252 }
  		gene_chin_forward={ "chin_forward_pos" 144 "chin_forward_pos" 144 }
@@ -1196,9 +1195,8 @@ dna_omer = {
 
 dna_ismail_akman = {
 	portrait_info = {
-	type=male
-	age=0.335000
-	genes={ 		hair_color={ 233 244 101 244 }
+	genes={
+ 		hair_color={ 233 244 101 244 }
  		skin_color={ 43 30 182 97 }
  		eye_color={ 77 244 77 244 }
  		gene_chin_forward={ "chin_forward_neg" 108 "chin_forward_neg" 108 }
@@ -1318,9 +1316,8 @@ dna_ismail_akman = {
 
 dna_dsonck = {
 	portrait_info = {
-	type=male
-	age=0.335000
-	genes={ 		hair_color={ 132 198 94 82 }
+	genes={
+ 		hair_color={ 132 198 94 82 }
  		skin_color={ 122 86 122 86 }
  		eye_color={ 250 36 250 176 }
  		gene_chin_forward={ "chin_forward_pos" 140 "chin_forward_pos" 140 }
@@ -1440,9 +1437,8 @@ dna_dsonck = {
 
 dna_wongjihim = {
 	portrait_info = {
-	type=male
-	age=0.335000
-	genes={ 		hair_color={ 44 244 44 244 }
+	genes={
+ 		hair_color={ 44 244 44 244 }
  		skin_color={ 23 9 168 123 }
  		eye_color={ 18 247 18 247 }
  		gene_chin_forward={ "chin_forward_neg" 103 "chin_forward_neg" 103 }
@@ -1562,10 +1558,9 @@ dna_wongjihim = {
 
 dna_ines_beato = {
 	portrait_info = {
-	type=female
 	id=1793158134
-	age=0.250000
-	genes={ 		hair_color={ 35 243 229 207 }
+	genes={
+ 		hair_color={ 35 243 229 207 }
  		skin_color={ 28 49 130 119 }
  		eye_color={ 144 138 34 138 }
  		gene_chin_forward={ "chin_forward_neg" 119 "chin_forward_neg" 119 }
@@ -1682,9 +1677,8 @@ dna_ines_beato = {
 }
 dna_ingrid_benson = {
 	portrait_info = {
-	type=female
-	age=0.250000
-	genes={ 		hair_color={ 81 105 81 105 }
+	genes={
+ 		hair_color={ 81 105 81 105 }
  		skin_color={ 95 72 95 72 }
  		eye_color={ 173 0 90 149 }
  		gene_chin_forward={ "chin_forward_neg" 122 "chin_forward_neg" 122 }
@@ -1801,9 +1795,8 @@ dna_ingrid_benson = {
 }
 dna_geard_koetje = {
 	portrait_info = {
-	type=male
-	age=0.250000
-	genes={ 		hair_color={ 160 243 229 207 }
+	genes={
+ 		hair_color={ 160 243 229 207 }
  		skin_color={ 28 49 130 119 }
  		eye_color={ 49 138 34 138 }
  		gene_chin_forward={ "chin_forward_neg" 119 "chin_forward_neg" 119 }
@@ -1923,9 +1916,8 @@ dna_geard_koetje = {
 
 dna_rakukoo = {
 	portrait_info = {
-	type=female
-	age=0.205000
-	genes={ 		hair_color={ 64 235 64 235 }
+	genes={
+ 		hair_color={ 64 235 64 235 }
  		skin_color={ 1 39 152 106 }
  		eye_color={ 83 244 83 244 }
  		gene_chin_forward={ "chin_forward_pos" 152 "chin_forward_pos" 152 }
@@ -2042,9 +2034,8 @@ dna_rakukoo = {
 }
 dna_yuzuko = {
 	portrait_info = {
-	type=male
-	age=0.235000
-	genes={ 		hair_color={ 46 231 46 231 }
+	genes={
+ 		hair_color={ 46 231 46 231 }
  		skin_color={ 90 30 218 120 }
  		eye_color={ 27 242 27 242 }
  		gene_chin_forward={ "chin_forward_pos" 131 "chin_forward_pos" 131 }
@@ -2163,9 +2154,8 @@ dna_yuzuko = {
 }
 dna_sedat_atalay = {
 	portrait_info = {
-	type=male
-	age=0.250000
-	genes={ 		hair_color={ 13 248 13 248 }
+	genes={
+ 		hair_color={ 13 248 13 248 }
  		skin_color={ 190 127 190 127 }
  		eye_color={ 49 135 49 135 }
  		gene_chin_forward={ "chin_forward_neg" 83 "chin_forward_neg" 83 }
@@ -2284,9 +2274,8 @@ dna_sedat_atalay = {
 }
 dna_zsolt_abraham = {
 	portrait_info = {
-	type=male
-	age=0.250000
-	genes={ 		hair_color={ 28 246 28 246 }
+	genes={
+ 		hair_color={ 28 246 28 246 }
  		skin_color={ 63 75 63 75 }
  		eye_color={ 44 62 111 141 }
  		gene_chin_forward={ "chin_forward_pos" 132 "chin_forward_pos" 132 }
@@ -2403,9 +2392,8 @@ dna_zsolt_abraham = {
 }
 dna_kriszta = {
 	portrait_info = {
-	type=female
-	age=0.250000
-	genes={ 		hair_color={ 70 61 227 217 }
+	genes={
+ 		hair_color={ 70 61 227 217 }
  		skin_color={ 77 46 77 46 }
  		eye_color={ 206 195 206 195 }
  		gene_chin_forward={ "chin_forward_neg" 101 "chin_forward_neg" 101 }
@@ -2525,9 +2513,8 @@ dna_kriszta = {
 
 dna_katerina_tsoupi = {
 	portrait_info = {
-	type=female
-	age=0.185000
-	genes={ 		hair_color={ 159 179 136 113 }
+	genes={
+ 		hair_color={ 159 179 136 113 }
  		skin_color={ 71 26 109 85 }
  		eye_color={ 214 211 252 148 }
  		gene_chin_forward={ "chin_forward_neg" 125 "chin_forward_neg" 125 }
@@ -2645,9 +2632,8 @@ dna_katerina_tsoupi = {
 
 dna_ignacy_przybylski = {
 	portrait_info = {
-	type=male
-	age=0.250000
-	genes={ 		hair_color={ 253 211 177 76 }
+	genes={
+ 		hair_color={ 253 211 177 76 }
  		skin_color={ 26 70 26 70 }
  		eye_color={ 198 62 16 153 }
  		gene_chin_forward={ "chin_forward_neg" 112 "chin_forward_neg" 112 }
@@ -2767,9 +2753,8 @@ dna_ignacy_przybylski = {
 
 dna_katarzyna_skierska = {
 	portrait_info = {
-	type=female
-	age=0.250000
-	genes={ 		hair_color={ 253 211 177 76 }
+	genes={
+ 		hair_color={ 253 211 177 76 }
  		skin_color={ 26 70 26 70 }
  		eye_color={ 28 62 16 153 }
  		gene_chin_forward={ "chin_forward_neg" 112 "chin_forward_neg" 112 }
@@ -2887,9 +2872,8 @@ dna_katarzyna_skierska = {
 
 dna_davide_passalacqua = {
 	portrait_info = {
-	type=male
-	age=0.250000
-	genes={ 		hair_color={ 41 238 41 238 }
+	genes={
+ 		hair_color={ 41 238 41 238 }
  		skin_color={ 144 112 144 112 }
  		eye_color={ 31 151 31 151 }
  		gene_chin_forward={ "chin_forward_pos" 136 "chin_forward_pos" 136 }
@@ -3009,9 +2993,8 @@ dna_davide_passalacqua = {
 
 dna_edddie_wirhalh = {
 	portrait_info = {
-	type=male
-	age=0.250000
-	genes={ 		hair_color={ 56 255 109 245 }
+	genes={
+ 		hair_color={ 56 255 109 245 }
  		skin_color={ 6 40 6 101 }
  		eye_color={ 197 0 123 132 }
  		gene_chin_forward={ "chin_forward_pos" 146 "chin_forward_pos" 146 }
@@ -3131,9 +3114,8 @@ dna_edddie_wirhalh = {
 
 dna_cadvan_ap_taran = {
 	portrait_info = {
-	type=male
-	age=0.250000
-	genes={ 		hair_color={ 40 230 40 230 }
+	genes={
+ 		hair_color={ 40 230 40 230 }
  		skin_color={ 66 80 66 80 }
  		eye_color={ 121 121 237 191 }
  		gene_chin_forward={ "chin_forward_neg" 124 "chin_forward_neg" 124 }
@@ -3251,10 +3233,8 @@ dna_cadvan_ap_taran = {
 
 dna_zeb_ekengren = {
 	portrait_info = {
-	type=male
-	id=763725338
-	age=0.250000
-	genes={ 		hair_color={ 218 228 48 230 }
+	genes={
+ 		hair_color={ 218 228 48 230 }
  		skin_color={ 75 59 208 98 }
  		eye_color={ 133 132 68 250 }
  		gene_chin_forward={ "chin_forward_neg" 85 "chin_forward_neg" 85 }

@@ -1,9 +1,15 @@
-1000260786 = {
+﻿1000260786 = {
 	name = "Zsolt"
 	dynasty = 191919129
 	religion = "catholic"
 	culture = "hungarian"
 	dna = dna_zsolt_toth
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=male_hair_northern_01
+			custom_beards=male_beard_western_01
+		}
+	}
 	sexuality = heterosexual
 	trait = education_stewardship_4
 	trait = lazy
@@ -198,6 +204,11 @@
 	religion = "catholic"
 	culture = "marathi"
 	dna = dna_rohan
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=cfp_male_hair_bald_western_01
+		}
+	}
 	sexuality = heterosexual
 	stewardship = 15
 	trait = education_stewardship_4
@@ -246,6 +257,12 @@
 	religion = "khorne_faith"
 	culture = "english"
 	dna = dna_nate
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=cfp_male_hair_bald_western_02
+			custom_beards=cfp_male_sideburns_western_02
+		}
+	}
 	sexuality = bisexual
 	trait = education_martial_4
 	trait = lazy
@@ -296,6 +313,11 @@
 	religion = "magyar_pagan"
 	culture = "japanese"
 	dna = dna_naoki
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=male_hair_western_07
+		}
+	}
 	sexuality = heterosexual
 	trait = education_diplomacy_4
 	trait = cynical
@@ -330,6 +352,12 @@
 	religion = "catholic"
 	culture = "swedish"
 	dna = dna_petter
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_beards=male_beard_mena_04
+			custom_hair=cfp_male_hair_bald_western_02
+		}
+	}
 	sexuality = heterosexual
 	trait = education_intrigue_4
 	trait = blademaster_1
@@ -403,6 +431,12 @@
 	religion = "celtic_faith"
 	culture = "breton"
 	dna = dna_adrien
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=male_hair_western_09
+			custom_beards=male_beard_indian_01
+		}
+	}
 	sexuality = heterosexual
 	martial = 20
 	trait = education_martial_4
@@ -470,6 +504,12 @@
 	religion = "catholic"
 	culture = "swabian"
 	dna = dna_roland
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=male_hair_northern_01
+			custom_beards=cfp_male_frenchfork_western_01
+		}
+	}
 	sexuality = heterosexual
 	trait = education_martial_4
 	trait = physique_good_2
@@ -577,6 +617,11 @@
 	religion = "catholic"
 	culture = "japanese"
 	dna = dna_rachel_miyamoto
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=cfp_female_hair_indian_03
+		}
+	}
 	sexuality = heterosexual
 	trait = education_stewardship_4
 	trait = gregarious
@@ -624,6 +669,12 @@
 	religion = "catholic"
 	culture = "swedish"
 	dna = dna_emil_hanson
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_beards=male_beard_sub_saharan_02
+			custom_hair=male_hair_western_09
+		}
+	}
 	sexuality = heterosexual
 	trait = education_learning_4
 	trait = blademaster_3
@@ -677,6 +728,12 @@
 	religion = "quranist"
 	culture = "turkish"
 	dna = dna_omer
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=male_hair_western_09
+			custom_beards=male_beard_western_04
+		}
+	}
 	sexuality = heterosexual
 	trait = education_martial_prowess_4
 	trait = blademaster_3
@@ -731,6 +788,12 @@
 	religion = "qarmatian"
 	culture = "turkish"
 	dna = dna_ismail_akman
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_beards=male_beard_mena_04
+			custom_hair=cfp_male_hair_turkic_01
+		}
+	}
 	sexuality = heterosexual
 	trait = education_martial_prowess_4
 	trait = blademaster_3
@@ -783,6 +846,12 @@
 	religion = "catholic"
 	culture = "cantonese"
 	dna = dna_wongjihim
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_beards=male_beard_sub_saharan_02
+			custom_hair=male_hair_western_02
+		}
+	}
 	sexuality = heterosexual
 	trait = education_learning_4
 	trait = honest
@@ -821,6 +890,12 @@
 	culture = "dutch"
 	dna = dna_dsonck
 	martial = 15
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=male_hair_northern_01
+			custom_beards=male_beard_western_03
+		}
+	}
 	sexuality = heterosexual
 	trait = education_stewardship_4
 	trait = honest
@@ -864,6 +939,12 @@
 	religion = "catholic"
 	culture = "dutch"
 	dna = dna_geard_koetje
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=male_hair_western_03
+			custom_beards=male_beard_western_10
+		}
+	}
 	sexuality = heterosexual
 	trait = education_diplomacy_4
 	trait = honest
@@ -913,6 +994,11 @@
 	culture = "catalan"
 	dna = dna_ingrid_benson
 	martial = 20
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=female_hair_northern_03
+		}
+	}
 	sexuality = heterosexual
 	trait = education_martial_4
 	trait = honest
@@ -975,6 +1061,11 @@
 	religion = "catholic"
 	culture = "portuguese"
 	dna = dna_ines_beato
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=cfp_female_hair_mena_02
+		}
+	}
 	sexuality = heterosexual
 	trait = education_intrigue_4
 	trait = honest
@@ -1042,6 +1133,12 @@
 	religion = "shinto"
 	culture = "japanese"
 	dna = dna_yuzuko
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_beards=male_beard_steppe_02
+			custom_hair=male_hair_western_09
+		}
+	}
 	sexuality = bisexual
 	trait = education_martial_4
 	trait = lazy
@@ -1088,6 +1185,11 @@
 	religion = "zhengyi"
 	culture = "han"
 	dna = dna_rakukoo
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=female_hair_western_05
+		}
+	}
 	sexuality = heterosexual
 	trait = education_diplomacy_4
 	trait = lazy
@@ -1131,6 +1233,12 @@
 	religion = "ashari"
 	culture = "turkish"
 	dna = dna_sedat_atalay
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=male_hair_western_02
+			custom_beards=male_beard_western_03
+		}
+	}
 	sexuality = heterosexual
 	trait = education_martial_4
 	trait = vengeful
@@ -1199,6 +1307,11 @@
 	religion = "catholic"
 	culture = "hungarian"
 	dna = dna_zsolt_abraham
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=male_hair_western_09
+		}
+	}
 	sexuality = heterosexual
 	trait = education_martial_4
 	trait = diligent
@@ -1248,6 +1361,12 @@
 	religion = "catholic"
 	culture = "hungarian"
 	dna = dna_kriszta
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=female_hair_western_02
+			custom_beards=female_empty
+		}
+	}
 	sexuality = heterosexual
 	trait = education_martial_4
 	trait = stubborn
@@ -1295,6 +1414,11 @@
 	religion = "orthodox"
 	culture = "greek"
 	dna = dna_katerina_tsoupi
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=cfp_female_hair_mena_02
+		}
+	}
 	sexuality = bisexual
 	trait = education_diplomacy_4
 	trait = shy
@@ -1337,6 +1461,12 @@
 	religion = "imperial_cult"
 	culture = "polish"
 	dna = dna_ignacy_przybylski
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=male_hair_western_09
+			custom_beards=male_empty
+		}
+	}
 	sexuality = heterosexual
 	trait = education_martial_4
 	trait = honest
@@ -1399,6 +1529,11 @@
 	religion = "slavic_pagan"
 	culture = "polish"
 	dna = dna_katarzyna_skierska
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=cfp_female_hair_indian_03
+		}
+	}
 	sexuality = heterosexual
 	trait = education_learning_1
 	trait = callous
@@ -1444,6 +1579,12 @@
 	religion = "norse_pagan"
 	culture = "anglo_saxon"
 	dna = dna_edddie_wirhalh
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=male_hair_northern_01
+			custom_beards=male_beard_western_01
+		}
+	}
 	sexuality = heterosexual
 	trait = education_martial_4
 	trait = honest
@@ -1491,6 +1632,12 @@
 	religion = "catholic"
 	culture = "italian"
 	dna = dna_davide_passalacqua
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=male_hair_western_09
+			custom_beards=male_beard_sub_saharan_02
+		}
+	}
 	sexuality = heterosexual
 	trait = education_martial_4
 	trait = honest
@@ -1549,6 +1696,11 @@
 	religion = "celtic_faith"
 	culture = "welsh"
 	dna = dna_cadvan_ap_taran
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=male_hair_western_09
+		}
+	}
 	sexuality = heterosexual
 	trait = education_martial_4
 	trait = honest
@@ -1628,6 +1780,12 @@
 	religion = "catholic"
 	culture = "swedish"
 	dna = dna_zeb_ekengren
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_beards=male_beard_western_04
+			custom_hair=male_hair_western_09
+		}
+	}
 	sexuality = heterosexual
 	trait = education_martial_4
 	trait = ambitious
