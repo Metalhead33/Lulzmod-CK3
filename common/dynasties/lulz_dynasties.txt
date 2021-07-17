@@ -114,4 +114,16 @@
 	name = "dynn_Ekengren"
 	culture = "swedish"
 }
+191919149 = {
+	name = "dynn_Geri"
+	culture = "english"
+}
+191919150 = {
+	name = "dynn_Nika"
+	culture = "turkish"
+}
+191919151 = {
+	name = "LukA_cs"
+	culture = "hungarian"
+}
 
