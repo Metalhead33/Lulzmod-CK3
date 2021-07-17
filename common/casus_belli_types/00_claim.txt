@@ -565,30 +565,69 @@
 				scope:defender = { is_sibling_of = scope:attacker }
 			}
 			scope:attacker = {
-				add_achievement_flag = { FLAG = achievement_bad_blood_flag }
+				add_achievement_flag_effect = { FLAG = achievement_bad_blood_flag }
 			}
 		}
 	}
 
 	should_invalidate = {
-		NOT = {
-			any_in_list = {
-				list = target_titles
-				any_in_de_jure_hierarchy = {
-					tier >= tier_county
-					exists = holder
-					holder = {
-						OR = {
-							this = scope:defender
-							target_is_liege_or_above = scope:defender
+		OR = {
+			NOT = {
+				any_in_list = {
+					list = target_titles
+					any_in_de_jure_hierarchy = {
+						tier >= tier_county
+						exists = holder
+						holder = {
+							OR = {
+								this = scope:defender
+								target_is_liege_or_above = scope:defender
+							}
 						}
 					}
 				}
 			}
+			AND = { 
+				NOT = { scope:claimant = scope:attacker } 
+				scope:claimant = {
+					OR = {
+						is_alive = no 
+						NOR = { 
+							is_vassal_or_below_of = scope:attacker 
+							is_courtier_of = scope:attacker 
+						}
+					}
+				}
+			} 
 		}
 	}
 
-	on_invalidated_desc = msg_claim_war_invalidated_message
+	on_invalidated_desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { scope:claimant = scope:attacker } 
+					scope:claimant = { is_alive = no }
+				}
+				desc = msg_claim_war_invalidated_claimant_unavailable_dead_message
+			}
+			triggered_desc = {
+				trigger = {
+					scope:claimant = {
+						NOR = { 
+							this = scope:attacker 
+							NOR = { 
+								is_vassal_or_below_of = scope:attacker 
+								is_courtier_of = scope:attacker 
+							}
+						}
+					}
+				}
+				desc = msg_claim_war_invalidated_claimant_unavailable_not_vassal_message
+			}
+			desc = msg_claim_war_invalidated_message
+		}
+	}
 	
 	on_invalidated = {
 	}
@@ -610,6 +649,7 @@
 	}
 
 	on_victory = {
+		scope:attacker = { show_pow_release_message_effect = yes }
 		create_title_and_vassal_change = {
 			type = conquest_claim
 			save_scope_as = change
@@ -688,6 +728,8 @@
 		# truce
 		add_truce_attacker_victory_effect = yes
 
+		# FP1: note the victory for future memorialisation via stele (if applicable).
+		scope:attacker = { fp1_remember_recent_conquest_victory_effect = yes }
 	}
 
 	on_white_peace_desc = {
@@ -698,9 +740,17 @@
 			}
 			desc = claim_cb_white_peace_desc
 		}
+		
 	}
 
 	on_white_peace = {
+		scope:attacker = {
+			show_pow_release_message_effect = yes
+			stress_impact = {
+ 				ambitious = medium_stress_impact_gain
+ 				arrogant = medium_stress_impact_gain
+ 			}
+		}
 
 		# press claims
 		every_in_list = {
@@ -737,6 +787,11 @@
 			LOSER_ALLY_FAME_SCALE = 10
 		}
 		# Defender neither gains nor loses any prestige.
+		scope:defender = {
+			stress_impact = {
+ 				arrogant = medium_stress_impact_gain
+ 			}
+		}
 
 		if = {
 			limit = {
@@ -776,9 +831,11 @@
 			}
 			desc = claim_cb_defeat_desc
 		}
+		
 	}
 
 	on_defeat = {
+		scope:attacker = { show_pow_release_message_effect = yes }
 
 		# lose claims
 		every_in_list = {
@@ -862,5 +919,4 @@
 	attacker_wargoal_percentage = 0.8
 
 	max_ai_diplo_distance_to_title = 1000
-	min_ai_score = 100
 }

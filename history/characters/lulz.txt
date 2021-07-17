@@ -1,7 +1,7 @@
 ﻿1000260786 = {
 	name = "Zsolt"
 	dynasty = 191919129
-	religion = "catholic"
+	religion = "lutheran"
 	culture = "hungarian"
 	dna = dna_zsolt_toth
 	portrait_override = {
@@ -201,7 +201,7 @@
 1000260787 = {
 	name = "Rohan"
 	dynasty = 191919130
-	religion = "catholic"
+	religion = "vaishnavism"
 	culture = "marathi"
 	dna = dna_rohan
 	portrait_override = {
@@ -349,7 +349,7 @@
 1000260790 = {
 	name = "Petter"
 	dynasty = 191919121
-	religion = "catholic"
+	religion = "lutheran"
 	culture = "swedish"
 	dna = dna_petter
 	portrait_override = {
@@ -614,7 +614,7 @@
 	name = "Rachel"
 	female = yes
 	dynasty = 191919128
-	religion = "catholic"
+	religion = "calvinist"
 	culture = "japanese"
 	dna = dna_rachel_miyamoto
 	portrait_override = {
@@ -666,7 +666,7 @@
 1000260794 = {
 	name = "Emil"
 	dynasty = 191919122
-	religion = "catholic"
+	religion = "lutheran"
 	culture = "swedish"
 	dna = dna_emil_hanson
 	portrait_override = {
@@ -886,7 +886,7 @@
 1000260798 = {
 	name = "ch_DSonck"
 	dynasty = 191919132
-	religion = "catholic"
+	religion = "calvinist"
 	culture = "dutch"
 	dna = dna_dsonck
 	martial = 15
@@ -936,7 +936,7 @@
 1000260799 = {
 	name = "char_DGerard"
 	dynasty = 191919134
-	religion = "catholic"
+	religion = "calvinist"
 	culture = "dutch"
 	dna = dna_geard_koetje
 	portrait_override = {
@@ -1777,7 +1777,7 @@
 1000260813 = {
 	name = "Zebulon"
 	dynasty = 191919148
-	religion = "catholic"
+	religion = "lutheran"
 	culture = "swedish"
 	dna = dna_zeb_ekengren
 	portrait_override = {

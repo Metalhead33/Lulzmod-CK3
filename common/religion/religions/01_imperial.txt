@@ -37,6 +37,11 @@
 	
 	#Carnalitas Mundi
 	doctrine = carnm_doctrine_lust_shunned
+	doctrine = no_syncretism_doctrine
+	doctrine = burial_doctrine
+	doctrine = mercy_of_gods_doctrine
+	doctrine = cosmopolitan_doctrine
+	doctrine = asceticism_doctrine
 	
 	traits = {
 		virtues = { zealous callous brave wrathful flagellant }
