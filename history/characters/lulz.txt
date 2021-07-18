@@ -1223,6 +1223,7 @@
 		}
 	}
 	sexuality = heterosexual
+	trait = tits_big_good_1
 	trait = education_diplomacy_4
 	trait = lazy
 	trait = arrogant
