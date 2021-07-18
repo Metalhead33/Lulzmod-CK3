@@ -126,4 +126,8 @@
 	name = "LukA_cs"
 	culture = "hungarian"
 }
+191919152 = {
+	name = "dynn_Fong"
+	culture = "han"
+}
 

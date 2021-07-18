@@ -296,6 +296,18 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+		effect = { set_relation_friend = character:1000260814 }
+		add_opinion = {
+			target = character:1000260814
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260799 }
+		add_opinion = {
+			target = character:1000260799
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		employer = 1000260786 # Zsolt
 	}
 	1083.1.1 = {
@@ -982,6 +994,24 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+		effect = { set_relation_friend = character:1000260805 }
+		add_opinion = {
+			target = character:1000260805
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260808 }
+		add_opinion = {
+			target = character:1000260808
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260790 }
+		add_opinion = {
+			target = character:1000260790
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		employer = 1000260792 # Zsolt
 	}
 	1083.1.1 = {
@@ -1189,7 +1219,7 @@
 	dna = dna_rakukoo
 	portrait_override = {
 		portrait_modifier_overrides={
-			custom_hair=female_hair_western_05
+			custom_hair=female_hair_fp1_02
 		}
 	}
 	sexuality = heterosexual
@@ -1207,9 +1237,6 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
-		effect = {
-			add_character_modifier = { modifier = zsolts_court }
-		}
 		add_opinion = {
 			target = character:1000260786
 			modifier = friendliness_opinion
@@ -1348,6 +1375,18 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+		effect = { set_relation_friend = character:1000260814 }
+		add_opinion = {
+			target = character:1000260814
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260799 }
+		add_opinion = {
+			target = character:1000260799
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 	}
 	1066.1.1={
 		effect = {
@@ -1377,6 +1416,7 @@
 	trait = shy
 	trait = cynical
 	trait = intellect_good_3
+	trait = beauty_good_2
 	trait = scholar
 	# trait = dwarf
 	1037.5.16 = { # 1987-05-16
@@ -1405,7 +1445,7 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		employer = 1000260786 # Zsolt
+		# employer = 1000260786 # Zsolt
 	}
 	1083.1.1 = {
 		death = yes
@@ -1467,8 +1507,8 @@
 	dna = dna_azizi
 	portrait_override = {
 		portrait_modifier_overrides={
-			custom_hair=male_hair_northern_02
-			custom_beards=male_beard_sub_saharan_02
+			custom_beards=male_beard_steppe_01
+			custom_hair=male_hair_western_07
 		}
 	}
 	sexuality = bisexual
@@ -1478,6 +1518,7 @@
 	trait = lustful
 	trait = just
 	trait = intellect_good_3
+	trait = beauty_good_1
 	trait = blademaster_3
 	trait = hunter_3
 	trait = scholar
@@ -1505,6 +1546,18 @@
 		effect = { set_relation_friend = character:1000260805 }
 		add_opinion = {
 			target = character:1000260805
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260814 }
+		add_opinion = {
+			target = character:1000260814
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260799 }
+		add_opinion = {
+			target = character:1000260799
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -1849,6 +1902,78 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+
+1000260814 = {
+	name = "Gavin"
+	dynasty = 191919152
+	religion = "zhengyi"
+	culture = "han"
+	dna = dna_chowmein
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=male_hair_western_07
+			custom_beards=male_empty
+		}
+	}
+	sexuality = heterosexual
+	trait = education_intrigue_4
+	trait = callous
+	trait = calm
+	trait = cynical
+	trait = intellect_good_3
+	trait = beauty_good_3
+	trait = scholar
+	trait = whole_of_body
+	1046.1.30 = {
+		birth = yes
+		effect = { add_character_flag = has_scripted_appearance }
+	}
+	1066.1.1={
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+		}
+		effect = { set_relation_friend = character:1000260786 }
+		add_opinion = {
+			target = character:1000260786
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260788 }
+		add_opinion = {
+			target = character:1000260788
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260805 }
+		add_opinion = {
+			target = character:1000260805
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260808 }
+		add_opinion = {
+			target = character:1000260808
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260799 }
+		add_opinion = {
+			target = character:1000260799
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:1000260790 }
+		add_opinion = {
+			target = character:1000260790
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		employer = 1000260786
 	}
 	1083.1.1 = {
 		death = yes
