@@ -417,12 +417,6 @@ d_skane = {
 	867.1.1 = {	change_development_level = 4 }
 	1066.1.1 = { change_development_level = 12 }
 	
-	
-	1066.1.1 = {
-		liege = "k_sweden"
-		holder = 1000260790 # Petter Gustafsson
-	}
-	
 	1104.1.1 = {
 		liege = "k_denmark"
 	}
@@ -518,12 +512,10 @@ c_skane = {
 	1066.1.1 = {
 		holder = 34156 # Bishop Egino, bishop of Lund 1066-1072
 		government = theocracy_government
-		liege = "d_skane"
 	}
 	1072.10.19 = {
 		holder = 101515 # Svend Estridsen
 		government = feudal_government
-		liege = "k_denmark"
 	}
 	1074.4.28 = {
 		holder = 101517 # Harald Hein
@@ -765,8 +757,8 @@ c_blekinge = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1066.1.1 = {
-		liege = "d_skane"
-		holder = 1000260790 # Petter Gustafsson
+		liege = "k_sweden"
+		holder = 92044 # Svend Estridsen
 	}
 	1074.4.28 = {
 		liege = "k_denmark"
@@ -1726,6 +1718,12 @@ c_stade = {
 	}
 	1043.4.15 = {
 		holder = 20251 #Adalbert Goseck
+		government = theocracy_government
+	}
+	1066.6.1 = {
+		holder = 7032 #Lothar-Udo II
+		government = feudal_government
+		liege = e_hre
 	}
 	1072.3.16 = {
 		holder = 30300 #Liemar von Goslar

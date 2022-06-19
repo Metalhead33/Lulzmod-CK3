@@ -65,6 +65,23 @@
 		add_pressed_claim = c_donjikraji
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			allow_alliance = character:92046
+			create_alliance =  character:92046
+			allow_alliance = character:92041
+			create_alliance = character:92041
+			allow_alliance = character:92063
+			create_alliance =  character:92063
+			allow_alliance = character:92062
+			create_alliance = character:92062
+			allow_alliance = character:92044
+			create_alliance = character:92044
+			allow_alliance = character:92048
+			create_alliance = character:92048
+			allow_alliance = character:92065
+			create_alliance = character:92065
+			allow_alliance = character:92064 # Eadward
+			create_alliance = character:92064 # Eadward
+		create_alliance = {}
 		}
 		effect = { set_relation_friend = character:92063 }
 		add_opinion = {
@@ -245,6 +262,7 @@
 			opinion = 200
 		}
 		add_pressed_claim = d_ungvar
+		add_pressed_claim = d_transcarpathia
 	}
 	1083.1.1 = {
 		death = yes
@@ -389,7 +407,11 @@
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
 		}
-		effect = { set_relation_friend = character:92040 }
+		effect = {
+			set_relation_friend = character:92040
+			allow_alliance = character:92064 # Eadward
+			create_alliance = character:92064 # Eadward
+		}
 		add_opinion = {
 			target = character:92040
 			modifier = friendliness_opinion
@@ -509,7 +531,7 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		# employer = 92040 # Zsolt
+		employer = 92040 # Zsolt
 	}
 	1083.1.1 = {
 		death = yes
@@ -547,7 +569,7 @@
 	1066.1.1={
 		add_spouse = 7757
 		effect = { set_relation_soulmate = character:7757 }
-		effect = { set_relation_friend = character:7757 }
+		effect = { set_relation_friend = character:7757}
 		add_pressed_claim = d_bavaria
 		add_pressed_claim = d_nordgau
 		add_pressed_claim = d_salzburg
@@ -572,6 +594,8 @@
 		effect = { set_relation_friend = character:92040 }
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			allow_alliance = character:92064 # Eadward
+			create_alliance = character:92064 # Eadward
 		}
 		add_opinion = {
 			target = character:92040
@@ -1506,7 +1530,7 @@
 
 92062 = {
 	name = "LA_szlO_"
-	dynasty = 0
+	dynasty = 191919153
 	religion = "catholic"
 	culture = "hungarian"
 	dna = dna_dornfeld_laszlo
@@ -1597,6 +1621,7 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
+		add_pressed_claim = d_transylvania
 		effect = { set_relation_friend = character:92040 }
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }

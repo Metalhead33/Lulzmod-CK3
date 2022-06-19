@@ -1297,7 +1297,7 @@ d_ostergotland = {
 		liege = "k_sweden"
 	}
 	1066.1.1 = {
-		holder = 1000260794
+		holder = 100530
 	}
 	1106.1.1 = {
 		holder = 200600
@@ -1374,7 +1374,7 @@ c_ostergotland = {
 		liege = "d_ostergotland"
 	}
 	1066.1.1 = {
-		holder = 1000260794 # Sven af Sverker
+		holder = 100530 # Sven af Sverker
 	}
 	1106.1.1 = {
 		holder = 200600
@@ -1435,7 +1435,7 @@ c_kinda = {
 		liege = "d_ostergotland"
 	}
 	1066.1.1 = {
-		holder = 1000260794 # Sven af Sverker
+		holder = 100530 # Sven af Sverker
 	}
 	1106.1.1 = {
 		holder = 200600
@@ -1957,7 +1957,7 @@ c_njudung = {
 		liege = "k_sweden"
 	}
 	1066.1.1 = {
-		holder = 20020 # Toke Värending
+		holder = 92048 # Toke Värending
 	}
 	1090.1.1 = {
 		holder = 100524 # Inge the Older

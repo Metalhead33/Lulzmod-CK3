@@ -1488,10 +1488,7 @@ c_lincolnshire = {
 		holder = 124 #Tostig Godwinson
 	}
 	1066.1.1 = {
-		holder = 1000260810 #Morcar
-	}
-	1066.10.14 = {
-		holder = 140 #William the Conqueror
+		holder = 92064 #Morcar
 	}
 	1087.9.9 = {
 		holder = 146 #William II Rufus

@@ -109,12 +109,6 @@
  		hairstyles={ "western_hairstyles_straight" 255 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
 	}
-	override={
-		portrait_modifier_overrides={
-			custom_beards=male_beard_steppe_02
-			custom_hair=male_hair_byzantine_02
-		}
-	}
 	}
 	enabled=yes
 }
@@ -229,12 +223,6 @@ dna_zsolt_toth = {
  		hairstyles={ "northern_hairstyles_wavy" 63 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
 	}
-	override={
-		portrait_modifier_overrides={
-			custom_beards=male_beard_western_08
-			custom_hair=male_hair_northern_01
-		}
-	}
 	}
 	enabled=yes
 }
@@ -348,11 +336,6 @@ dna_rohan = {
  		hairstyles={ "western_hairstyles_aging" 153 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 95 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_hair=cfp_male_hair_bald_western_01
-		}
-	}
 	}
 	enabled=yes
 }
@@ -467,12 +450,6 @@ dna_nate = {
  		hairstyles={ "western_hairstyles_straight" 115 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_beards=male_beard_western_04
-			custom_hair=male_hair_western_03
-		}
-	}
 	}
 	enabled=yes
 }
@@ -586,11 +563,6 @@ dna_naoki = {
  		hairstyles={ "western_hairstyles_straight" 185 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 95 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_hair=male_hair_western_07
-		}
-	}
 	}
 	enabled=yes
 }
@@ -704,11 +676,6 @@ dna_petter = {
  		beards={ "western_beards_straight" 220 "no_beard" 0 }
  		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_beards=male_beard_western_10
-		}
-	}
 	}
 	enabled=yes
 }
@@ -823,12 +790,6 @@ dna_adrien = {
  		beards={ "indian_beards_straight" 127 "no_beard" 0 }
  		clothes={ "western_bedchamber" 95 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_hair=male_hair_western_09
-			custom_beards=male_beard_indian_01
-		}
-	}
 	}
 	enabled=yes
 }
@@ -943,12 +904,6 @@ dna_richard_kepes = {
  		beards={ "no_beard" 255 "no_beard" 0 }
  		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_hair=male_hair_western_09
-			custom_beards=male_empty
-		}
-	}
 	}
 	enabled=yes
 }
@@ -1063,12 +1018,6 @@ dna_roland = {
  		hairstyles={ "northern_hairstyles_wavy" 63 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_beards=male_beard_steppe_02
-			custom_hair=male_hair_northern_01
-		}
-	}
 	}
 	enabled=yes
 }
@@ -1182,11 +1131,6 @@ dna_rachel_miyamoto = {
  		hairstyles={ "western_hairstyles_wavy" 140 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_hair=female_hair_western_05
-		}
-	}
 	}
 	enabled=yes
 }
@@ -1301,12 +1245,6 @@ dna_emil_hanson = {
  		hairstyles={ "western_hairstyles_straight" 231 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 95 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_beards=male_beard_sub_saharan_02
-			custom_hair=male_hair_western_09
-		}
-	}
 	}
 	enabled=yes
 }
@@ -1421,12 +1359,6 @@ dna_omer = {
  		hairstyles={ "western_hairstyles_straight" 185 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_beards=male_beard_western_04
-			custom_hair=male_hair_western_07
-		}
-	}
 	}
 	enabled=yes
 }
@@ -1542,12 +1474,6 @@ dna_ismail_akman = {
  		hairstyles={ "western_hairstyles_straight" 115 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_beards=male_beard_mena_04
-			custom_hair=male_hair_western_03
-		}
-	}
 	}
 	enabled=yes
 }
@@ -1663,12 +1589,6 @@ dna_dsonck = {
  		beards={ "western_beards_straight" 72 "no_beard" 0 }
  		clothes={ "western_bedchamber" 95 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_hair=male_hair_northern_01
-			custom_beards=male_beard_western_03
-		}
-	}
 	}
 	enabled=yes
 }
@@ -1784,12 +1704,6 @@ dna_wongjihim = {
  		hairstyles={ "indian_hairstyles_straight" 127 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_beards=male_beard_sub_saharan_02
-			custom_hair=male_hair_indian_01
-		}
-	}
 	}
 	enabled=yes
 }
@@ -1905,11 +1819,6 @@ dna_ines_beato = {
  		hairstyles={ "western_hairstyles_wavy" 56 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_hair=female_hair_western_02
-		}
-	}
 	}
 	enabled=yes
 }
@@ -2023,11 +1932,6 @@ dna_ingrid_benson = {
  		hairstyles={ "northern_hairstyles_straight" 255 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_hair=female_hair_northern_03
-		}
-	}
 	}
 	enabled=yes
 }
@@ -2142,12 +2046,6 @@ dna_geard_koetje = {
  		beards={ "western_beards_straight" 198 "no_beard" 0 }
  		clothes={ "western_bedchamber" 95 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_hair=male_hair_western_03
-			custom_beards=male_beard_western_10
-		}
-	}
 	}
 	enabled=yes
 }
@@ -2262,11 +2160,6 @@ dna_rakukoo = {
  		hairstyles={ "fp1_hairstyles_straight" 85 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_hair=female_hair_fp1_02
-		}
-	}
 	}
 	enabled=yes
 }
@@ -2381,12 +2274,6 @@ dna_yuzuko = {
  		hairstyles={ "western_hairstyles_straight" 231 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 95 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_beards=male_beard_steppe_02
-			custom_hair=male_hair_western_09
-		}
-	}
 	}
 	enabled=yes
 }
@@ -2501,12 +2388,6 @@ dna_sedat_atalay = {
  		hairstyles={ "western_hairstyles_wavy" 33 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_hair=male_hair_western_02
-			custom_beards=male_beard_western_03
-		}
-	}
 	}
 	enabled=yes
 }
@@ -2620,11 +2501,6 @@ dna_zsolt_abraham = {
  		hairstyles={ "western_hairstyles_straight" 231 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 95 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_hair=male_hair_western_09
-		}
-	}
 	}
 	enabled=yes
 }
@@ -2739,12 +2615,6 @@ dna_kriszta = {
  		hairstyles={ "western_hairstyles_wavy" 56 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_beards=female_empty
-			custom_hair=female_hair_western_02
-		}
-	}
 	}
 	enabled=yes
 }
@@ -2859,11 +2729,6 @@ dna_katerina_tsoupi = {
  		hairstyles={ "western_hairstyles_wavy" 140 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_hair=female_hair_western_05
-		}
-	}
 	}
 	enabled=yes
 }
@@ -2979,12 +2844,6 @@ dna_ignacy_przybylski = {
  		beards={ "no_beard" 255 "no_beard" 0 }
  		clothes={ "western_bedchamber" 95 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_hair=male_hair_western_09
-			custom_beards=male_empty
-		}
-	}
 	}
 	enabled=yes
 }
@@ -3099,11 +2958,6 @@ dna_katarzyna_skierska = {
  		hairstyles={ "indian_hairstyles_wavy" 255 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 95 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_hair=cfp_female_hair_indian_03
-		}
-	}
 	}
 	enabled=yes
 }
@@ -3219,12 +3073,6 @@ dna_davide_passalacqua = {
  		hairstyles={ "western_hairstyles_wavy" 232 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_beards=male_beard_sub_saharan_02
-			custom_hair=male_hair_mena_02
-		}
-	}
 	}
 	enabled=yes
 }
@@ -3340,12 +3188,6 @@ dna_edddie_wirhalh = {
  		beards={ "western_beards_straight" 36 "no_beard" 0 }
  		clothes={ "western_bedchamber" 95 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_hair=male_hair_northern_01
-			custom_beards=male_beard_western_01
-		}
-	}
 	}
 	enabled=yes
 }
@@ -3460,11 +3302,6 @@ dna_cadvan_ap_taran = {
  		hairstyles={ "western_hairstyles_straight" 231 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_hair=male_hair_western_09
-		}
-	}
 	}
 	enabled=yes
 }
@@ -3580,12 +3417,6 @@ dna_zeb_ekengren = {
  		hairstyles={ "western_hairstyles_straight" 231 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 95 "most_clothes" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_beards=male_beard_western_04
-			custom_hair=male_hair_western_09
-		}
-	}
 	}
 	enabled=yes
 }
@@ -3699,12 +3530,6 @@ dna_nika = {
  		beards={ "no_beard" 255 "no_beard" 0 }
  		hairstyles={ "fp1_hairstyles_straight" 85 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
-	}
-	override={
-		portrait_modifier_overrides={
-			custom_beards=female_empty
-			custom_hair=female_hair_fp1_02
-		}
 	}
 	}
 	enabled=yes
@@ -3828,12 +3653,6 @@ dna_azizi = {
  		hairstyles={ "all_hairstyles" 42 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 95 "most_clothes" 0 }
 	}
-	override={
-		portrait_modifier_overrides={
-			custom_beards=male_beard_steppe_01
-			custom_hair=male_hair_western_07
-		}
-	}
 	}
 	enabled=yes
 }
@@ -3947,12 +3766,6 @@ dna_skeidveidr = {
  		beards={ "thin_beards_straight" 255 "no_beard" 0 }
  		hairstyles={ "western_hairstyles_straight" 231 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
-	}
-	override={
-		portrait_modifier_overrides={
-			custom_beards=male_beard_steppe_02
-			custom_hair=male_hair_western_09
-		}
 	}
 	}
 	enabled=yes
@@ -4068,12 +3881,6 @@ dna_mrnightclubs = {
  		beards={ "no_beard" 255 "no_beard" 0 }
  		clothes={ "western_bedchamber" 95 "most_clothes" 0 }
 	}
-	override={
-		portrait_modifier_overrides={
-			custom_hair=male_hair_western_07
-			custom_beards=male_empty
-		}
-	}
 	}
 	enabled=yes
 }
@@ -4187,12 +3994,6 @@ dna_geri = {
  		hairstyles={ "western_hairstyles_aging" 204 "all_hairstyles" 0 }
  		beards={ "western_beards_straight" 162 "no_beard" 0 }
  		clothes={ "western_bedchamber" 95 "most_clothes" 0 }
-	}
-	override={
-		portrait_modifier_overrides={
-			custom_hair=cfp_male_hair_bald_western_02
-			custom_beards=cfp_male_moustache_western_01
-		}
 	}
 	}
 	enabled=yes
@@ -4308,12 +4109,6 @@ dna_chowmein = {
  		beards={ "no_beard" 255 "no_beard" 0 }
  		hairstyles={ "western_hairstyles_straight" 185 "all_hairstyles" 0 }
  		clothes={ "western_bedchamber" 79 "most_clothes" 0 }
-	}
-	override={
-		portrait_modifier_overrides={
-			custom_beards=male_empty
-			custom_hair=male_hair_western_07
-		}
 	}
 	}
 	enabled=yes

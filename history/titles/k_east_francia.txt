@@ -32,6 +32,12 @@ k_east_francia = {
 	918.12.23 = {
 		holder = 1280 #Heinrich I
 		name = GERMANY
+		effect = {
+			set_global_variable = {
+				name = east_francia_renamed
+				value = yes
+			}
+		}
 	}
 	936.7.2 = {
 		holder = 1282 #Otto I
@@ -435,6 +441,11 @@ c_frankfurt = {
 
 }
 
+b_limburg = {
+	1065.1.1 = {
+		holder = 33137 # Walram I of Limburg
+	}
+}
 
 c_klingenberg = {
 	598.1.1 = {
@@ -1041,7 +1052,7 @@ c_vaihingen = {
 		holder = 20216
 	}
 	1060.1.1 = {
-		holder = 41722
+		holder = 6642 # Gerhard of Upper Lorraine
 	}
 	1085.9.20 = {
 		holder = 7586
@@ -1672,7 +1683,7 @@ c_ansbach = {
 		liege = "d_swabia"
 	}
 	1066.1.1 = {
-		holder = 20237
+		holder = 92046
 	}
 	1080.10.15 = {
 		holder = 1390
@@ -1835,7 +1846,7 @@ c_hohenlohe = {
 		liege = "d_swabia"
 	}
 	1066.1.1 = {
-		holder = 20237
+		holder = 92046
 	}
 	1080.10.15 = {
 		holder = 1390
@@ -2154,9 +2165,6 @@ c_bamberg = {
 
 c_nordlingen = {
 	768.1.1 = {
-		liege = d_swabia
-	}
-	768.1.1 = {
 		holder = 168188 #Eberhard
 	}
 	804.1.1 = {
@@ -2175,53 +2183,41 @@ c_nordlingen = {
 	865.1.1 = {
 		liege = d_swabia
 	}
-	876.8.28 = {
-		liege = k_east_francia
+	895.1.1 = {
+		holder = 7642 #Hupold I Hupoldinger
 	}
-	1066.1.1 = {
+	909.7.16 = {
+		holder = 7641 #Mangold Hupoldinger
+	}
+	980.1.1 = {
+		holder = 7640 #Hupold II Hupoldinger
+	}
+	1034.1.1 = {
+		holder = 40570 #Hupold III Hupoldinger
+	}
+	1075.3.5 = {
+	 	holder = 20286 #Hartmann I Hupoldinger
+	}
+	1120.4.16 = {
+		holder = 213160 #Adalbert I Hupoldinger
+	}
+	1151.9.12 = {
+		holder = 33618 #Hartmann II Hupoldinger
+	}
+	1180.8.31 = {
+		holder = 33626 #Adalbert II Hupoldinger
+	}
+	1214.2.15 = {
+		holder = 33627 #Hartmann III Hupoldinger
+	}
+	1258.12.11 = {
+		holder = 33644 #Hartmann IV Hupoldinger
+	}
+	1286.7.4 = {
 		liege = "d_swabia"
 	}
-	1066.1.1 = {
-		holder = 1388
-	}
-	1080.10.15 = {
-		holder = 1390
-	}
-	1090.5.18 = {
-		holder = 7054
-	}
-	1105.7.21 = {
-		holder = 212495
-	}
-	1110.1.1 = {
-		holder = 33706
-	}
-	1143.1.1 = {
-		holder = 33707
-	}
-	1158.1.1 = {
-		holder = 212421
-	}
-	1181.5.18 = {
-		holder = 212420
-	}
-	1240.8.19 = {
-		holder = 33711
-	}
-	1241.1.1 = {
-		holder = 462306
-	}
-	1265.2.25 = {
-		holder = 33718
-	}
-	1268.10.29 = {
-		liege = "e_hre"
-	}
-	1279.9.18 = {
-		holder = 462300
-	}
 	1325.6.5 = {
-		holder = 462302
+		holder = 462302 # Ulrich von Wurttemberg
 	}
 }
 
@@ -2549,7 +2545,10 @@ c_nassau = {
 		liege = "d_east_franconia"
 	}
 	1066.1.1 = {
-		holder = 20256
+		holder = franconian0002
+	}
+	1094.1.1 = {
+		holder = 30721
 	}
 	1106.7.8 = {
 		holder = 7901 #Heinrich V Salier
@@ -2745,8 +2744,6 @@ c_grisons = {
 c_sankt_gallen = {
 	750.1.1 = {
 		liege = d_swabia
-	}
-	750.1.1 = {
 		holder = 190365 #Berthilo
 	}
 	787.1.1 = {
@@ -2761,56 +2758,55 @@ c_sankt_gallen = {
 	819.1.1 = {
 		holder = 190357 #Berthold
 	}
-	#847.1.1 = {
-	#	holder = 0
-	#}
-	854.1.1 = {
+	835.1.1 = {
+		government = theocracy_government
 		liege = k_east_francia
+		holder = swabian0001 #Prince-Bishop Solomon I
 	}
-	854.1.1 = {
-		holder = 161744
+	873.1.1 = {
+		holder = swabian0002 #Prince-Bishop Gebhard I
 	}
-	895.1.1 = {
-		holder = 7642
+	875.1.1 = {
+		holder = swabian0003 #Prince-Bishop Solomon II
 	}
-	909.7.1 = {
-		holder = 7641
+	890.1.1 = {
+		holder = swabian0004 #Prince-Bishop Solomon III
 	}
-	980.1.1 = {
-		holder = 7640
+	919.1.1 = {
+		government = feudal_government
+		holder = 1280 #Heinrich I  #King of Germany
 	}
-	1024.7.13 = {
+	935.1.1 = {
+		government = theocracy_government
 		liege = e_hre
+		holder = bavarian0002 #Saint Konrad of Konstanz
+	}
+	975.11.26 = {
+		holder = swabian0005 #Prince-Bishop Gaminolf
+	}
+	979.1.1 = {
+		holder = bavarian0003 #Saint Gebhard of Konstanz
+	}
+	995.1.1 = {
+		holder = swabian0006 #Prince-Bishop Lambert
+	}
+	1018.1.1 = {
+		holder = bavarian0004 #Prince-Bishop Rudhart
+	}
+	1022.1.1 = {
+		holder = swabian0007 #Prince-Bishop Heimo
+	}
+	1026.1.1 = {
+		holder = swabian0008 #Prince-Bishop Warmund
 	}
 	1034.1.1 = {
-		holder = 40570
+		holder = swabian0009 #Prince-Bishop Eberhard
 	}
-	1120.4.16 = {
-		holder = 213160
+	1047.1.1 = {
+		holder = swabian0010 #Prince-Bishop Theoderich
 	}
-	1151.9.12 = {
-		holder = 33618
-	}
-	1180.8.31 = {
-		holder = 33626
-	}
-	1214.2.15 = {
-		holder = 33627
-	}
-	1241.1.1 = {
-		liege = d_tyrol
-	}
-	1253.7.22 = {
-		liege = "e_hre"
-	}
-	1258.12.11 = {
-		holder = 33644
-	}
-	1268.10.29 = {
-		liege = "e_hre"
-	}
-	1286.7.4 = {
-		liege = "d_swabia"
+	1051.1.1 = {
+		holder = swabian0011 #Prince-Bishop Rumold
 	}
 	1286.7.4 = {
 		holder = 33645
@@ -3339,11 +3335,6 @@ c_sundgau = {
 
 
 d_swabia = {
-	693.1.1 = {
-		holder = 190335 #Gotfrid
-		liege = k_lotharingia
-		name = ALEMANNIA
-	}
 	709.1.1 = {
 		holder = 190230 #Lantfrid
 	}
@@ -3426,7 +3417,7 @@ d_swabia = {
 		holder = 1388
 	}
 	1066.1.1 = {
-		holder = 1000260792
+		holder = 92046
 	}
 	1079.1.1 = {
 		holder = 7054 #Friedrich I von Hohenstaufen
@@ -3517,7 +3508,7 @@ c_ulm = {
 		liege = "d_swabia"
 	}
 	1066.1.1 = {
-		holder = 1000260792
+		holder = 92046
 	}
 	1079.1.1 = {
 		holder = 7054 #Friedrich I von Hohenstaufen
@@ -3621,9 +3612,6 @@ c_grunningen = {
 	1054.1.7 = {
 		holder = 7054 #Friedrich I von Hohenstaufen
 	}
-	1066.1.1 = {
-		holder = 1000260792
-	}
 	1105.7.21 = {
 		holder = 212495 #Friedrich II von Hohenstaufen
 	}
@@ -3710,7 +3698,7 @@ c_wurttemberg = {
 		liege = "d_swabia"
 	}
 	1066.1.1 = {
-		holder = 1000260792
+		holder = 92046
 	}
 	1080.10.15 = {
 		holder = 1390
@@ -3769,7 +3757,7 @@ c_baden = {
 		liege = "d_swabia"
 	}
 	1066.1.1 = {
-		holder = 1000260792
+		holder = 92046
 	}
 	1074.4.25 = {
 		holder = 213153
@@ -3825,50 +3813,19 @@ c_zollern = {
 	876.8.28 = {
 		liege = k_east_francia
 	}
-	1066.1.1 = {
+	1050.1.1 = {
+		holder = 40550 # Burchard I - Count of Zollern and first documented ruler from Hohenzollern
 		liege = "d_swabia"
 	}
 	1066.1.1 = {
-		holder = 1000260792
+		holder = 92046
 	}
-	1080.10.15 = {
-		holder = 1390
+	1125.1.1 = {
+		holder = 212394 # Friedrich II Hohenzollern
 	}
-	1090.5.18 = {
-		holder = 7054
-	}
-	1105.7.21 = {
-		holder = 212495
-	}
-	1110.1.1 = {
-		holder = 33706
-	}
-	1143.1.1 = {
-		holder = 33707
-	}
-	1158.1.1 = {
-		holder = 212421
-	}
-	1181.5.18 = {
-		holder = 212420
-	}
-	1240.8.19 = {
-		holder = 33711
-	}
-	1241.1.1 = {
-		holder = 462306
-	}
-	1265.2.25 = {
-		holder = 33718
-	}
-	1268.10.29 = {
-		liege = "e_hre"
-	}
-	1279.9.18 = {
-		holder = 462300
-	}
-	1325.6.5 = {
-		holder = 462302
+	# Friedrich I second and fourth sons should probably rule before Friedrich III, who becomes ruler around 1171
+	1145.1.1 = {
+		holder = 212393 # Friedrich III Hohenzollern
 	}
 }
 
@@ -3911,7 +3868,7 @@ c_hohenberg = {
 		liege = d_swabia
 	}
 	1066.1.1 = {
-		holder = 1000260792
+		holder = 92046
 	}
 	1079.1.1 = {
 		holder = 7054 #Friedrich I von Hohenstaufen
@@ -4010,7 +3967,7 @@ c_furstenberg = {
 		liege = d_swabia
 	}
 	1066.1.1 = {
-		holder = 1000260792
+		holder = 92046
 	}
 	1079.1.1 = {
 		holder = 7054 #Friedrich I von Hohenstaufen
@@ -4325,10 +4282,9 @@ c_bremen = {
 	#}
 	865.2.3 = {
 		government = theocracy_government
-		liege = "d_angria"
 		holder = 163117
 	}
-	1043.4.15 = {
+	1043.4.16 = {
 		holder = 20251 #Adalbert Goseck
 	}
 	1072.3.16 = {
@@ -4465,7 +4421,7 @@ c_wolpe = {
 	}
 	1066.1.1 = {
 		liege = d_angria
-		holder = 33244
+		holder = 1416
 	}
 	1067.1.1 = {
 		holder = 1616
@@ -4625,11 +4581,14 @@ c_hildesheim = {
 	1011.2.9 = {
 		holder = 1414
 	}
-	1059.6.29 = {
-		holder = 1416
+	1027.1.1 = {
+		holder = 30247 # Udo von Katlenburg
 	}
-	1066.1.1 = {
-		holder = 144202
+	1040.1.1 = {
+		holder = 30248 # Dietrich I von Katlenburg
+	}
+	1056.1.1 = {
+		holder = 30249 # Dietrich II von Katlenburg
 	}
 	1072.3.28 = {
 		holder = 1418
@@ -4750,7 +4709,7 @@ d_anhalt = {
 	1066.1.1 = { change_development_level = 9 }
 	
 	867.1.1 = {
-		de_jure_liege = k_east_francia
+		#de_jure_liege = k_east_francia
 	}
 }
 
@@ -5038,7 +4997,7 @@ c_mansfeld = {
 		holder = 106510 #Ekbert I von Braunschweig
 	}
 	1066.1.1 = {
-		holder = 30335
+		holder = 20266
 	}
 	1068.1.1 = {
 		holder = 106515 #Ekbert II von Braunschweig
@@ -5122,7 +5081,8 @@ c_mersenburg = {
 		holder = 106510 #Ekbert I von Braunschweig
 	}
 	1066.1.1 = {
-		holder = 30335
+		#holder = 30335
+		holder = 20265 # Dedo Wettin
 	}
 	1068.1.1 = {
 		holder = 106515 #Ekbert II von Braunschweig
@@ -5179,7 +5139,7 @@ d_lausitz = {
 		liege = 0
 	}
 	867.1.1 = {
-		de_jure_liege = k_pomerania
+		#de_jure_liege = k_pomerania
 	}
 	
 	
@@ -5409,7 +5369,7 @@ c_wittenberg = {
 		holder = 7032 #Lothar-Udo II
 	}
 	1066.1.1 = {
-		holder = bear_1
+		holder = 7662 # Thimo Wettin
 	}
 	1082.1.2 = {
 		holder = 7034 #Heinrich I
@@ -5491,7 +5451,7 @@ c_brene = {
 		holder = 7032 #Lothar-Udo II
 	}
 	1066.1.1 = {
-		holder = fox_1
+		holder = 33370 # Gero Wettin
 	}
 	1082.1.2 = {
 		holder = 7034 #Heinrich I
@@ -5574,9 +5534,8 @@ c_spreewald = {
 	1057.11.7 = {
 		holder = 7032 #Lothar-Udo II
 	}
-	1066.1.1 = {
-		holder = 20383
-		liege = d_lausitz
+	1066.1.1 = { 
+		holder = fox_1
 	}
 	1082.1.2 = {
 		holder = 7034 #Heinrich I
@@ -5661,6 +5620,9 @@ c_naumberg = {	#Lubsko
 	1057.11.7 = {
 		holder = 7032 #Lothar-Udo II
 	}
+	1066.1.1 = {
+		holder = bear_1
+	}
 	1082.1.2 = {
 		holder = 7034 #Heinrich I
 	}
@@ -5710,7 +5672,7 @@ d_meissen = {
 		liege = 0
 	}
 	867.1.1 = {
-		de_jure_liege = k_pomerania
+		#de_jure_liege = k_pomerania
 	}
 	
 	929.1.1 = {
@@ -5730,7 +5692,7 @@ d_meissen = {
 		holder = 33463
 	}
 	1024.7.13 = {
-		de_jure_liege = k_saxony
+		#de_jure_liege = k_saxony
 		liege = e_hre
 	}
 	1031.1.1 = {
@@ -5743,7 +5705,7 @@ d_meissen = {
 		holder = 7060
 	}
 	1066.1.1 = {
-		de_jure_liege = k_east_francia
+		#de_jure_liege = k_east_francia
 	}
 	1067.1.1 = {
 		holder = 106510
@@ -5951,7 +5913,7 @@ c_wolkenstein = {
 		holder = 184007
 	}
 	1066.1.1 = {
-		holder = 20266
+		holder = 30335
 	}
 	1080.1.1 = {
 		holder = 20270
@@ -6012,7 +5974,8 @@ c_osterland = {
 		holder = 184007
 	}
 	1062.1.1 = {
-		holder = 7060
+		#holder = 7060
+		holder = 20265 # Dedo Wettin
 	}
 	1067.1.1 = {
 		holder = 106510
@@ -6082,11 +6045,12 @@ c_naumburg = {
 	857.1.1 = {
 		holder = 184007
 	}
-	1062.1.1 = {
-		holder = 7060
+	968.1.1 = {
+		liege = "d_meissen"
 	}
-	1066.1.1 = {
-		holder = 20383
+	1045.1.1 = {
+		holder = franconian0001 # Bishop Eberhard
+		government = theocracy_government
 	}
 	1067.1.1 = {
 		holder = 106510
@@ -6138,7 +6102,7 @@ c_vogtland = {
 		holder = 184007
 	}
 	1066.1.1 = {
-		holder = 20266
+		holder = 30335
 	}
 	1080.1.1 = {
 		holder = 20270
@@ -6277,50 +6241,39 @@ c_gorlitz = {
 	1025.6.17 = {
 		holder = 758
 	}
-	1031.1.1 = {
-		holder = 766
+
+	# Ends up with HRE eventually
+	1066.1.1 = {
+		#holder = 7060
+		liege = "d_lausitz"
+		holder = 20383 # Frierich the Deceitful
 	}
-	1032.1.1 = {
-		holder = 758
+	1067.1.1 = {
+		holder = 106510
 	}
-	1034.5.11 = {
-		holder = 760
+	1068.1.11 = {
+		holder = 106515
 	}
-	1058.11.28 = {
-		holder = 762
+	1089.1.1 = {
+		holder = 7699
 	}
-	1064.1.1 = {
-		holder = 96117
+	1103.1.1 = {
+		holder = 7500
 	}
-	1098.1.1 = {
-		holder = 170108
+	1123.1.1 = {
+		holder = 212040
 	}
-	1107.1.1 = {
-		holder = 96118
+	1157.2.5 = {
+		holder = 212038
 	}
-	1138.10.28 = {
-		liege = "d_lower_silesia"
+	1190.2.18 = {
+		holder = 212041
 	}
-	1138.10.28 = {
-		holder = 96094
+	1195.6.24 = {
+		holder = 212042
 	}
-	1153.4.16 = {
-		holder = 96097
-	}
-	1178.1.1 = {
-		holder = 221530
-	}
-	1201.12.7 = {
-		holder = 221537
-	}
-	1206.1.1 = {
-		holder = 221570
-	}
-	1209.1.1 = {
-		holder = 221537
-	}
-	1218.1.1 = {
-		holder = 221570
+	1221.1.17 = {
+		holder = 7504
 	}
 	1225.1.1 = {
 		liege = "d_thuringia"
@@ -6613,6 +6566,7 @@ c_hamburg = {
 		holder = 163117
 	}
 	1043.4.15 = {
+		government = theocracy_government
 		holder = 20251 #Adalbert Goseck
 	}
 	1072.3.16 = {
@@ -6892,7 +6846,7 @@ d_thuringia = {
 		holder = 168228
 	}
 	867.1.1 = {
-		de_jure_liege = k_east_francia
+		#de_jure_liege = k_east_francia
 	}
 	873.8.1 = {
 		holder = 168229
@@ -8002,6 +7956,10 @@ c_paderborn = {
 	}
 	1059.6.29 = {
 		holder = 1418
+	}
+	1066.1.1 = {
+		holder = 33244
+		government = theocracy_government
 	}
 	1106.1.2 = {
 		holder = 30219

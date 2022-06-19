@@ -46,7 +46,7 @@ c_gilan = {
 		liege = "d_azerbaijan"
 	}
 	1066.1.1 = {
-		holder = 1000260804
+		holder = 20722
 	}
 	1071.1.1 = {
 		holder = 3040
@@ -815,10 +815,10 @@ d_azerbaijan = {
 		holder = sogdian0009
 	}
 	1066.1.1 = {
-		holder = 1000260804
+		liege = "e_persia"
+		holder = 20722
 	}
 	1067.2.24 = {
-		liege = "e_persia"
 	}
 	1071.1.1 = {
 		holder = 3040
@@ -919,7 +919,7 @@ c_talish = {
 		holder = sogdian0009
 	}
 	1066.1.1 = {
-		holder = 1000260804
+		holder = 20722
 	}
 	1071.1.1 = {
 		holder = 3040
@@ -1018,7 +1018,7 @@ c_tabriz = {
 		holder = sogdian0009
 	}
 	1066.1.1 = {
-		holder = 1000260804
+		holder = 20722
 	}
 	1071.1.1 = {
 		holder = 3040
@@ -1117,7 +1117,7 @@ c_ardabil = {
 		holder = sogdian0009
 	}
 	1066.1.1 = {
-		holder = 1000260804
+		holder = 20722
 	}
 	1071.1.1 = {
 		holder = 3040
@@ -1213,7 +1213,7 @@ c_maragha = {
 		holder = sogdian0009
 	}
 	1066.1.1 = {
-		holder = 1000260804
+		holder = 20722
 	}
 	1071.1.1 = {
 		holder = 3040
@@ -1309,7 +1309,7 @@ c_bailaqan = {
 		holder = sogdian0010
 	}
 	1066.1.1 = {
-		holder = 1000260804
+		holder = 20722
 	}
 	1071.1.1 = {
 		holder = 3040
@@ -1410,7 +1410,7 @@ c_urmiya = {
 		holder = sogdian0010
 	}
 	1066.1.1 = {
-		holder = 1000260804
+		holder = 20722
 	}
 	1071.1.1 = {
 		holder = 3040
@@ -1555,7 +1555,7 @@ d_shirvan = {
 		holder = 146101
 	}
 	1063.2.20 = {
-		holder = 1000260804
+		holder = 92058
 	}
 	
 	#Seljuk
@@ -1660,7 +1660,7 @@ c_shirvan = {
 		holder = 146101
 	}
 	1063.2.20 = {
-		holder = 1000260804
+		holder = 92058
 	}
 	1096.1.1 = {
 		holder = 146104
@@ -1797,7 +1797,7 @@ c_shaki = {
 		holder = 146101
 	}
 	1063.2.20 = {
-		holder = 1000260804
+		holder = 92058
 	}
 	1096.1.1 = {
 		holder = 146104
@@ -1919,7 +1919,7 @@ c_aran = {
 		holder = 146101
 	}
 	1063.2.20 = {
-		holder = 1000260804
+		holder = 92058
 	}
 	1065.2.20 = {
 		holder = 146104
@@ -2053,7 +2053,7 @@ c_mugan = {
 		holder = 146101
 	}
 	1063.2.20 = {
-		holder = 1000260804
+		holder = 20734
 	}
 	1096.1.1 = {
 		holder = 146104
