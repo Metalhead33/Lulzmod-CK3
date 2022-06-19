@@ -65,6 +65,9 @@
 		add_pressed_claim = c_donjikraji
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
+			learn_language = language_high_german
+			learn_language = language_japanese
 			allow_alliance = character:92046
 			create_alliance =  character:92046
 			allow_alliance = character:92041
@@ -254,6 +257,8 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
+			learn_language = language_high_german
 		}
 		effect = { set_relation_friend = character:92040 }
 		add_opinion = {
@@ -296,6 +301,7 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92040 }
 		effect = { set_relation_lover = character:92040 }
@@ -362,6 +368,8 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_ugric
+			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92040 }
 		add_opinion = {
@@ -406,6 +414,7 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
 		}
 		effect = {
 			set_relation_friend = character:92040
@@ -464,7 +473,7 @@
 		death = yes
 	}
 }
-92044 = {
+92045 = {
 	name = "Adrien"
 	dynasty = 191919123
 	religion = "celtic_faith"
@@ -494,6 +503,9 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
+			learn_language = language_french
+			learn_language = language_latin
 		}
 		effect = { set_relation_friend = character:92054 }
 		add_opinion = {
@@ -596,6 +608,8 @@
 			add_character_modifier = { modifier = zsolts_court }
 			allow_alliance = character:92064 # Eadward
 			create_alliance = character:92064 # Eadward
+			learn_language = language_anglic
+			learn_language = language_ugric
 		}
 		add_opinion = {
 			target = character:92040
@@ -679,6 +693,7 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92040 }
 		add_opinion = {
@@ -734,6 +749,7 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92040 }
 		add_opinion = {
@@ -792,6 +808,7 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92040 }
 		add_opinion = {
@@ -851,6 +868,7 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92040 }
 		add_opinion = {
@@ -910,6 +928,7 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92040 }
 		add_opinion = {
@@ -956,6 +975,9 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
+			learn_language = language_high_german
+			learn_language = language_japanese
 		}
 		effect = { set_relation_friend = character:92040 }
 		add_opinion = {
@@ -1004,6 +1026,7 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92040 }
 		add_opinion = {
@@ -1077,10 +1100,17 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92044 }
 		add_opinion = {
 			target = character:92044
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:92045 }
+		add_opinion = {
+			target = character:92045
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -1143,12 +1173,13 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
 		}
 		add_spouse = 92058
 		effect = { set_relation_soulmate = character:92058 }
-		effect = { set_relation_friend = character:92044 }
+		effect = { set_relation_friend = character:92045 }
 		add_opinion = {
-			target = character:92044
+			target = character:92045
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -1217,6 +1248,8 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
+			learn_language = language_chinese
 		}
 		effect = { set_relation_friend = character:92040 }
 		add_opinion = {
@@ -1273,6 +1306,10 @@
 		}
 		effect = { set_relation_friend = character:92056 }
 		effect = { set_relation_soulmate = character:92056 }
+		effect = {
+			learn_language = language_anglic
+			learn_language = language_japanese
+		}
 		add_opinion = {
 			target = character:92056
 			modifier = friendliness_opinion
@@ -1327,6 +1364,7 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
 		}
 		add_spouse = 92055
 		effect = { set_relation_soulmate = character:92055 }
@@ -1384,7 +1422,10 @@
 	trait = dog_preference
 	1048.4.19 = {
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			learn_language = language_anglic
+		}
 		employer = 92040 # Zsolt
 		effect = { set_relation_friend = character:92040 }
 		add_opinion = {
@@ -1455,6 +1496,7 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92040 }
 		add_opinion = {
@@ -1506,9 +1548,10 @@
 		effect = { add_character_flag = has_scripted_appearance }
 	}
 	1066.1.1={
-		#effect = {
-		#	add_character_modifier = { modifier = zsolts_court }
-		#}
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
+		}
 		effect = { set_relation_friend = character:92040 }
 		add_opinion = {
 			target = character:92040
@@ -1559,6 +1602,9 @@
 		effect = { set_relation_friend = character:92040 }
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
+			learn_language = language_high_german
+			learn_language = language_japanese
 		}
 		add_opinion = {
 			target = character:92040
@@ -1625,15 +1671,17 @@
 		effect = { set_relation_friend = character:92040 }
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
+			learn_language = language_chinese
 		}
 		add_opinion = {
 			target = character:92040
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		effect = { set_relation_friend = character:92044 }
+		effect = { set_relation_friend = character:92045 }
 		add_opinion = {
-			target = character:92044
+			target = character:92045
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -1725,6 +1773,8 @@
 		effect = { set_relation_friend = character:92040 }
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
+			learn_language = language_latin
 		}
 		add_opinion = {
 			target = character:92040
@@ -1734,6 +1784,12 @@
 		effect = { set_relation_friend = character:92044 }
 		add_opinion = {
 			target = character:92044
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:92045 }
+		add_opinion = {
+			target = character:92045
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -1782,6 +1838,7 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92067 }
 		add_opinion = {
@@ -1801,9 +1858,9 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		effect = { set_relation_friend = character:92044 }
+		effect = { set_relation_friend = character:92045 }
 		add_opinion = {
-			target = character:92044
+			target = character:92045
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -1863,6 +1920,7 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92040 }
 		add_opinion = {
@@ -1953,6 +2011,8 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			learn_language = language_anglic
+			learn_language = language_french
 		}
 		effect = { set_relation_friend = character:92040 }
 		add_opinion = {
@@ -1984,9 +2044,9 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		effect = { set_relation_friend = character:92044 }
+		effect = { set_relation_friend = character:92045 }
 		add_opinion = {
-			target = character:92044
+			target = character:92045
 			modifier = friendliness_opinion
 			opinion = 200
 		}
