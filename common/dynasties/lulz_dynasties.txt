@@ -130,4 +130,11 @@
 	name = "dynn_Fong"
 	culture = "han"
 }
-
+191919153 = {
+	name = "dynn_Dornfeld"
+	culture = "swabian"
+}
+191919154 = {
+	name = "dynn_Kepes"
+	culture = "swabian"
+}
