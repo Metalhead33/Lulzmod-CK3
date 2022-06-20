@@ -1645,7 +1645,7 @@
 	name = "Attila"
 	dynasty = 191919151
 	religion = "catholic"
-	culture = "hungarian"
+	culture = "szekely"
 	dna = dna_mrnightclubs
 	portrait_override = {
 		portrait_modifier_overrides={
@@ -1749,7 +1749,7 @@
 	name = "Davide"
 	dynasty = 191919146
 	religion = "catholic"
-	culture = "italian"
+	culture = "laziale"
 	dna = dna_davide_passalacqua
 	portrait_override = {
 		portrait_modifier_overrides={
