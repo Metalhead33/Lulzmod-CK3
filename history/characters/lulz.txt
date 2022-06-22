@@ -23,7 +23,10 @@
 	trait = depressed_1
 	1042.6.26 = {
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = 65
+		}
 	}
 	1066.1.1={
 		add_pressed_claim = k_hungary
@@ -252,7 +255,10 @@
 	trait = whole_of_body
 	1046.8.19 = { # August 19, 1996
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -10
+		}
 	}
 	1066.1.1={
 		effect = {
@@ -296,12 +302,16 @@
 	trait = beauty_good_3
 	1047.5.15 = { # No idea
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -35
+		}
 	}
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
 			learn_language = language_anglic
+			learn_language = language_finnic
 		}
 		effect = { set_relation_friend = character:92040 }
 		effect = { set_relation_lover = character:92040 }
@@ -363,7 +373,10 @@
 	trait = diplomat
 	1047.1.4 = {
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -10
+		}
 	}
 	1066.1.1={
 		effect = {
@@ -409,7 +422,10 @@
 	trait = beauty_good_2
 	1040.1.30 = {
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = 20
+		}
 	}
 	1066.1.1={
 		effect = {
@@ -498,7 +514,10 @@
 	trait = blademaster_3
 	1048.1.30 = {
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = 65
+		}
 	}
 	1066.1.1={
 		effect = {
@@ -576,7 +595,10 @@
 	trait = cat_preference
 	1040.8.22 = {
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -10
+		}
 	}
 	1066.1.1={
 		add_spouse = 7757
@@ -688,7 +710,10 @@
 	trait = cat_preference
 	1048.5.15 = { # Originally 1038.5.15
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -10
+		}
 	}
 	1066.1.1={
 		effect = {
@@ -744,7 +769,10 @@
 	trait = dog_preference
 	1048.7.1 = {
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -10
+		}
 	}
 	1066.1.1={
 		effect = {
@@ -803,7 +831,10 @@
 	trait = cat_preference
 	1047.9.3 = {
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -10
+		}
 	}
 	1066.1.1={
 		effect = {
@@ -863,7 +894,10 @@
 	trait = scholar
 	1047.6.18 = {
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -10
+		}
 	}
 	1066.1.1={
 		effect = {
@@ -923,7 +957,10 @@
 	trait = physician_3
 	1043.11.3 = {
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -10
+		}
 	}
 	1066.1.1={
 		effect = {
@@ -970,7 +1007,10 @@
 	trait = dog_preference
 	1042.6.26 = {
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -10
+		}
 	}
 	1066.1.1={
 		effect = {
@@ -1021,7 +1061,10 @@
 	trait = dog_preference
 	1043.11.3 = {
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = 65
+		}
 	}
 	1066.1.1={
 		effect = {
@@ -1095,7 +1138,10 @@
 	trait = cat_preference
 	1040.2.11 = {
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -10
+		}
 	}
 	1066.1.1={
 		effect = {
@@ -1168,7 +1214,10 @@
 	trait = bird_preference
 	1035.2.1 = {
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -10
+		}
 	}
 	1066.1.1={
 		effect = {
@@ -1243,7 +1292,10 @@
 	trait = cat_preference
 	1046.6.26 = { # 1042 = 1992 -> 1048 = 1998 
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -10
+		}
 	}
 	1066.1.1={
 		effect = {
@@ -1296,7 +1348,10 @@
 	trait = cat_preference
 	1045.6.11 = { # 1042 = 1992 -> 1045 = Jun 11, 1995
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -10
+		}
 	}
 	1066.1.1={
 		add_opinion = {
@@ -1347,7 +1402,10 @@
 	trait = dog_preference
 	1037.4.19 = {
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -10
+		}
 		add_pressed_claim = d_azerbaijan
 		add_pressed_claim = c_tabriz
 		add_pressed_claim = c_talish
@@ -1491,7 +1549,10 @@
 	# trait = dwarf
 	1037.5.16 = { # 1987-05-16
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -10
+		}
 	}
 	1066.1.1={
 		effect = {
@@ -1531,7 +1592,7 @@
 	dna = dna_katerina_tsoupi
 	portrait_override = {
 		portrait_modifier_overrides={
-			custom_hair=cfp_female_hair_mena_02
+			custom_hair=female_hair_western_05
 		}
 	}
 	sexuality = bisexual
@@ -1545,7 +1606,10 @@
 	trait = cat_preference
 	1049.3.31 = {
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -10
+		}
 	}
 	1066.1.1={
 		effect = {
@@ -1595,7 +1659,10 @@
 	trait = scholar
 	1046.1.30 = {
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = 65
+		}
 	}
 	1066.1.1={
 		add_pressed_claim = d_nyitra
@@ -1664,7 +1731,10 @@
 	trait = adventurer
 	1046.1.30 = {
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -10
+		}
 	}
 	1066.1.1={
 		add_pressed_claim = d_transylvania
@@ -1715,7 +1785,10 @@
 	trait = scholar
 	1040.1.30 = {
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -10
+		}
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:92040 }
@@ -1767,7 +1840,10 @@
 	trait = scholar
 	1040.8.4 = {
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -10
+		}
 	}
 	1066.1.1={
 		effect = { set_relation_friend = character:92040 }
@@ -1833,7 +1909,10 @@
 	trait = theologian
 	1050.2.12 = {
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -10
+		}
 	}
 	1066.1.1={
 		effect = {
@@ -1915,7 +1994,10 @@
 	trait = diplomat
 	1047.8.19 = { # August 19, 1997
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -10
+		}
 	}
 	1066.1.1={
 		effect = {
@@ -2006,7 +2088,10 @@
 	trait = whole_of_body
 	1046.1.30 = {
 		birth = yes
-		effect = { add_character_flag = has_scripted_appearance }
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -10
+		}
 	}
 	1066.1.1={
 		effect = {

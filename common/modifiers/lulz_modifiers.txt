@@ -6,6 +6,10 @@
 	ai_war_cooldown = -0.5
 	ai_vengefulness = 100
 	ai_energy = 100
-	martial = 10
-	prowess = 10
+	fertility = 25
+	health = 3
+}
+
+female_modifier = {
+	prowess = -10
 }
