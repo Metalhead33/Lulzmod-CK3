@@ -1,3 +1,8 @@
 ﻿l_english:
  zsolts_court_modifier:0 "Court from the Future"
  zsolts_court:0 "Court from the Future"
+ tradition_weeaboo_name:0 "Japanophile Fascination"
+ tradition_weeaboo_desc:1 "While this people does not originate in Japan, they have a high degree of admiration towards Japanese culture and seek to emulate it wherever possible."
+ tradition_barbecue_name:0 "Barbecue"
+ tradition_barbecue_desc:1 "Rather than exquisite feasts that take days to prepare for, this culture shows a preference towards more humble means of preparing tasty food - especially spicy meat, potatoes and vegetables - on wood or charcoal-fired grills. These barbecues - or BBQs - are also highly social events that provide ample opportunity to socialize, make friends, spread gossip or listen in on rumours."
+ culture_parameter_less_expensive_feasts:0 "Feasts are less expensive."

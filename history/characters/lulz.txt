@@ -188,12 +188,6 @@
 			modifier = friendliness_opinion
 			opinion = 150
 		}
-		effect = { set_relation_friend = character:92058 }
-		add_opinion = {
-			target = character:92058
-			modifier = friendliness_opinion
-			opinion = 200
-		}
 		effect = { set_relation_friend = character:92059 }
 		add_opinion = {
 			target = character:92059
@@ -304,7 +298,7 @@
 		birth = yes
 		effect = {
 			add_character_flag = has_scripted_appearance
-			change_current_weight = -35
+			change_current_weight = -5
 		}
 	}
 	1066.1.1={
@@ -859,12 +853,6 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		effect = { set_relation_friend = character:92058 }
-		add_opinion = {
-			target = character:92058
-			modifier = friendliness_opinion
-			opinion = 200
-		}
 		# employer = 92040 # Zsolt
 	}
 	1083.1.1 = {
@@ -913,12 +901,6 @@
 		effect = { set_relation_friend = character:92049 }
 		add_opinion = {
 			target = character:92049
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92058 }
-		add_opinion = {
-			target = character:92058
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -1224,8 +1206,6 @@
 			add_character_modifier = { modifier = zsolts_court }
 			learn_language = language_anglic
 		}
-		add_spouse = 92058
-		effect = { set_relation_soulmate = character:92058 }
 		effect = { set_relation_friend = character:92045 }
 		add_opinion = {
 			target = character:92045
@@ -1250,12 +1230,6 @@
 		# 	modifier = friendliness_opinion
 		# 	opinion = 200
 		# }
-		effect = { set_relation_friend = character:92058 }
-		add_opinion = {
-			target = character:92058
-			modifier = friendliness_opinion
-			opinion = 200
-		}
 		effect = { set_relation_friend = character:92040 }
 		add_opinion = {
 			target = character:92040
@@ -1372,84 +1346,6 @@
 		}
 		employer = 92040 # Zsolt
 		add_spouse = 92056
-	}
-	1083.1.1 = {
-		death = yes
-	}
-}
-92058 = {
-	name = "Sedat"
-	dynasty = 191919139
-	religion = "ashari"
-	culture = "turkish"
-	dna = dna_sedat_atalay
-	portrait_override = {
-		portrait_modifier_overrides={
-			custom_hair=male_hair_western_02
-			custom_beards=male_beard_western_03
-		}
-	}
-	sexuality = heterosexual
-	trait = education_martial_4
-	trait = vengeful
-	trait = arrogant
-	trait = wrathful
-	trait = intellect_good_3
-	trait = scholar
-	trait = deviant
-	trait = blademaster_3
-	trait = physique_good_2
-	trait = dog_preference
-	1037.4.19 = {
-		birth = yes
-		effect = {
-			add_character_flag = has_scripted_appearance
-			change_current_weight = -10
-		}
-		add_pressed_claim = d_azerbaijan
-		add_pressed_claim = c_tabriz
-		add_pressed_claim = c_talish
-		add_pressed_claim = c_ardabil
-		add_pressed_claim = c_maragha
-		add_pressed_claim = c_bailaqan
-		add_pressed_claim = c_urmiya
-		add_pressed_claim = d_shirvan
-		add_pressed_claim = c_shirvan
-		add_pressed_claim = c_shaki
-		add_pressed_claim = c_aran
-		add_pressed_claim = c_mugan
-	}
-	1066.1.1={
-		effect = {
-			add_character_modifier = { modifier = zsolts_court }
-			learn_language = language_anglic
-		}
-		add_spouse = 92055
-		effect = { set_relation_soulmate = character:92055 }
-		effect = { set_relation_friend = character:92040 }
-		add_opinion = {
-			target = character:92040
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92055 }
-		add_opinion = {
-			target = character:92055
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92049 }
-		add_opinion = {
-			target = character:92049
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92050 }
-		add_opinion = {
-			target = character:92050
-			modifier = friendliness_opinion
-			opinion = 200
-		}
 	}
 	1083.1.1 = {
 		death = yes

@@ -1,0 +1,129 @@
+﻿################################
+# EASTERN CULTURAL TRADITIONS #
+################################
+
+tradition_weeaboo = {
+	category = ritual
+
+	layers = {
+		0 = diplo
+		1 = indian
+		4 = weeaboo.dds
+	}
+	
+	is_shown = {
+		NOT = { has_cultural_pillar = heritage_japanese }
+	}
+	
+	can_pick = {
+		NOT = { has_cultural_pillar = heritage_japanese }
+	}
+	
+	parameters = {
+		weeaboo_traditions = yes
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						any_in_list = { list = traits this = flag:ethos_bellicose }
+						any_in_list = { list = traits this = flag:ethos_egalitarian }
+						any_in_list = { list = traits this = flag:ethos_courtly }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_egalitarian_or_courtly_desc
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						scope:character = {
+							any_knight = {
+								count >= 6
+								prowess >= 12
+							}
+						}
+					}
+				}
+				add = {
+					value = tradition_unfulfilled_criteria_penalty
+					desc = knights_with_prowess_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+	}
+}
+tradition_barbecue = {
+	category = ritual
+
+	layers = {
+		0 = diplo
+		1 = indian
+		4 = barbecue.dds
+	}
+	
+	is_shown = {
+		NOR = {
+			any_in_list = { list = traits this = flag:tradition_culinary_art }
+			any_in_list = { list = traits this = flag:tradition_vegetarianism }
+		}
+	}
+	can_pick = {
+		NOR = {
+			any_in_list = { list = traits this = flag:tradition_culinary_art }
+			any_in_list = { list = traits this = flag:tradition_vegetarianism }
+		}
+	}
+	parameters = {
+		less_expensive_feasts = yes
+		more_frequent_feasts = yes
+		reveler_traits_more_common = yes
+		characters_are_better_food_tasters = yes
+	}
+	character_modifier = {
+		health = -0.1
+	}	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						any_in_list = { list = traits this = flag:ethos_communal }
+						any_in_list = { list = traits this = flag:ethos_egalitarian }
+						any_in_list = { list = traits this = flag:ethos_courtly }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_egalitarian_or_courtly_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+	}
+}

@@ -1,0 +1,23 @@
+﻿############################
+# Weeb #
+############################
+aesthetics_weeaboo = {
+	is_shown = {
+		scope:character = {
+			culture = {
+				has_cultural_pillar = heritage_north_germanic
+			}
+			culture = { has_cultural_tradition = tradition_weeaboo }
+			NOT = {
+				culture = { has_cultural_pillar = heritage_japanese }
+			}
+		}
+	}
+	
+	name_list = name_list_japanese
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+}
