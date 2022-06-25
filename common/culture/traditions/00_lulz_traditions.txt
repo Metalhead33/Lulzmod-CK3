@@ -72,8 +72,8 @@ tradition_barbecue = {
 	category = ritual
 
 	layers = {
-		0 = diplo
-		1 = indian
+		0 = martial
+		1 = mediterranean
 		4 = barbecue.dds
 	}
 	
@@ -97,6 +97,71 @@ tradition_barbecue = {
 	}
 	character_modifier = {
 		health = -0.1
+	}	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						any_in_list = { list = traits this = flag:ethos_communal }
+						any_in_list = { list = traits this = flag:ethos_egalitarian }
+						any_in_list = { list = traits this = flag:ethos_courtly }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_egalitarian_or_courtly_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+	}
+}
+
+tradition_pachka_sigaret = {
+	category = ritual
+
+	layers = {
+		0 = learning
+		1 = mediterranean
+		4 = pachka_sigaret.dds
+	}
+	
+	is_shown = {
+		OR = {
+			has_cultural_pillar = heritage_east_slavic
+			has_cultural_pillar = heritage_west_slavic
+			has_cultural_pillar = heritage_south_slavic
+			has_cultural_pillar = heritage_magyar
+		}
+	}
+	can_pick = {
+		OR = {
+			has_cultural_pillar = heritage_east_slavic
+			has_cultural_pillar = heritage_west_slavic
+			has_cultural_pillar = heritage_south_slavic
+			has_cultural_pillar = heritage_magyar
+		}
+	}
+	parameters = {
+		lower_stress_gain = yes
+	}
+	character_modifier = {
+		health = -0.1
+		stress_gain_mult = -0.1
+		stress_loss_mult = 0.1
+		tyranny_gain_mult = -0.1
+		tyranny_loss_mult = 0.1
 	}	
 	cost = {
 		prestige = {

@@ -6,7 +6,8 @@
 	ai_war_cooldown = -0.5
 	ai_vengefulness = 100
 	ai_energy = 100
-	fertility = 25
+	fertility = 2.5
+	years_of_fertility = 10
 	health = 3
 }
 

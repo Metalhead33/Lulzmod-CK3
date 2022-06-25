@@ -69,7 +69,10 @@
  imperial_religion_adherent:1 "Imperial"
  imperial_religion_adherent_plural:1 "Imperials" 
  imperial_religion_desc:1 "The Imperial Cult, also called the Cult Imperialis in High Gothic, is the official and only state religion of the Imperium of Man. It is devoted to the worship of the Emperor of Mankind as the ascended divinity and saviour of Humanity. "
- 
+ chrislam:0 "Chrislam"
+ chrislam_adj:0 "Chruslim"
+ chrislam_adherent:0 "Chruslim"
+ chrislam_adherent_plural:0 "Chruslims"
  imperial_cult:1 "Imperial Cult"
  imperial_cult_adj:1 "Imperial Cult"
  imperial_cult_adherent:1 "Imperial Cultist"
