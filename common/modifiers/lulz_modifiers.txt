@@ -9,6 +9,24 @@
 	fertility = 2.5
 	years_of_fertility = 10
 	health = 3
+	levy_reinforcement_rate = 10
+	siege_weapon_max_size_mult = 2
+	siege_weapon_siege_value_add = 10
+	siege_weapon_siege_value_mult = 5
+	archers_max_size_mult = 3
+	archers_damage_add = 50
+	archers_damage_mult = 3
+	archers_max_size_mult = 3
+	archers_siege_value_add = 50
+	archers_siege_value_mult = 3
+	archer_cavalry_max_size_mult = 3
+	archer_cavalry_damage_add = 50
+	archer_cavalry_damage_mult = 3
+	archer_cavalry_siege_value_add = 50
+	archer_cavalry_siege_value_mult = 3
+	monthly_income = 100
+	monthly_piety = 5
+	monthly_prestige = 1
 }
 
 female_modifier = {

@@ -29,45 +29,29 @@
 		}
 	}
 	1066.1.1={
-		add_pressed_claim = k_hungary
-		add_pressed_claim = c_bacs
-		add_pressed_claim = c_bodrog
-		add_pressed_claim = c_keve
-		add_pressed_claim = c_krasso
-		add_pressed_claim = c_temes
-		add_pressed_claim = c_macva
-		add_pressed_claim = c_szerem
-		add_pressed_claim = c_beograd
-		add_pressed_claim = c_rashka
-		add_pressed_claim = c_podrinje
-		add_pressed_claim = k_croatia
-		add_pressed_claim = d_slavonia
-		add_pressed_claim = c_vukovar
-		add_pressed_claim = c_zagorje
-		add_pressed_claim = c_zagreb
-		add_pressed_claim = c_pozega
-		add_pressed_claim = c_soli
-		add_pressed_claim = c_usora
-		add_pressed_claim = c_vhrbosna
-		add_pressed_claim = c_rama
-		add_pressed_claim = c_vrbas
-		add_pressed_claim = d_croatia
-		add_pressed_claim = c_gacka
-		add_pressed_claim = c_modrus
-		add_pressed_claim = c_lika
-		add_pressed_claim = d_dalmatia
-		add_pressed_claim = c_zadar
-		add_pressed_claim = c_knin
-		add_pressed_claim = c_cetina
-		add_pressed_claim = c_pagania
-		add_pressed_claim = d_usora
-		add_pressed_claim = c_zachlumia
-		add_pressed_claim = c_zavrsje
-		add_pressed_claim = d_bosna 
-		add_pressed_claim = c_pset
-		add_pressed_claim = c_donjikraji
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 			learn_language = language_high_german
 			learn_language = language_japanese
@@ -87,7 +71,43 @@
 			create_alliance = character:92065
 			allow_alliance = character:92064 # Eadward
 			create_alliance = character:92064 # Eadward
-		create_alliance = {}
+			add_pressed_claim = title:k_hungary
+			add_pressed_claim = title:c_bacs
+			add_pressed_claim = title:c_bodrog
+			add_pressed_claim = title:c_keve
+			add_pressed_claim = title:c_krasso
+			add_pressed_claim = title:c_temes
+			add_pressed_claim = title:c_macva
+			add_pressed_claim = title:c_szerem
+			add_pressed_claim = title:c_beograd
+			add_pressed_claim = title:c_rashka
+			add_pressed_claim = title:c_podrinje
+			add_pressed_claim = title:k_croatia
+			add_pressed_claim = title:d_slavonia
+			add_pressed_claim = title:c_vukovar
+			add_pressed_claim = title:c_zagorje
+			add_pressed_claim = title:c_zagreb
+			add_pressed_claim = title:c_pozega
+			add_pressed_claim = title:c_soli
+			add_pressed_claim = title:c_usora
+			add_pressed_claim = title:c_vhrbosna
+			add_pressed_claim = title:c_rama
+			add_pressed_claim = title:c_vrbas
+			add_pressed_claim = title:d_croatia
+			add_pressed_claim = title:c_gacka
+			add_pressed_claim = title:c_modrus
+			add_pressed_claim = title:c_lika
+			add_pressed_claim = title:d_dalmatia
+			add_pressed_claim = title:c_zadar
+			add_pressed_claim = title:c_knin
+			add_pressed_claim = title:c_cetina
+			add_pressed_claim = title:c_pagania
+			add_pressed_claim = title:d_usora
+			add_pressed_claim = title:c_zachlumia
+			add_pressed_claim = title:c_zavrsje
+			add_pressed_claim = title:d_bosna 
+			add_pressed_claim = title:c_pset
+			add_pressed_claim = title:c_donjikraji
 		}
 		effect = { set_relation_friend = character:92063 }
 		add_opinion = {
@@ -257,8 +277,31 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 			learn_language = language_high_german
+			add_pressed_claim = title:d_ungvar
+			add_pressed_claim = title:d_transcarpathia
 		}
 		effect = { set_relation_friend = character:92040 }
 		add_opinion = {
@@ -266,8 +309,6 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		add_pressed_claim = d_ungvar
-		add_pressed_claim = d_transcarpathia
 	}
 	1083.1.1 = {
 		death = yes
@@ -304,6 +345,27 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 			learn_language = language_finnic
 		}
@@ -375,6 +437,27 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_ugric
 			learn_language = language_anglic
 		}
@@ -424,6 +507,27 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 		}
 		effect = {
@@ -516,6 +620,27 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 			learn_language = language_french
 			learn_language = language_latin
@@ -598,34 +723,55 @@
 		add_spouse = 7757
 		effect = { set_relation_soulmate = character:7757 }
 		effect = { set_relation_friend = character:7757}
-		add_pressed_claim = d_bavaria
-		add_pressed_claim = d_nordgau
-		add_pressed_claim = d_salzburg
-		add_pressed_claim = d_augsburg
-		add_pressed_claim = d_steyermark
-		add_pressed_claim = d_osterreich
-		add_pressed_claim = d_tyrol
-		add_pressed_claim = d_carinthia
-		add_pressed_claim = c_regensburg
-		add_pressed_claim = c_munchen
-		add_pressed_claim = c_eschenlohe
-		add_pressed_claim = c_rothenburg
-		add_pressed_claim = c_geisenhausen
-		add_pressed_claim = c_frontenhausen
-		add_pressed_claim = c_falkenstein
-		add_pressed_claim = c_ingolstadt
-		add_pressed_claim = c_passau
-		add_pressed_claim = c_eichstadt
-		add_pressed_claim = c_leuchtenburg
-		add_pressed_claim = c_parsberg
-		add_pressed_claim = c_augsburg
 		effect = { set_relation_friend = character:92040 }
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			allow_alliance = character:92064 # Eadward
 			create_alliance = character:92064 # Eadward
 			learn_language = language_anglic
 			learn_language = language_ugric
+			add_pressed_claim = title:d_bavaria
+			add_pressed_claim = title:d_nordgau
+			add_pressed_claim = title:d_salzburg
+			add_pressed_claim = title:d_augsburg
+			add_pressed_claim = title:d_steyermark
+			add_pressed_claim = title:d_osterreich
+			add_pressed_claim = title:d_tyrol
+			add_pressed_claim = title:d_carinthia
+			add_pressed_claim = title:c_regensburg
+			add_pressed_claim = title:c_munchen
+			add_pressed_claim = title:c_eschenlohe
+			add_pressed_claim = title:c_rothenburg
+			add_pressed_claim = title:c_geisenhausen
+			add_pressed_claim = title:c_frontenhausen
+			add_pressed_claim = title:c_falkenstein
+			add_pressed_claim = title:c_ingolstadt
+			add_pressed_claim = title:c_passau
+			add_pressed_claim = title:c_eichstadt
+			add_pressed_claim = title:c_leuchtenburg
+			add_pressed_claim = title:c_parsberg
+			add_pressed_claim = title:c_augsburg
 		}
 		add_opinion = {
 			target = character:92040
@@ -712,6 +858,27 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92040 }
@@ -771,6 +938,27 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92040 }
@@ -833,6 +1021,27 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92040 }
@@ -890,6 +1099,27 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92040 }
@@ -947,6 +1177,27 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92040 }
@@ -997,6 +1248,27 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 			learn_language = language_high_german
 			learn_language = language_japanese
@@ -1051,6 +1323,27 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92040 }
@@ -1128,6 +1421,27 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92044 }
@@ -1204,6 +1518,27 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92045 }
@@ -1274,6 +1609,27 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 			learn_language = language_chinese
 		}
@@ -1415,6 +1771,27 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 		}
 	}
 	1083.1.1 = {
@@ -1453,6 +1830,27 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92040 }
@@ -1510,6 +1908,27 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92040 }
@@ -1561,13 +1980,34 @@
 		}
 	}
 	1066.1.1={
-		add_pressed_claim = d_nyitra
 		effect = { set_relation_friend = character:92040 }
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 			learn_language = language_high_german
 			learn_language = language_japanese
+			add_pressed_claim = title:d_nyitra
 		}
 		add_opinion = {
 			target = character:92040
@@ -1633,12 +2073,33 @@
 		}
 	}
 	1066.1.1={
-		add_pressed_claim = d_transylvania
 		effect = { set_relation_friend = character:92040 }
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 			learn_language = language_chinese
+			add_pressed_claim = title:d_transylvania
 		}
 		add_opinion = {
 			target = character:92040
@@ -1690,6 +2151,27 @@
 		effect = { set_relation_friend = character:92040 }
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 		}
 		add_opinion = {
 			target = character:92040
@@ -1745,6 +2227,27 @@
 		effect = { set_relation_friend = character:92040 }
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 			learn_language = language_latin
 		}
@@ -1813,6 +2316,27 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92067 }
@@ -1898,6 +2422,27 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 		}
 		effect = { set_relation_friend = character:92040 }
@@ -1992,6 +2537,27 @@
 	1066.1.1={
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 			learn_language = language_french
 		}
@@ -2032,6 +2598,53 @@
 			opinion = 200
 		}
 		employer = 92040
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+92069 = {
+	name = "Phoutokrata"
+	female = yes
+	dynasty = 7246
+	father = 32241
+	religion = "ethiopian"
+	culture = "tewahedo"
+	trait = futa_genetic
+	trait = beauty_good_2
+	dna = dna_dornfelds_wife
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=female_hair_sub_saharan_02
+			custom_beards=female_empty
+		}
+	}
+	sexuality = bisexual
+	1049.5.15 = { # No idea
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -5
+		}
+	}
+	1066.1.1={
+		effect = {
+			add_pressed_claim = title:k_abyssinia
+			add_pressed_claim = title:d_aksum
+			add_pressed_claim = title:c_tigre
+			add_pressed_claim = title:d_gondar
+			add_pressed_claim = title:c_dembiya
+			learn_language = language_ugric
+		}
+		effect = { set_relation_friend = character:92062 }
+		effect = { set_relation_lover = character:92062 }
+		effect = { set_relation_soulmate = character:92062 }
+		add_spouse = 92062
+		add_opinion = {
+			target = character:92062
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 	}
 	1083.1.1 = {
 		death = yes

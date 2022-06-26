@@ -1,4 +1,5 @@
 ﻿l_english:
+ aesthetics_weeaboo_name:0 "Weeaboo"
  zsolts_court_modifier:0 "Court from the Future"
  zsolts_court:0 "Court from the Future"
  tradition_weeaboo_name:0 "Japanophile Fascination"
@@ -8,5 +9,5 @@
  tradition_barbecue_desc:1 "Rather than exquisite feasts that take days to prepare for, this culture shows a preference towards more humble means of preparing tasty food - especially spicy meat, potatoes and vegetables - on wood or charcoal-fired grills. These barbecues - or BBQs - are also highly social events that provide ample opportunity to socialize, make friends, spread gossip or listen in on rumours."
  culture_parameter_less_expensive_feasts:0 "Feasts are less expensive."
  tradition_pachka_sigaret_name:0 "Pachka Sigaret"
- tradition_pachka_sigaret_desc:1 "#italic \"I sit down and look out another\'s window at another strange sky\nAnd I don\'t see even one familiar star,\nI\'ve travelled along all roads, I\'ve been here and I\'ve been there,\nAnd when I turned back, my own footprints were gone...\n\n #bold But if I\'ve got a pack of cigarettes in my pocket,\nThen today won\'t be so bad after all, #! \nAnd a ticket for the plane with silver wings,\nWhich flies away, leaving only a shadow on the ground...\"#!"
+ tradition_pachka_sigaret_desc:1 "#italic \"I sit down and look out another's window at another strange sky\nAnd I don't see even one familiar star,\nI've travelled along all roads, I've been here and I've been there,\nAnd when I turned back, my own footprints were gone...\n\n #bold But if I've got a pack of cigarettes in my pocket,\nThen today won't be so bad after all, #! \nAnd a ticket for the plane with silver wings,\nWhich flies away, leaving only a shadow on the ground...\"#!"
  culture_parameter_lower_stress_gain:0 "Lower stress gain."
