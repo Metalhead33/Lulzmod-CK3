@@ -2096,7 +2096,7 @@
 92063 = {
 	name = "Attila"
 	dynasty = 191919151
-	religion = "catholic"
+	religion = "calvinist"
 	culture = "szekely"
 	dna = dna_mrnightclubs
 	portrait_override = {

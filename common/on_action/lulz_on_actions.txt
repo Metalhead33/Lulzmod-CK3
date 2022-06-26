@@ -6,11 +6,12 @@
 
 lulz_start = {
 	effect = {
-		every_living_character = {
+		every_ruler = {
 			limit = {
 				has_character_modifier = zsolts_court
 				is_landed = yes
 			}
+			add_to_list = lulz_characters
 			add_gold = 6000
 			add_piety = 2000
 			add_prestige = 2000
@@ -40,6 +41,28 @@ lulz_start = {
 						add_building_slot = 1
 						add_building = common_tradeport_08
 					}
+				}
+			}
+		}
+		every_in_list = {
+			list = lulz_characters
+			save_scope_as = current_character
+			every_in_list = {
+				list = lulz_characters
+				limit = {
+					NOT = { THIS = scope:current_character }
+				}
+				save_scope_as = allied_character
+				scope:current_character = {
+					create_alliance = {
+						target = scope:allied_character
+						allied_through_owner = scope:current_character
+						allied_through_target = scope:allied_character
+					}
+				}
+				add_opinion = {
+					modifier = perk_negotiated_alliance_opinion
+					target = scope:current_character
 				}
 			}
 		}
