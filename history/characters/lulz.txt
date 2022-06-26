@@ -109,6 +109,8 @@
 			add_pressed_claim = title:d_bosna 
 			add_pressed_claim = title:c_pset
 			add_pressed_claim = title:c_donjikraji
+			add_pressed_claim = title:c_branicevo
+			add_pressed_claim = title:d_rashka
 		}
 		effect = { set_relation_friend = character:92063 }
 		add_opinion = {
@@ -550,6 +552,11 @@
 			add_perk = flexible_truces_perk
 			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
+			add_pressed_claim = title:d_skane
+			add_pressed_claim = title:c_skane
+			add_pressed_claim = title:c_halland
+			add_pressed_claim = title:c_bornholm
+			add_pressed_claim = title:k_sweden
 		}
 		effect = {
 			set_relation_friend = character:92040
@@ -985,6 +992,10 @@
 			add_perk = flexible_truces_perk
 			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
+			add_pressed_claim = title:c_varend
+			add_pressed_claim = title:c_sevede
+			add_pressed_claim = title:c_more
+			add_pressed_claim = title:d_smaland
 		}
 		effect = { set_relation_friend = character:92040 }
 		add_opinion = {

@@ -1,0 +1,47 @@
+﻿on_game_start = {
+	on_actions = {
+		lulz_start
+	}
+}
+
+lulz_start = {
+	effect = {
+		every_living_character = {
+			limit = {
+				has_character_modifier = zsolts_court
+				is_landed = yes
+			}
+			add_gold = 6000
+			add_piety = 2000
+			add_prestige = 2000
+			culture = { save_scope_as = character_culture }
+			faith = { save_scope_as = character_faith }
+			spawn_army = {
+				levies = 7500
+				location = 	THIS.capital_province
+				inheritable = no
+				uses_supply = no
+				name = "Clone Troopers"
+			}
+			every_sub_realm_county = {
+				set_county_culture = county_controller.culture
+				set_county_faith = county_controller.faith
+				title_province = {
+					add_building_slot = 3
+					add_building = castle_04
+					add_building = military_camps_08
+					add_building = outposts_08
+					add_building = hill_forts_08
+					add_building = barracks_08
+					if = {
+						limit = {
+							building_common_tradeport_requirement_terrain = yes
+						}
+						add_building_slot = 1
+						add_building = common_tradeport_08
+					}
+				}
+			}
+		}
+	}
+}
