@@ -22,6 +22,7 @@
 	trait = drunkard
 	trait = depressed_1
 	trait = dick_big_good_1
+	trait = cat_preference
 	1042.6.26 = {
 		birth = yes
 		effect = {
@@ -340,6 +341,7 @@
 	trait = scholar
 	trait = beauty_good_3
 	trait = tits_big_good_1
+	trait = cat_preference
 	1047.5.15 = { # No idea
 		birth = yes
 		effect = {
@@ -742,6 +744,7 @@
 	trait = shrewd
 	trait = cat_preference
 	trait = dick_big_good_3
+	trait = cat_preference
 	1040.8.22 = {
 		birth = yes
 		effect = {
@@ -879,6 +882,7 @@
 	trait = beauty_good_3
 	trait = cat_preference
 	trait = tits_small_good_1
+	trait = cat_preference
 	1048.5.15 = { # Originally 1038.5.15
 		birth = yes
 		effect = {
@@ -960,6 +964,7 @@
 	trait = one_eyed
 	trait = dog_preference
 	trait = dick_big_good_1
+	trait = dog_preference
 	1048.7.1 = {
 		birth = yes
 		effect = {
@@ -1048,6 +1053,7 @@
 	trait = scholar
 	trait = cat_preference
 	trait = dick_big_good_1
+	trait = cat_preference
 	1047.9.3 = {
 		birth = yes
 		effect = {
@@ -1278,6 +1284,7 @@
 	trait = military_engineer
 	trait = dog_preference
 	trait = dick_big_good_1
+	trait = dog_preference
 	1042.6.26 = {
 		birth = yes
 		effect = {
@@ -1354,6 +1361,7 @@
 	trait = physique_good_3
 	trait = dog_preference
 	trait = dick_big_good_1
+	trait = dog_preference
 	1043.11.3 = {
 		birth = yes
 		effect = {
@@ -1453,6 +1461,7 @@
 	trait = beauty_good_3
 	trait = cat_preference
 	trait = tits_big_good_1
+	trait = cat_preference
 	1040.2.11 = {
 		birth = yes
 		effect = {
@@ -1551,6 +1560,7 @@
 	trait = beauty_good_2
 	trait = bird_preference
 	trait = tits_big_good_3
+	trait = bird_preference
 	1035.2.1 = {
 		birth = yes
 		effect = {
@@ -1643,6 +1653,7 @@
 	trait = sodomite
 	trait = cat_preference
 	trait = dick_small_bad_1
+	trait = cat_preference
 	1046.6.26 = { # 1042 = 1992 -> 1048 = 1998 
 		birth = yes
 		effect = {
@@ -1721,6 +1732,7 @@
 	trait = beauty_good_3
 	trait = cat_preference
 	trait = tits_big_good_2
+	trait = cat_preference
 	1045.6.11 = { # 1042 = 1992 -> 1045 = Jun 11, 1995
 		birth = yes
 		effect = {
@@ -1776,6 +1788,7 @@
 	trait = physique_good_2
 	trait = dog_preference
 	trait = dick_big_good_1
+	trait = dog_preference
 	1048.4.19 = {
 		birth = yes
 		effect = {
@@ -1866,6 +1879,7 @@
 	trait = beauty_good_2
 	trait = scholar
 	trait = tits_small_good_1
+	trait = cat_preference
 	# trait = dwarf
 	1037.5.16 = { # 1987-05-16
 		birth = yes
@@ -2021,6 +2035,7 @@
 	trait = hunter_3
 	trait = scholar
 	trait = dick_big_good_1
+	trait = bird_preference
 	1046.1.30 = {
 		birth = yes
 		effect = {
@@ -2191,6 +2206,7 @@
 	trait = hunter_3
 	trait = scholar
 	trait = dick_big_good_3
+	trait = cat_preference
 	1040.1.30 = {
 		birth = yes
 		effect = {
@@ -2685,6 +2701,7 @@
 	trait = beauty_good_2
 	trait = tits_big_good_3
 	trait = dick_big_good_3
+	trait = bird_preference
 	dna = dna_dornfelds_wife
 	portrait_override = {
 		portrait_modifier_overrides={
