@@ -1,0 +1,39 @@
+﻿duke_feudal_male_hungarian = {
+	type = character
+	
+	text = {
+		trigger = {
+			any_spouse = {
+				OR = {
+					has_trait = futa
+					has_trait = futa_genetic
+				}
+			}
+		}
+		localization_key = count_feudal_male_breton
+	}
+	text = {
+		fallback = yes
+		localization_key = duke_feudal_male_hungarian
+	}
+}
+duchy_feudal_hungarian = {
+	type = character
+	text = {
+		trigger = {
+			holder = {
+				any_spouse = {
+					OR = {
+						has_trait = futa
+						has_trait = futa_genetic
+					}
+				}
+			}
+		}
+		localization_key = dugaatus
+	}
+	text = {
+		fallback = yes
+		localization_key = duchy_feudal_hungarian
+	}
+}

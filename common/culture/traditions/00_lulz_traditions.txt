@@ -21,6 +21,7 @@ tradition_weeaboo = {
 	
 	parameters = {
 		weeaboo_traditions = yes
+		unlock_maa_samurai = yes
 	}
 	
 	cost = {

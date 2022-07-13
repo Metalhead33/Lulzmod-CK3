@@ -1515,6 +1515,7 @@
 			doctrine = muslim_syncretism_doctrine
 			doctrine = doctrine_pluralism_pluralistic	
 			#Crimes	
+			doctrine = doctrine_witchcraft_crime
 			doctrine = doctrine_homosexuality_crime
 			doctrine = doctrine_adultery_men_crime
 			doctrine = doctrine_adultery_women_crime
@@ -1528,6 +1529,7 @@
 			doctrine = doctrine_clerical_function_recruitment
 			doctrine = carn_doctrine_other_slavery_accepted
 			doctrine = carn_doctrine_same_slavery_shunned
+			doctrine = carn_doctrine_prostitution_crime
 			doctrine = sacred_lang_korean
 				
 			#Tenets	
