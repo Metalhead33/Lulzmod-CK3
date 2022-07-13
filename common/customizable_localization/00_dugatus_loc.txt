@@ -35,7 +35,7 @@ duke_feudal_female_hungarian = {
 	}
 }
 duchy_feudal_hungarian = {
-	type = character
+	type = title
 	text = {
 		trigger = {
 			holder = {
