@@ -18,7 +18,6 @@
 	trait = intellect_good_3
 	trait = scholar
 	trait = fornicator
-	trait = deviant
 	trait = drunkard
 	trait = depressed_1
 	trait = dick_big_good_1
@@ -311,6 +310,12 @@
 			target = character:92040
 			modifier = friendliness_opinion
 			opinion = 200
+		}
+		effect = { set_relation_rival = character:92063 }
+		add_opinion = {
+			target = character:92063
+			modifier = hate_opinion
+			opinion = -200
 		}
 	}
 	1083.1.1 = {
@@ -616,6 +621,12 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+		effect = { set_relation_rival = character:92063 }
+		add_opinion = {
+			target = character:92063
+			modifier = hate_opinion
+			opinion = -200
+		}
 	}
 	1083.1.1 = {
 		death = yes
@@ -815,6 +826,12 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+		effect = { set_relation_friend = character:92063 }
+		add_opinion = {
+			target = character:92063
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		effect = { set_relation_friend = character:92060 }
 		add_opinion = {
 			target = character:92060
@@ -837,11 +854,6 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		# add_opinion = {
-		# 	target = character:92042
-		# 	modifier = friendliness_opinion
-		# 	opinion = 200
-		# }
 		add_opinion = {
 			target = character:92050
 			modifier = friendliness_opinion
@@ -1029,6 +1041,12 @@
 			target = character:92049
 			modifier = friendliness_opinion
 			opinion = 200
+		}
+		effect = { set_relation_rival = character:92063 }
+		add_opinion = {
+			target = character:92063
+			modifier = hate_opinion
+			opinion = -200
 		}
 	}
 	1083.1.1 = {
@@ -1262,34 +1280,33 @@
 	}
 }
 
-
 92052 = {
-	name = "ch_DSonck"
-	dynasty = 191919132
-	religion = "calvinist"
+	name = "Harley"
+	dynasty = 191919157
+	religion = "shinto"
 	culture = "dutch"
-	dna = dna_dsonck
+	dna = dna_morrowind3
 	martial = 15
+	prowess = 20
 	portrait_override = {
 		portrait_modifier_overrides={
-			custom_hair=male_hair_northern_01
+			custom_hair=male_hair_western_09
 			custom_beards=male_beard_western_03
 		}
 	}
 	sexuality = heterosexual
-	trait = education_stewardship_4
-	trait = honest
-	trait = diligent
-	trait = cynical
+	trait = education_martial_4
+	trait = shy
+	trait = humble
+	trait = paranoid
 	trait = intellect_good_3
+	trait = physique_good_1
 	trait = scholar
 	trait = architect
-	trait = administrator
 	trait = military_engineer
 	trait = dog_preference
 	trait = dick_big_good_1
-	trait = dog_preference
-	1042.6.26 = {
+	1048.6.26 = {
 		birth = yes
 		effect = {
 			add_character_flag = has_scripted_appearance
@@ -1335,7 +1352,22 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+		effect = { set_relation_friend = character:92053 }
+		add_opinion = {
+			target = character:92053
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		employer = 92046 # Zsolt
+		effect = { set_relation_friend = character:92012 }
+		effect = { set_relation_lover = character:92012 }
+		effect = { set_relation_soulmate = character:92012 }
+		add_spouse = 92012
+		add_opinion = {
+			target = character:92012
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 	}
 	1083.1.1 = {
 		death = yes
@@ -1431,6 +1463,12 @@
 		effect = { set_relation_friend = character:92044 }
 		add_opinion = {
 			target = character:92044
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:92052 }
+		add_opinion = {
+			target = character:92052
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -1830,6 +1868,12 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+		effect = { set_relation_rival = character:92063 }
+		add_opinion = {
+			target = character:92063
+			modifier = hate_opinion
+			opinion = -200
+		}
 	}
 	1066.1.1={
 		effect = {
@@ -2106,6 +2150,18 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+		effect = { set_relation_rival = character:92063 }
+		add_opinion = {
+			target = character:92063
+			modifier = hate_opinion
+			opinion = -200
+		}
+		effect = { set_relation_rival = character:92046 }
+		add_opinion = {
+			target = character:92046
+			modifier = hate_opinion
+			opinion = -200
+		}
 	}
 	1083.1.1 = {
 		death = yes
@@ -2126,12 +2182,12 @@
 	}
 	sexuality = heterosexual
 	trait = education_martial_4
+	trait = fornicator
+	trait = deviant
 	trait = honest
 	trait = stubborn
 	trait = just
-	trait = intellect_good_1
-	trait = blademaster_3
-	trait = hunter_3
+	trait = intellect_bad_2
 	trait = adventurer
 	trait = dick_small_bad_3
 	1046.1.30 = {
@@ -2159,7 +2215,18 @@
 			modifier = hate_opinion
 			opinion = -200
 		}
-		employer = 92040
+		effect = { set_relation_rival = character:92062 }
+		add_opinion = {
+			target = character:92062
+			modifier = hate_opinion
+			opinion = -200
+		}
+		effect = { set_relation_rival = character:92041 }
+		add_opinion = {
+			target = character:92041
+			modifier = hate_opinion
+			opinion = -200
+		}
 	}
 	1083.1.1 = {
 		death = yes
@@ -2729,6 +2796,10 @@
 	dynasty = 191919155
 	religion = "lutheran"
 	culture = "finnish"
+	trait = education_intrigue_4
+	trait = chaste
+	trait = shy
+	trait = paranoid
 	trait = beauty_good_1
 	trait = tits_big_good_1
 	trait = cat_preference
@@ -2764,6 +2835,7 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+		employer = 92062
 	}
 	1083.1.1 = {
 		death = yes
@@ -2784,7 +2856,7 @@
 		}
 	}
 	sexuality = heterosexual
-	trait = education_intrigue_4
+	trait = education_stewardship_4
 	trait = callous
 	trait = calm
 	trait = cynical
@@ -2849,7 +2921,61 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		employer = 92040
+		effect = { set_relation_rival = character:92063 }
+		add_opinion = {
+			target = character:92063
+			modifier = hate_opinion
+			opinion = -200
+		}
+		employer = 92062
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+
+92012 = {
+	name = "Mio"
+	female = yes
+	dynasty = 191919157
+	religion = "japanese"
+	culture = "shinto"
+	trait = education_stewardship_4
+	trait = chaste
+	trait = shy
+	trait = stubborn
+	trait = beauty_good_3
+	trait = intellect_good_3
+	trait = tits_big_good_3
+	trait = cat_preference
+	dna = dna_morrowind3s_wife
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=female_hair_western_05
+			custom_beards=female_empty
+		}
+	}
+	sexuality = heterosexual
+	1049.5.15 = { # No idea
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -5
+		}
+	}
+	1066.1.1={
+		effect = {
+			learn_language = language_anglic
+		}
+		effect = { set_relation_friend = character:92052 }
+		effect = { set_relation_lover = character:92052 }
+		effect = { set_relation_soulmate = character:92052 }
+		add_spouse = 92052
+		add_opinion = {
+			target = character:92052
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 	}
 	1083.1.1 = {
 		death = yes

@@ -146,4 +146,8 @@
 	name = "dynn_Lukovsky"
 	culture = "russian"
 }
+191919157 = {
+	name = "dynn_Akiyama"
+	culture = "japanese"
+}
 
