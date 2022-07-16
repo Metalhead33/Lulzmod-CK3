@@ -6,6 +6,40 @@
 
 lulz_start = {
 	effect = {
+		create_character = {
+			gender = female
+			trait = fecund
+			trait = beauty_bad_2
+			random_traits = yes
+			culture = culture:gypsy_indian
+			faith = faith:catholic
+			dynasty = inherit
+			age = 16
+			save_scope_as = new_courtier_a
+		}
+		scope:new_courtier_a = {
+			marry = character:92063
+			set_relation_friend = character:92063
+			set_relation_lover = character:92063
+			set_relation_soulmate = character:92063
+		}
+		create_character = {
+			gender = female
+			trait = fecund
+			trait = beauty_good_3
+			random_traits = yes
+			culture = culture:russian
+			faith = faith:catholic
+			dynasty = none
+			age = 16
+			save_scope_as = new_courtier_b
+		}
+		scope:new_courtier_b = {
+			marry = character:92041
+			set_relation_friend = character:92041
+			set_relation_lover = character:92041
+			set_relation_soulmate = character:92041
+		}
 		every_ruler = {
 			limit = {
 				has_character_modifier = zsolts_court

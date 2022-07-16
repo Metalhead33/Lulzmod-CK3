@@ -61,8 +61,6 @@
 			create_alliance =  character:92046
 			allow_alliance = character:92041
 			create_alliance = character:92041
-			allow_alliance = character:92063
-			create_alliance =  character:92063
 			allow_alliance = character:92062
 			create_alliance = character:92062
 			allow_alliance = character:92044
@@ -113,11 +111,11 @@
 			add_pressed_claim = title:c_branicevo
 			add_pressed_claim = title:d_rashka
 		}
-		effect = { set_relation_friend = character:92063 }
+		effect = { set_relation_rival = character:92063 }
 		add_opinion = {
 			target = character:92063
-			modifier = friendliness_opinion
-			opinion = 200
+			modifier = hate_opinion
+			opinion = -200
 		}
 		effect = { set_relation_friend = character:92041 }
 		add_opinion = {
@@ -425,6 +423,12 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+		effect = { set_relation_friend = character:92010 }
+		add_opinion = {
+			target = character:92010
+			modifier = friendliness_opinion
+			opinion = 200
+		}
 		employer = 92040 # Zsolt
 	}
 	1083.1.1 = {
@@ -576,11 +580,11 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		effect = { set_relation_friend = character:92063 }
+		effect = { set_relation_rival = character:92063 }
 		add_opinion = {
 			target = character:92063
-			modifier = friendliness_opinion
-			opinion = 200
+			modifier = hate_opinion
+			opinion = -200
 		}
 		# effect = { set_relation_friend = character:92059 }
 		# add_opinion = {
@@ -594,7 +598,7 @@
 		# 	modifier = friendliness_opinion
 		# 	opinion = 200
 		# }
-		# effect = { set_relation_friend = character:92063 }
+		# effect = { set_relation_rival = character:92063 }
 		# add_opinion = {
 		# 	target = character:92063
 		# 	modifier = friendliness_opinion
@@ -2138,44 +2142,22 @@
 		}
 	}
 	1066.1.1={
-		effect = { set_relation_friend = character:92040 }
+		effect = { set_relation_rival = character:92040 }
 		effect = {
-			add_character_modifier = { modifier = zsolts_court }
-			add_perk = thoughtful_perk
-			add_perk = pedagogy_perk 
-			add_perk = open_minded_perk 
-			add_perk = scientific_perk 
-			add_perk = planned_cultivation_perk 
-			add_perk = scholarly_circles_perk 
-			add_perk = learn_on_the_job_perk 
-			add_perk = sanctioned_loopholes_perk 
-			add_perk = scholar_perk 
-			add_perk = anatomical_studies_perk
-			add_perk = wash_your_hands_perk
-			add_perk = truth_is_relative_perk
-			add_perk = golden_obligations_perk
-			add_perk = meritocracy_perk
-			add_perk = ducal_conquest_perk
-			add_perk = forced_vassalage_perk
-			add_perk = defensive_negotiations_perk
-			add_perk = adaptive_traditions_perk
-			add_perk = embassies_perk
-			add_perk = flexible_truces_perk
-			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 			learn_language = language_chinese
 			add_pressed_claim = title:d_transylvania
 		}
 		add_opinion = {
 			target = character:92040
-			modifier = friendliness_opinion
-			opinion = 200
+			modifier = hate_opinion
+			opinion = -200
 		}
-		effect = { set_relation_friend = character:92045 }
+		effect = { set_relation_rival = character:92045 }
 		add_opinion = {
 			target = character:92045
-			modifier = friendliness_opinion
-			opinion = 200
+			modifier = hate_opinion
+			opinion = -200
 		}
 		employer = 92040
 	}
@@ -2432,7 +2414,7 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		# effect = { set_relation_friend = character:92063 }
+		# effect = { set_relation_rival = character:92063 }
 		# add_opinion = {
 		# 	target = character:92063
 		# 	modifier = friendliness_opinion
@@ -2735,6 +2717,139 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+
+92010 = {
+	name = "Kerttu"
+	female = yes
+	dynasty = 191919155
+	religion = "lutheran"
+	culture = "finnish"
+	trait = beauty_good_1
+	trait = tits_big_good_1
+	trait = cat_preference
+	dna = dna_palakuikko
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=female_hair_western_05
+			custom_beards=female_empty
+		}
+	}
+	sexuality = heterosexual
+	1049.5.15 = { # No idea
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -5
+		}
+	}
+	1066.1.1={
+		effect = {
+			add_pressed_claim = title:k_finland
+			learn_language = language_anglic
+		}
+		effect = { set_relation_friend = character:92040 }
+		add_opinion = {
+			target = character:92040
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:92042 }
+		add_opinion = {
+			target = character:92042
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+
+
+92011 = {
+	name = "Erik"
+	dynasty = 191919156
+	religion = "rabbinism"
+	culture = "ashkenazi"
+	dna = dna_erik_lukovsky
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=male_hair_mena_02
+			custom_beards=male_beard_western_03
+		}
+	}
+	sexuality = heterosexual
+	trait = education_intrigue_4
+	trait = callous
+	trait = calm
+	trait = cynical
+	trait = intellect_good_3
+	trait = beauty_good_3
+	trait = scholar
+	trait = whole_of_body
+	trait = dick_big_good_1
+	1046.1.30 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -10
+		}
+	}
+	1066.1.1={
+		effect = {
+			add_character_modifier = { modifier = zsolts_court }
+			add_perk = thoughtful_perk
+			add_perk = pedagogy_perk 
+			add_perk = open_minded_perk 
+			add_perk = scientific_perk 
+			add_perk = planned_cultivation_perk 
+			add_perk = scholarly_circles_perk 
+			add_perk = learn_on_the_job_perk 
+			add_perk = sanctioned_loopholes_perk 
+			add_perk = scholar_perk 
+			add_perk = anatomical_studies_perk
+			add_perk = wash_your_hands_perk
+			add_perk = truth_is_relative_perk
+			add_perk = golden_obligations_perk
+			add_perk = meritocracy_perk
+			add_perk = ducal_conquest_perk
+			add_perk = forced_vassalage_perk
+			add_perk = defensive_negotiations_perk
+			add_perk = adaptive_traditions_perk
+			add_perk = embassies_perk
+			add_perk = flexible_truces_perk
+			add_perk = accomplished_forger_perk
+			add_perk = digging_for_dirt_perk
+			add_perk = kidnapper_perk
+			add_perk = digging_for_dirt_perk
+			add_perk = court_of_shadows_perk
+			add_perk = prepared_for_anything_perk
+			add_perk = swift_execution_perk
+			add_perk = a_job_done_right_perk
+			add_perk = twice_schemed_perk
+			add_perk = dark_insights_perk
+			add_perk = divine_retribution_perk
+			add_perk = dreadful_perk
+			add_perk = thriving_in_chaos_perk
+			add_perk = malice_implicit_perk
+			add_perk = fear_tax_perk
+			add_perk = forever_infamous_perk
+			add_perk = prison_feudal_complex_perk
+			learn_language = language_anglic
+			learn_language = language_iberian
+		}
+		effect = { set_relation_friend = character:92040 }
+		add_opinion = {
+			target = character:92040
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		employer = 92040
 	}
 	1083.1.1 = {
 		death = yes

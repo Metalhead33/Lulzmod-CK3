@@ -136,5 +136,14 @@
 }
 191919154 = {
 	name = "dynn_Kepes"
-	culture = "swabian"
+	culture = "hungarian"
 }
+191919155 = {
+	name = "dynn_Palakuikko"
+	culture = "finnish"
+}
+191919156 = {
+	name = "dynn_Lukovsky"
+	culture = "russian"
+}
+
