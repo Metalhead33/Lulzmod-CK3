@@ -2938,8 +2938,8 @@
 	name = "Mio"
 	female = yes
 	dynasty = 191919157
-	religion = "japanese"
-	culture = "shinto"
+	religion = "shinto"
+	culture = "japanese"
 	trait = education_stewardship_4
 	trait = chaste
 	trait = shy
