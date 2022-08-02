@@ -1876,6 +1876,7 @@
 		}
 	}
 	1066.1.1={
+		add_spouse = 92013
 		effect = {
 			add_character_modifier = { modifier = zsolts_court }
 			add_perk = thoughtful_perk
@@ -2973,6 +2974,56 @@
 		add_spouse = 92052
 		add_opinion = {
 			target = character:92052
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+
+
+92013 = {
+	name = "Natalia"
+	female = yes
+	dynasty = 0
+	religion = "orthodox"
+	culture = "russian"
+	trait = education_stewardship_4
+	trait = chaste
+	trait = shy
+	trait = stubborn
+	trait = beauty_good_3
+	trait = intellect_good_1
+	trait = tits_big_good_1
+	trait = cat_preference
+	dna = dna_mocha
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_hair=female_hair_western_02
+			custom_beards=female_empty
+		}
+	}
+	sexuality = heterosexual
+	1049.5.15 = { # No idea
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -5
+		}
+	}
+	1066.1.1={
+		effect = {
+			learn_language = language_anglic
+			learn_language = language_japanese
+		}
+		effect = { set_relation_friend = character:92059 }
+		effect = { set_relation_lover = character:92059 }
+		effect = { set_relation_soulmate = character:92059 }
+		add_spouse = 92059
+		add_opinion = {
+			target = character:92059
 			modifier = friendliness_opinion
 			opinion = 200
 		}
