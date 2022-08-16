@@ -3032,3 +3032,23 @@
 		death = yes
 	}
 }
+
+
+92014 = {
+	name = "char_LindaHermosa"
+	female = yes
+	dynasty = 191919153
+	religion = "catholic"
+	culture = "hungarian"
+	father = 92062 # Laszlo Dornfeld
+	mother = 92069 # Phoutokrata the Solomonid
+	1066.2.13={
+		birth = yes
+		effect = {
+			learn_language = language_iberian # Thpanish
+		}
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
