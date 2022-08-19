@@ -3052,3 +3052,120 @@
 		death = yes
 	}
 }
+
+
+92015 = {
+	name = "char_Zagloba"
+	dynasty = 191919158
+	religion = "catholic"
+	culture = "polish"
+	dna = dna_zagloba
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_beards=male_beard_indian_01
+			custom_hair=male_hair_western_09
+		}
+	}
+	martial = 20
+	prowess = 20
+	sexuality = heterosexual
+	trait = education_stewardship_4
+	trait = lazy
+	trait = arrogant
+	trait = stubborn
+	trait = intellect_good_3
+	trait = drunkard
+	trait = dick_big_good_3
+	1026.2.13={
+		birth = yes
+		effect = {
+			learn_language = language_ugric
+			learn_language = language_latin
+			add_character_flag = has_scripted_appearance
+			change_current_weight = 85
+		}
+	}
+	1066.1.1={
+		effect = {
+			add_pressed_claim = title:k_poland
+			add_pressed_claim = title:d_mazovia
+			add_pressed_claim = title:c_plocka
+			add_pressed_claim = title:b_koscian
+			add_pressed_claim = title:c_wschowska
+			add_pressed_claim = title:d_wielkopolska
+			add_pressed_claim = title:b_berent
+			add_pressed_claim = title:c_berent
+			add_pressed_claim = title:d_pomerelia
+		}
+		effect = { set_relation_friend = character:92062 }
+		add_opinion = {
+			target = character:92062
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		employer = 92062
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+
+
+92016 = {
+	name = "char_Bohun"
+	dynasty = 191919159
+	religion = "orthodox"
+	culture = "russian"
+	dna = dna_bohun
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_beards=male_beard_sub_saharan_02
+			custom_hair=male_hair_western_06
+		}
+	}
+	martial = 20
+	prowess = 20
+	sexuality = heterosexual
+	trait = education_martial_4
+	trait = ambitious
+	trait = brave
+	trait = diligent
+	trait = intellect_good_3
+	trait = blademaster_3
+	trait = avaricious
+	trait = hunter_3
+	trait = physique_good_3
+	trait = beauty_good_2
+	trait = whole_of_body
+	trait = dick_big_good_1
+	1043.7.10={
+		birth = yes
+		effect = {
+			learn_language = language_ugric
+			add_character_flag = has_scripted_appearance
+			change_current_weight = -5
+		}
+	}
+	1066.1.1={
+		effect = {
+			add_pressed_claim = title:k_ruthenia
+			add_pressed_claim = title:d_kiev
+			add_pressed_claim = title:c_kiev
+			add_pressed_claim = title:k_pontic_steppe
+			add_pressed_claim = title:d_levedia
+			add_pressed_claim = title:c_khortytsia
+			add_pressed_claim = title:d_yedisan
+			add_pressed_claim = title:c_kherson
+		}
+		effect = { set_relation_friend = character:92062 }
+		add_opinion = {
+			target = character:92062
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		employer = 92062
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}

@@ -15,9 +15,9 @@ lulz_start = {
 			faith = faith:catholic
 			dynasty = inherit
 			age = 16
-			save_scope_as = new_courtier_a
+			save_scope_as = new_courtier_00
 		}
-		scope:new_courtier_a = {
+		scope:new_courtier_00 = {
 			marry = character:92063
 			set_relation_friend = character:92063
 			set_relation_lover = character:92063
@@ -32,13 +32,38 @@ lulz_start = {
 			faith = faith:catholic
 			dynasty = none
 			age = 16
-			save_scope_as = new_courtier_b
+			save_scope_as = new_courtier_01
 		}
-		scope:new_courtier_b = {
+		scope:new_courtier_01 = {
 			marry = character:92041
 			set_relation_friend = character:92041
 			set_relation_lover = character:92041
 			set_relation_soulmate = character:92041
+		}
+		character:92064 = { add_to_list = generate_waifu_for }
+		character:92044 = { add_to_list = generate_waifu_for }
+		character:92048 = { add_to_list = generate_waifu_for }
+		character:92065 = { add_to_list = generate_waifu_for }
+		every_in_list = {
+			list = generate_waifu_for
+			save_scope_as = current_character
+			create_character = {
+				gender = female
+				trait = fecund
+				trait = beauty_good_3
+				random_traits = yes
+				culture = scope:current_character.culture
+				faith = scope:current_character.faith
+				dynasty = none
+				age = 16
+				save_scope_as = new_courtier
+			}
+			scope:new_courtier = {
+				marry = scope:current_character
+				set_relation_friend = scope:current_character
+				set_relation_lover = scope:current_character
+				set_relation_soulmate = scope:current_character
+			}
 		}
 		every_ruler = {
 			limit = {
@@ -81,6 +106,13 @@ lulz_start = {
 		every_in_list = {
 			list = lulz_characters
 			save_scope_as = current_character
+			every_spouse = {
+				make_pregnant_no_checks = {
+					father = scope:current_character
+					number_of_children = 10
+					known_bastard = no
+				}
+			}
 			every_in_list = {
 				list = lulz_characters
 				limit = {

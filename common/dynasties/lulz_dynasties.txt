@@ -150,4 +150,11 @@
 	name = "dynn_Akiyama"
 	culture = "japanese"
 }
-
+191919158 = {
+	name = "dynn_Zagloba"
+	culture = "polish"
+}
+191919159 = {
+	name = "dynn_Bohun"
+	culture = "russian"
+}
