@@ -3074,6 +3074,9 @@
 	trait = arrogant
 	trait = stubborn
 	trait = intellect_good_3
+	trait = blademaster_3
+	trait = physique_good_3
+	trait = whole_of_body
 	trait = drunkard
 	trait = dick_big_good_3
 	1026.2.13={
