@@ -2,10 +2,6 @@
 	name = "dynn_Toth"
 	culture = "hungarian"
 }
-191919159 = {
-	name = "dynn_Heim"
-	culture = "swabian"
-}
 191919120 = {
 	name = "dynn_Waagner"
 	culture = "swabian"
@@ -157,4 +153,8 @@
 191919159 = {
 	name = "dynn_Bohun"
 	culture = "russian"
+}
+191919160 = {
+	name = "dynn_Heim"
+	culture = "swabian"
 }
