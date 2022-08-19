@@ -2090,6 +2090,21 @@
 		effect = {
 			add_character_flag = has_scripted_appearance
 			change_current_weight = 65
+			add_pressed_claim = title:k_galicia-volhynia
+			add_pressed_claim = title:d_volhynia
+			add_pressed_claim = title:c_volodymyr
+			add_pressed_claim = title:c_peresopnytsia
+			add_pressed_claim = title:c_berestye
+			add_pressed_claim = title:c_dorohychyn
+			add_pressed_claim = title:d_halych
+			add_pressed_claim = title:c_halych
+			add_pressed_claim = title:c_lviv
+			add_pressed_claim = title:c_terebovl
+			add_pressed_claim = title:c_zaslavl
+			add_pressed_claim = title:d_cherven_cities
+			add_pressed_claim = title:c_cherven
+			add_pressed_claim = title:c_belz
+			add_pressed_claim = title:c_peremyshl
 		}
 	}
 	1066.1.1={
