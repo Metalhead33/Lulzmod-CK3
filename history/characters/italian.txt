@@ -73,7 +73,7 @@
 	portrait_override = {
 		portrait_modifier_overrides={
 			custom_beards=female_empty
-			custom_hair=female_hair_western_05
+			custom_hair=female_hair_fp1_02
 		}
 	}
 	female = yes

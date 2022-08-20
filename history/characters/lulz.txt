@@ -3128,7 +3128,6 @@
 	}
 }
 
-
 92016 = {
 	name = "char_Bohun"
 	dynasty = 191919159
@@ -3185,5 +3184,63 @@
 	}
 	1083.1.1 = {
 		death = yes
+	}
+}
+
+92017 = {
+	name = "Vid"
+	dynasty = 19052
+	dna = dna_vid_ispan
+	portrait_override = {
+		portrait_modifier_overrides={
+			custom_beards=male_beard_mena_04
+			custom_hair=male_hair_northern_02
+		}
+	}
+	martial = 10
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 7
+	prowess = 12
+	religion = "catholic"
+	culture = "hungarian"
+	trait = wrathful
+	trait = deceitful
+	trait = ambitious
+	trait = education_intrigue_4
+	trait = physique_good_3
+	father = 20363
+	mother = 491
+	1010.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:476 }
+		add_opinion = {
+			target = character:476
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		employer = 476
+		effect = { set_relation_rival = character:472 }
+		add_opinion = {
+			target = character:472
+			modifier = hate_opinion
+			opinion = -200
+		}
+		effect = { set_relation_rival = character:474 }
+		add_opinion = {
+			target = character:474
+			modifier = hate_opinion
+			opinion = -200
+		}
+	}
+	1074.3.14 = {
+		death = {
+			death_reason = death_battle
+		}
 	}
 }
