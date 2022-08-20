@@ -3211,7 +3211,7 @@
 	trait = physique_good_3
 	father = 20363
 	mother = 491
-	1010.1.1 = {
+	1037.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = has_scripted_appearance
