@@ -123,7 +123,7 @@
 		 	opinion = 200
 		}
 		# Nika
-		add_spouse = 92040
+		add_spouse = 92042
 		effect = { set_relation_friend = character:92042 }
 		effect = { set_relation_lover = character:92042 }
 		effect = { set_relation_soulmate = character:92042 }
@@ -3224,7 +3224,6 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		employer = 476
 		effect = { set_relation_rival = character:472 }
 		add_opinion = {
 			target = character:472
