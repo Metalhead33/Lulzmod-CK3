@@ -1626,8 +1626,12 @@ c_njudung = {
 	}
 	1066.1.1 = {
 		liege = "k_sweden"
+
 	}
 	1066.1.1 = {
+		holder = 92048 # Toke Värending
+	}
+	1076.1.1 = {
 		holder = 20020 # Toke Värending
 	}
 	

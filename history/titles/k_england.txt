@@ -1461,7 +1461,7 @@ c_lincolnshire = {
 		liege = "d_york"
 	}
 	1066.1.1 = {
-		holder = 5660 #Morcar
+		holder = 92064 #Morcar
 	}
 	1066.10.14 = {
 		holder = 140 #William the Conqueror

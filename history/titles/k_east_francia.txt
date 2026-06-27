@@ -1688,6 +1688,9 @@ c_ansbach = {
 		liege = "d_swabia"
 	}
 	1066.1.1 = {
+		holder = 92046
+	}
+	1076.1.1 = {
 		holder = 20237
 	}
 	1171.1.1 = {
@@ -1867,6 +1870,9 @@ c_hohenlohe = {
 		liege = "d_swabia"
 	}
 	1066.1.1 = {
+		holder = 92046
+	}
+	1076.1.1 = {
 		holder = 20237
 	}
 	1178.1.1 = {
@@ -3388,6 +3394,9 @@ d_swabia = {
 	}
 	1057.1.1 = {
 		holder = 1388
+	}
+	1066.1.1 = {
+		holder = 92046
 	}
 	1079.1.1 = {
 		holder = 7054 #Friedrich I von Hohenstaufen

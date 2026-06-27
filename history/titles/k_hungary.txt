@@ -2311,7 +2311,7 @@ c_borsod = {
 		holder = 273065
 	}
 	1066.1.1 = {
-		holder = 4431
+		holder = 92062
 	}
 	1100.1.1 = {
 		holder = 480
@@ -4154,7 +4154,7 @@ c_csanad = {
 		liege = "k_hungary"
 	}
 	1066.1.1 = {
-		holder = 20364
+		holder = 92040
 	}
 	1083.1.1 = {
 		holder = 4386
@@ -4401,7 +4401,7 @@ c_csongrad = {
 		liege = "k_hungary"
 	}
 	1066.1.1 = {
-		holder = 20364
+		holder = 92040
 	}
 	1083.1.1 = {
 		holder = 4386

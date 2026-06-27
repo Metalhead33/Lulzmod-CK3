@@ -690,8 +690,12 @@ c_blekinge = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1066.1.1 = {
+		liege = "k_sweden"
+		holder = 92044 # Svend Estridsen
+	}
+	1074.4.28 = {
 		liege = "k_denmark"
-		holder = 101515 # Svend Estridsen
+		holder = 101517
 	}
 	1104.1.1 = {
 		liege = "d_skane"
