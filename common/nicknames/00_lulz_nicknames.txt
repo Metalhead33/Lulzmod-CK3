@@ -1,0 +1,6 @@
+﻿#############################################
+# CHARACTER NICKNAMES
+#############################################
+
+# Exclusively Historical Nicknames
+nick_punished = { is_bad = yes }

@@ -119,8 +119,8 @@
 	culture = "english"
 }
 191919150 = {
-	name = "dynn_Nika"
-	culture = "turkish"
+	name = "dynn_Amamiya"
+	culture = "japanese"
 }
 191919151 = {
 	name = "LukA_cs"
@@ -136,5 +136,9 @@
 }
 191919154 = {
 	name = "dynn_Kepes"
-	culture = "swabian"
+	culture = "hungarian"
+}
+191919155 = {
+	name = "dynn_Nyerges"
+	culture = "hungarian"
 }

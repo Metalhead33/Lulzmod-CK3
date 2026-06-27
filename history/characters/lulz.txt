@@ -1,7 +1,7 @@
 ﻿92040 = {
 	name = "Zsolt"
 	dynasty = 191919129
-	religion = "lutheran"
+	religion = "catholic"
 	culture = "hungarian"
 	dna = dna_zsolt_toth
 	portrait_override = {
@@ -11,7 +11,7 @@
 		}
 	}
 	sexuality = heterosexual
-	trait = education_stewardship_4
+	trait = education_stewardship_5
 	trait = lazy
 	trait = arrogant
 	trait = stubborn
@@ -56,13 +56,11 @@
 			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 			learn_language = language_high_german
-			learn_language = language_japanese
+			learn_language = language_japonic
 			allow_alliance = character:92046
 			create_alliance =  character:92046
 			allow_alliance = character:92041
 			create_alliance = character:92041
-			allow_alliance = character:92063
-			create_alliance =  character:92063
 			allow_alliance = character:92062
 			create_alliance = character:92062
 			allow_alliance = character:92044
@@ -113,12 +111,6 @@
 			add_pressed_claim = title:c_branicevo
 			add_pressed_claim = title:d_rashka
 		}
-		effect = { set_relation_friend = character:92063 }
-		add_opinion = {
-			target = character:92063
-			modifier = friendliness_opinion
-			opinion = 200
-		}
 		effect = { set_relation_friend = character:92041 }
 		add_opinion = {
 			target = character:92041
@@ -126,18 +118,12 @@
 		 	opinion = 200
 		}
 		# Nika
-		add_spouse = 92040
+		add_spouse = 92042
 		effect = { set_relation_friend = character:92042 }
 		effect = { set_relation_lover = character:92042 }
 		effect = { set_relation_soulmate = character:92042 }
 		add_opinion = {
 			target = character:92042
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92043 }
-		add_opinion = {
-			target = character:92043
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -156,12 +142,6 @@
 		effect = { set_relation_friend = character:92046 }
 		add_opinion = {
 			target = character:92046
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92067 }
-		add_opinion = {
-			target = character:92067
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -201,12 +181,6 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		effect = { set_relation_friend = character:92056 }
-		add_opinion = {
-			target = character:92056
-			modifier = friendliness_opinion
-			opinion = 200
-		}
 		add_opinion = {
 			target = character:92057
 			modifier = friendliness_opinion
@@ -221,12 +195,6 @@
 		effect = { set_relation_friend = character:92060 }
 		add_opinion = {
 			target = character:92060
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92061 }
-		add_opinion = {
-			target = character:92061
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -265,7 +233,7 @@
 	trait = brave
 	trait = diligent
 	trait = intellect_good_3
-	trait = blademaster_3
+	trait = lifestyle_blademaster
 	trait = avaricious
 	trait = hunter_3
 	trait = physique_good_3
@@ -320,33 +288,33 @@
 	}
 }
 92042 = {
-	name = "Nika"
+	name = "Sora"
 	female = yes
 	dynasty = 191919150
-	religion = "orthodox"
-	culture = "russian"
-	dna = dna_nika
+	religion = "shinto"
+	culture = "japanese"
+	dna = dna_amamiya_sora
 	portrait_override = {
 		portrait_modifier_overrides={
-			custom_hair=female_hair_fp1_02
+			custom_hair=f_hair_ep3_byzantine_03
 			custom_beards=female_empty
 		}
 	}
-	sexuality = bisexual
-	trait = education_intrigue_4
-	trait = shy
-	trait = chaste
-	trait = cynical
-	trait = intellect_good_3
-	trait = scholar
+	sexuality = heterosexual
+	trait = education_diplomacy_5
+	trait = gregarious
+	trait = temperate
+	trait = compassionate
+	trait = lifestyle_poet
+	trait = lifestyle_reveler
 	trait = beauty_good_3
-	trait = tits_big_good_1
-	trait = cat_preference
+	trait = pure_blooded
+	trait = lifestyle_traveler
+	trait = confucian_education
 	1047.5.15 = { # No idea
 		birth = yes
 		effect = {
 			add_character_flag = has_scripted_appearance
-			change_current_weight = -5
 		}
 	}
 	1066.1.1={
@@ -390,102 +358,11 @@
 			add_perk = forever_infamous_perk
 			add_perk = prison_feudal_complex_perk
 			learn_language = language_anglic
-			learn_language = language_finnic
 		}
 		effect = { set_relation_friend = character:92040 }
 		effect = { set_relation_lover = character:92040 }
 		effect = { set_relation_soulmate = character:92040 }
 		add_spouse = 92040
-		add_opinion = {
-			target = character:92040
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92059 }
-		add_opinion = {
-			target = character:92059
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92062 }
-		add_opinion = {
-			target = character:92062
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92068 }
-		add_opinion = {
-			target = character:92068
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92053 }
-		add_opinion = {
-			target = character:92053
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		employer = 92040 # Zsolt
-	}
-	1083.1.1 = {
-		death = yes
-	}
-}
-92043 = {
-	name = "Naoki"
-	dynasty = 191919124
-	religion = "magyar_pagan"
-	culture = "japanese"
-	dna = dna_naoki
-	portrait_override = {
-		portrait_modifier_overrides={
-			custom_hair=male_hair_western_07
-		}
-	}
-	sexuality = heterosexual
-	trait = education_diplomacy_4
-	trait = cynical
-	trait = honest
-	trait = stubborn
-	trait = intellect_good_3
-	trait = scholar
-	trait = diplomat
-	trait = dick_big_good_1
-	1047.1.4 = {
-		birth = yes
-		effect = {
-			add_character_flag = has_scripted_appearance
-			change_current_weight = -10
-		}
-	}
-	1066.1.1={
-		effect = {
-			add_character_modifier = { modifier = zsolts_court }
-			add_perk = thoughtful_perk
-			add_perk = pedagogy_perk 
-			add_perk = open_minded_perk 
-			add_perk = scientific_perk 
-			add_perk = planned_cultivation_perk 
-			add_perk = scholarly_circles_perk 
-			add_perk = learn_on_the_job_perk 
-			add_perk = sanctioned_loopholes_perk 
-			add_perk = scholar_perk 
-			add_perk = anatomical_studies_perk
-			add_perk = wash_your_hands_perk
-			add_perk = truth_is_relative_perk
-			add_perk = golden_obligations_perk
-			add_perk = meritocracy_perk
-			add_perk = ducal_conquest_perk
-			add_perk = forced_vassalage_perk
-			add_perk = defensive_negotiations_perk
-			add_perk = adaptive_traditions_perk
-			add_perk = embassies_perk
-			add_perk = flexible_truces_perk
-			add_perk = accomplished_forger_perk
-			learn_language = language_ugric
-			learn_language = language_anglic
-		}
-		effect = { set_relation_friend = character:92040 }
 		add_opinion = {
 			target = character:92040
 			modifier = friendliness_opinion
@@ -500,7 +377,7 @@
 92044 = {
 	name = "Petter"
 	dynasty = 191919121
-	religion = "lutheran"
+	religion = "catholic"
 	culture = "geat"
 	dna = dna_petter
 	portrait_override = {
@@ -511,17 +388,20 @@
 	}
 	sexuality = heterosexual
 	trait = education_intrigue_4
-	trait = blademaster_1
+	trait = lifestyle_blademaster
 	trait = calm
 	trait = honest
 	trait = cynical
-	trait = reveler_3
+	trait = lifestyle_reveler
 	trait = intellect_good_3
+	trait = seducer
 	trait = scholar
 	trait = fornicator
 	trait = physique_good_3
 	trait = beauty_good_2
 	trait = dick_big_good_3
+	trait = rakish
+	trait = lifestyle_traveler
 	1040.1.30 = {
 		birth = yes
 		effect = {
@@ -576,12 +456,6 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		effect = { set_relation_friend = character:92063 }
-		add_opinion = {
-			target = character:92063
-			modifier = friendliness_opinion
-			opinion = 200
-		}
 		# effect = { set_relation_friend = character:92059 }
 		# add_opinion = {
 		# 	target = character:92059
@@ -591,12 +465,6 @@
 		# effect = { set_relation_friend = character:92062 }
 		# add_opinion = {
 		# 	target = character:92062
-		# 	modifier = friendliness_opinion
-		# 	opinion = 200
-		# }
-		# effect = { set_relation_friend = character:92063 }
-		# add_opinion = {
-		# 	target = character:92063
 		# 	modifier = friendliness_opinion
 		# 	opinion = 200
 		# }
@@ -620,7 +488,7 @@
 92045 = {
 	name = "Adrien"
 	dynasty = 191919123
-	religion = "celtic_faith"
+	religion = "lamaism"
 	culture = "breton"
 	dna = dna_adrien
 	portrait_override = {
@@ -639,8 +507,9 @@
 	trait = scholar
 	trait = fornicator
 	trait = physique_good_2
-	trait = blademaster_3
+	trait = lifestyle_blademaster
 	trait = dick_big_good_3
+	trait = lifestyle_traveler
 	1048.1.30 = {
 		birth = yes
 		effect = {
@@ -706,12 +575,6 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		effect = { set_relation_friend = character:92067 }
-		add_opinion = {
-			target = character:92067
-			modifier = friendliness_opinion
-			opinion = 200
-		}
 		employer = 92040 # Zsolt
 	}
 	1083.1.1 = {
@@ -733,7 +596,7 @@
 	sexuality = heterosexual
 	trait = education_martial_4
 	trait = physique_good_2
-	trait = blademaster_3
+	trait = lifestyle_blademaster
 	trait = cynical
 	trait = arrogant
 	trait = stubborn
@@ -745,6 +608,7 @@
 	trait = cat_preference
 	trait = dick_big_good_3
 	trait = cat_preference
+	trait = lifestyle_traveler
 	1040.8.22 = {
 		birth = yes
 		effect = {
@@ -849,12 +713,6 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		effect = { set_relation_friend = character:92067 }
-		add_opinion = {
-			target = character:92067
-			modifier = friendliness_opinion
-			opinion = 200
-		}
 	}
 	1083.1.1 = {
 		death = yes
@@ -864,7 +722,7 @@
 	name = "Rachel"
 	female = yes
 	dynasty = 191919128
-	religion = "calvinist"
+	religion = "catholic"
 	culture = "japanese"
 	dna = dna_rachel_miyamoto
 	portrait_override = {
@@ -943,8 +801,8 @@
 92048 = {
 	name = "Emil"
 	dynasty = 191919122
-	religion = "lutheran"
-	culture = "geat"
+	religion = "catholic"
+	culture = "swedish"
 	dna = dna_emil_hanson
 	portrait_override = {
 		portrait_modifier_overrides={
@@ -954,7 +812,7 @@
 	}
 	sexuality = heterosexual
 	trait = education_learning_4
-	trait = blademaster_3
+	trait = lifestyle_blademaster
 	trait = compassionate
 	trait = zealous
 	trait = honest
@@ -1008,12 +866,6 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		effect = { set_relation_friend = character:92067 }
-		add_opinion = {
-			target = character:92067
-			modifier = friendliness_opinion
-			opinion = 200
-		}
 		# effect = { set_relation_friend = character:92041 }
 		# add_opinion = {
 		# 	target = character:92041
@@ -1045,7 +897,7 @@
 	}
 	sexuality = heterosexual
 	trait = education_martial_prowess_4
-	trait = blademaster_3
+	trait = lifestyle_blademaster
 	trait = honest
 	trait = trusting
 	trait = stubborn
@@ -1126,7 +978,7 @@
 	}
 	sexuality = heterosexual
 	trait = education_martial_prowess_4
-	trait = blademaster_3
+	trait = lifestyle_blademaster
 	trait = honest
 	trait = cynical
 	trait = stubborn
@@ -1194,7 +1046,7 @@
 	name = "char_Jihim"
 	dynasty = 191919133
 	religion = "catholic"
-	culture = "cantonese"
+	culture = "han"
 	dna = dna_wongjihim
 	portrait_override = {
 		portrait_modifier_overrides={
@@ -1212,6 +1064,8 @@
 	trait = mystic_3
 	trait = physician_3
 	trait = dick_big_good_1
+	trait = lifestyle_traveler
+	trait = confucian_education
 	1043.11.3 = {
 		birth = yes
 		effect = {
@@ -1262,7 +1116,7 @@
 92052 = {
 	name = "ch_DSonck"
 	dynasty = 191919132
-	religion = "calvinist"
+	religion = "catholic"
 	culture = "dutch"
 	dna = dna_dsonck
 	martial = 15
@@ -1318,7 +1172,7 @@
 			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 			learn_language = language_high_german
-			learn_language = language_japanese
+			learn_language = language_japonic
 		}
 		effect = { set_relation_friend = character:92040 }
 		add_opinion = {
@@ -1341,7 +1195,7 @@
 92053 = {
 	name = "char_DGerard"
 	dynasty = 191919134
-	religion = "calvinist"
+	religion = "catholic"
 	culture = "dutch"
 	dna = dna_geard_koetje
 	portrait_override = {
@@ -1401,12 +1255,6 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		effect = { set_relation_friend = character:92067 }
-		add_opinion = {
-			target = character:92067
-			modifier = friendliness_opinion
-			opinion = 200
-		}
 		add_opinion = {
 			target = character:92046
 			modifier = friendliness_opinion
@@ -1456,7 +1304,7 @@
 	trait = patient
 	trait = intellect_good_3
 	trait = scholar
-	trait = blademaster_3
+	trait = lifestyle_blademaster
 	trait = physician_3
 	trait = beauty_good_3
 	trait = cat_preference
@@ -1504,12 +1352,6 @@
 		effect = { set_relation_friend = character:92045 }
 		add_opinion = {
 			target = character:92045
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92067 }
-		add_opinion = {
-			target = character:92067
 			modifier = friendliness_opinion
 			opinion = 200
 		}
@@ -1600,12 +1442,6 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		effect = { set_relation_friend = character:92067 }
-		add_opinion = {
-			target = character:92067
-			modifier = friendliness_opinion
-			opinion = 200
-		}
 		effect = { set_relation_friend = character:92054 }
 		add_opinion = {
 			target = character:92054
@@ -1629,85 +1465,7 @@
 		death = yes
 	}
 }
-92056 = {
-	name = "char_JYuzuko"
-	dynasty = 191919137
-	religion = "shinto"
-	culture = "japanese"
-	dna = dna_yuzuko
-	portrait_override = {
-		portrait_modifier_overrides={
-			custom_beards=male_beard_steppe_02
-			custom_hair=male_hair_western_09
-		}
-	}
-	sexuality = bisexual
-	trait = education_martial_4
-	trait = lazy
-	trait = arrogant
-	trait = lustful
-	trait = intellect_good_3
-	trait = scholar
-	trait = deviant
-	trait = blademaster_3
-	trait = sodomite
-	trait = cat_preference
-	trait = dick_small_bad_1
-	trait = cat_preference
-	1046.6.26 = { # 1042 = 1992 -> 1048 = 1998 
-		birth = yes
-		effect = {
-			add_character_flag = has_scripted_appearance
-			change_current_weight = -10
-		}
-	}
-	1066.1.1={
-		effect = {
-			add_character_modifier = { modifier = zsolts_court }
-			add_perk = thoughtful_perk
-			add_perk = pedagogy_perk 
-			add_perk = open_minded_perk 
-			add_perk = scientific_perk 
-			add_perk = planned_cultivation_perk 
-			add_perk = scholarly_circles_perk 
-			add_perk = learn_on_the_job_perk 
-			add_perk = sanctioned_loopholes_perk 
-			add_perk = scholar_perk 
-			add_perk = anatomical_studies_perk
-			add_perk = wash_your_hands_perk
-			add_perk = truth_is_relative_perk
-			add_perk = golden_obligations_perk
-			add_perk = meritocracy_perk
-			add_perk = ducal_conquest_perk
-			add_perk = forced_vassalage_perk
-			add_perk = defensive_negotiations_perk
-			add_perk = adaptive_traditions_perk
-			add_perk = embassies_perk
-			add_perk = flexible_truces_perk
-			add_perk = accomplished_forger_perk
-			learn_language = language_anglic
-			learn_language = language_chinese
-		}
-		effect = { set_relation_friend = character:92040 }
-		add_opinion = {
-			target = character:92040
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92057 }
-		effect = { set_relation_soulmate = character:92057 }
-		add_opinion = {
-			target = character:92057
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		employer = 92040 # Zsolt
-		add_spouse = 92057
-	}
-	1083.1.1 = {
-		death = yes
-	}
-}
+
 92057 = {
 	name = "Rakukoo_FirstName"
 	female = yes
@@ -1733,6 +1491,7 @@
 	trait = cat_preference
 	trait = tits_big_good_2
 	trait = cat_preference
+	trait = lifestyle_traveler
 	1045.6.11 = { # 1042 = 1992 -> 1045 = Jun 11, 1995
 		birth = yes
 		effect = {
@@ -1746,19 +1505,11 @@
 			modifier = friendliness_opinion
 			opinion = 150
 		}
-		effect = { set_relation_friend = character:92056 }
-		effect = { set_relation_soulmate = character:92056 }
 		effect = {
 			learn_language = language_anglic
-			learn_language = language_japanese
-		}
-		add_opinion = {
-			target = character:92056
-			modifier = friendliness_opinion
-			opinion = 200
+			learn_language = language_japonic
 		}
 		employer = 92040 # Zsolt
-		add_spouse = 92056
 	}
 	1083.1.1 = {
 		death = yes
@@ -1784,7 +1535,7 @@
 	trait = intellect_good_3
 	trait = scholar
 	trait = deviant
-	trait = blademaster_3
+	trait = lifestyle_blademaster
 	trait = physique_good_2
 	trait = dog_preference
 	trait = dick_big_good_1
@@ -1938,79 +1689,6 @@
 		death = yes
 	}
 }
-92061 = {
-	name = "Aikaterine"
-	female = yes
-	dynasty = 191919142
-	religion = "orthodox"
-	culture = "greek"
-	dna = dna_katerina_tsoupi
-	portrait_override = {
-		portrait_modifier_overrides={
-			custom_hair=female_hair_western_05
-		}
-	}
-	sexuality = bisexual
-	trait = education_diplomacy_4
-	trait = shy
-	trait = cynical
-	trait = stubborn
-	trait = intellect_good_3
-	trait = scholar
-	trait = beauty_good_3
-	trait = cat_preference
-	trait = tits_big_good_1
-	1049.3.31 = {
-		birth = yes
-		effect = {
-			add_character_flag = has_scripted_appearance
-			change_current_weight = -10
-		}
-	}
-	1066.1.1={
-		effect = {
-			add_character_modifier = { modifier = zsolts_court }
-			add_perk = thoughtful_perk
-			add_perk = pedagogy_perk 
-			add_perk = open_minded_perk 
-			add_perk = scientific_perk 
-			add_perk = planned_cultivation_perk 
-			add_perk = scholarly_circles_perk 
-			add_perk = learn_on_the_job_perk 
-			add_perk = sanctioned_loopholes_perk 
-			add_perk = scholar_perk 
-			add_perk = anatomical_studies_perk
-			add_perk = wash_your_hands_perk
-			add_perk = truth_is_relative_perk
-			add_perk = golden_obligations_perk
-			add_perk = meritocracy_perk
-			add_perk = ducal_conquest_perk
-			add_perk = forced_vassalage_perk
-			add_perk = defensive_negotiations_perk
-			add_perk = adaptive_traditions_perk
-			add_perk = embassies_perk
-			add_perk = flexible_truces_perk
-			add_perk = accomplished_forger_perk
-			learn_language = language_anglic
-		}
-		effect = { set_relation_friend = character:92040 }
-		add_opinion = {
-			target = character:92040
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92067 }
-		add_opinion = {
-			target = character:92067
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		# employer = 92040 # Zsolt
-	}
-	1083.1.1 = {
-		death = yes
-	}
-}
 
 92062 = {
 	name = "LA_szlO_"
@@ -2025,16 +1703,18 @@
 		}
 	}
 	sexuality = bisexual
-	trait = education_diplomacy_4
+	trait = education_intrigue_5
 	trait = gregarious
 	trait = lustful
 	trait = just
 	trait = intellect_good_3
 	trait = beauty_good_1
-	trait = blademaster_3
+	trait = lifestyle_blademaster
 	trait = hunter_3
 	trait = scholar
+	trait = lifestyle_traveler
 	trait = dick_big_good_1
+	trait = confucian_education
 	trait = bird_preference
 	1046.1.30 = {
 		birth = yes
@@ -2070,7 +1750,7 @@
 			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 			learn_language = language_high_german
-			learn_language = language_japanese
+			learn_language = language_japonic
 			add_pressed_claim = title:d_nyitra
 		}
 		add_opinion = {
@@ -2108,166 +1788,11 @@
 	}
 }
 
-92063 = {
-	name = "Attila"
-	dynasty = 191919151
-	religion = "calvinist"
-	culture = "szekely"
-	dna = dna_mrnightclubs
-	portrait_override = {
-		portrait_modifier_overrides={
-			custom_hair=male_hair_western_07
-			custom_beards=male_empty
-		}
-	}
-	sexuality = heterosexual
-	trait = education_martial_4
-	trait = honest
-	trait = stubborn
-	trait = just
-	trait = intellect_good_1
-	trait = blademaster_3
-	trait = hunter_3
-	trait = adventurer
-	trait = dick_small_bad_3
-	1046.1.30 = {
-		birth = yes
-		effect = {
-			add_character_flag = has_scripted_appearance
-			change_current_weight = -10
-		}
-	}
-	1066.1.1={
-		effect = { set_relation_friend = character:92040 }
-		effect = {
-			add_character_modifier = { modifier = zsolts_court }
-			add_perk = thoughtful_perk
-			add_perk = pedagogy_perk 
-			add_perk = open_minded_perk 
-			add_perk = scientific_perk 
-			add_perk = planned_cultivation_perk 
-			add_perk = scholarly_circles_perk 
-			add_perk = learn_on_the_job_perk 
-			add_perk = sanctioned_loopholes_perk 
-			add_perk = scholar_perk 
-			add_perk = anatomical_studies_perk
-			add_perk = wash_your_hands_perk
-			add_perk = truth_is_relative_perk
-			add_perk = golden_obligations_perk
-			add_perk = meritocracy_perk
-			add_perk = ducal_conquest_perk
-			add_perk = forced_vassalage_perk
-			add_perk = defensive_negotiations_perk
-			add_perk = adaptive_traditions_perk
-			add_perk = embassies_perk
-			add_perk = flexible_truces_perk
-			add_perk = accomplished_forger_perk
-			learn_language = language_anglic
-			learn_language = language_chinese
-			add_pressed_claim = title:d_transylvania
-		}
-		add_opinion = {
-			target = character:92040
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92045 }
-		add_opinion = {
-			target = character:92045
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		employer = 92040
-	}
-	1083.1.1 = {
-		death = yes
-	}
-}
-
-92064 = {
-	name = "Eadweard"
-	dynasty = 191919145
-	religion = "norse_pagan"
-	culture = "anglo_saxon"
-	dna = dna_edddie_wirhalh
-	portrait_override = {
-		portrait_modifier_overrides={
-			custom_hair=male_hair_northern_01
-			custom_beards=male_beard_western_01
-		}
-	}
-	sexuality = heterosexual
-	trait = education_martial_4
-	trait = honest
-	trait = stubborn
-	trait = just
-	trait = intellect_good_3
-	trait = blademaster_3
-	trait = hunter_3
-	trait = scholar
-	trait = dick_big_good_3
-	trait = cat_preference
-	1040.1.30 = {
-		birth = yes
-		effect = {
-			add_character_flag = has_scripted_appearance
-			change_current_weight = -10
-		}
-	}
-	1066.1.1={
-		effect = { set_relation_friend = character:92040 }
-		effect = {
-			add_character_modifier = { modifier = zsolts_court }
-			add_perk = thoughtful_perk
-			add_perk = pedagogy_perk 
-			add_perk = open_minded_perk 
-			add_perk = scientific_perk 
-			add_perk = planned_cultivation_perk 
-			add_perk = scholarly_circles_perk 
-			add_perk = learn_on_the_job_perk 
-			add_perk = sanctioned_loopholes_perk 
-			add_perk = scholar_perk 
-			add_perk = anatomical_studies_perk
-			add_perk = wash_your_hands_perk
-			add_perk = truth_is_relative_perk
-			add_perk = golden_obligations_perk
-			add_perk = meritocracy_perk
-			add_perk = ducal_conquest_perk
-			add_perk = forced_vassalage_perk
-			add_perk = defensive_negotiations_perk
-			add_perk = adaptive_traditions_perk
-			add_perk = embassies_perk
-			add_perk = flexible_truces_perk
-			add_perk = accomplished_forger_perk
-		}
-		add_opinion = {
-			target = character:92040
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92044 }
-		add_opinion = {
-			target = character:92044
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92066 }
-		add_opinion = {
-			target = character:92066
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-	}
-	1083.1.1 = {
-		death = yes
-	}
-}
-
 92065 = {
 	name = "Davide"
 	dynasty = 191919146
 	religion = "catholic"
-	culture = "laziale"
+	culture = "italian"
 	dna = dna_davide_passalacqua
 	portrait_override = {
 		portrait_modifier_overrides={
@@ -2281,7 +1806,7 @@
 	trait = stubborn
 	trait = just
 	trait = intellect_good_3
-	trait = reveler_3
+	trait = lifestyle_reveler
 	trait = scholar
 	trait = dick_big_good_2
 	1040.8.4 = {
@@ -2357,7 +1882,7 @@
 92066 = {
 	name = "Cadfan"
 	dynasty = 191919147
-	religion = "celtic_faith"
+	religion = "basque_pagan"
 	culture = "welsh"
 	dna = dna_cadvan_ap_taran
 	portrait_override = {
@@ -2371,7 +1896,7 @@
 	trait = chaste
 	trait = zealous
 	trait = intellect_good_3
-	trait = blademaster_3
+	trait = lifestyle_blademaster
 	trait = scholar
 	trait = theologian
 	trait = dick_big_good_1
@@ -2408,12 +1933,6 @@
 			add_perk = accomplished_forger_perk
 			learn_language = language_anglic
 		}
-		effect = { set_relation_friend = character:92067 }
-		add_opinion = {
-			target = character:92067
-			modifier = friendliness_opinion
-			opinion = 200
-		}
 		effect = { set_relation_friend = character:92040 }
 		add_opinion = {
 			target = character:92040
@@ -2432,12 +1951,6 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
-		# effect = { set_relation_friend = character:92063 }
-		# add_opinion = {
-		# 	target = character:92063
-		# 	modifier = friendliness_opinion
-		# 	opinion = 200
-		# }
 		effect = { set_relation_friend = character:92064 }
 		add_opinion = {
 			target = character:92064
@@ -2451,125 +1964,6 @@
 			opinion = 200
 		}
 		employer = 92046 # Roland
-	}
-	1083.1.1 = {
-		death = yes
-	}
-}
-
-92067 = {
-	name = "Zebulon"
-	dynasty = 191919148
-	religion = "lutheran"
-	culture = "swedish"
-	dna = dna_zeb_ekengren
-	portrait_override = {
-		portrait_modifier_overrides={
-			custom_beards=male_beard_western_04
-			custom_hair=male_hair_western_09
-		}
-	}
-	sexuality = heterosexual
-	trait = education_martial_4
-	trait = ambitious
-	trait = lustful
-	trait = vengeful
-	trait = intellect_good_3
-	trait = blademaster_3
-	trait = scholar
-	trait = hunter_3
-	trait = physique_good_3
-	trait = beauty_good_3
-	trait = diplomat
-	trait = dick_big_good_1
-	1047.8.19 = { # August 19, 1997
-		birth = yes
-		effect = {
-			add_character_flag = has_scripted_appearance
-			change_current_weight = -10
-		}
-	}
-	1066.1.1={
-		effect = {
-			add_character_modifier = { modifier = zsolts_court }
-			add_perk = thoughtful_perk
-			add_perk = pedagogy_perk 
-			add_perk = open_minded_perk 
-			add_perk = scientific_perk 
-			add_perk = planned_cultivation_perk 
-			add_perk = scholarly_circles_perk 
-			add_perk = learn_on_the_job_perk 
-			add_perk = sanctioned_loopholes_perk 
-			add_perk = scholar_perk 
-			add_perk = anatomical_studies_perk
-			add_perk = wash_your_hands_perk
-			add_perk = truth_is_relative_perk
-			add_perk = golden_obligations_perk
-			add_perk = meritocracy_perk
-			add_perk = ducal_conquest_perk
-			add_perk = forced_vassalage_perk
-			add_perk = defensive_negotiations_perk
-			add_perk = adaptive_traditions_perk
-			add_perk = embassies_perk
-			add_perk = flexible_truces_perk
-			add_perk = accomplished_forger_perk
-			learn_language = language_anglic
-		}
-		effect = { set_relation_friend = character:92040 }
-		add_opinion = {
-			target = character:92040
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92046 }
-		add_opinion = {
-			target = character:92046
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		employer = 92046 # Roland
-		effect = { set_relation_friend = character:92044 }
-		add_opinion = {
-			target = character:92044
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92048 }
-		add_opinion = {
-			target = character:92048
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92066 }
-		add_opinion = {
-			target = character:92066
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92061 }
-		add_opinion = {
-			target = character:92061
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92053 }
-		add_opinion = {
-			target = character:92053
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92054 }
-		add_opinion = {
-			target = character:92054
-			modifier = friendliness_opinion
-			opinion = 200
-		}
-		effect = { set_relation_friend = character:92055 }
-		add_opinion = {
-			target = character:92055
-			modifier = friendliness_opinion
-			opinion = 200
-		}
 	}
 	1083.1.1 = {
 		death = yes
@@ -2598,6 +1992,7 @@
 	trait = scholar
 	trait = whole_of_body
 	trait = dick_big_good_1
+	trait = confucian_education
 	1046.1.30 = {
 		birth = yes
 		effect = {
@@ -2691,25 +2086,27 @@
 	}
 }
 92069 = {
-	name = "Phoutokrata"
+	name = "Csenge"
 	female = yes
-	dynasty = 7246
-	father = 32241
-	religion = "tewahedo"
-	culture = "ethiopian"
-	trait = futa_genetic
-	trait = beauty_good_2
+	dynasty = 191919155
+	religion = "catholic"
+	culture = "hungarian"
+	trait = education_diplomacy_5
+	trait = gregarious
+	trait = temperate
+	trait = compassionate
+	trait = beauty_good_3
+	trait = intellect_good_3
 	trait = tits_big_good_3
-	trait = dick_big_good_3
 	trait = bird_preference
-	dna = dna_dornfelds_wife
+	dna = dna_nyerges_csenge
 	portrait_override = {
 		portrait_modifier_overrides={
-			custom_hair=female_hair_sub_saharan_02
+			custom_hair=female_hair_fp2_iberian_muslim_01_common
 			custom_beards=female_empty
 		}
 	}
-	sexuality = bisexual
+	sexuality = heterosexual
 	1049.5.15 = { # No idea
 		birth = yes
 		effect = {
@@ -2724,7 +2121,6 @@
 			add_pressed_claim = title:c_tigre
 			add_pressed_claim = title:d_gondar
 			add_pressed_claim = title:c_dembiya
-			learn_language = language_ugric
 		}
 		effect = { set_relation_friend = character:92062 }
 		effect = { set_relation_lover = character:92062 }
@@ -2735,6 +2131,47 @@
 			modifier = friendliness_opinion
 			opinion = 200
 		}
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+92070= {
+	name = "Bryant"
+	religion = "rabbinism"
+	culture = "swahili"
+	trait = education_intrigue_5
+	trait = lustful
+	trait = greedy
+	trait = eccentric
+	trait = dick_big_good_3
+	trait = bird_preference
+	trait = rakish
+	trait = lunatic_genetic
+	trait = possessed_genetic
+	trait = physique_good_3
+	trait = strong
+	trait = bastard
+	trait = lifestyle_physician
+	sexuality = heterosexual
+	1049.5.15 = { # No idea
+		birth = yes
+		give_nickname = nick_punished
+	}
+	1066.1.1={
+		effect = { set_relation_friend = character:92040 }
+		add_opinion = {
+			target = character:92040
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		effect = { set_relation_friend = character:92062 }
+		add_opinion = {
+			target = character:92062
+			modifier = friendliness_opinion
+			opinion = 200
+		}
+		employer = 92062
 	}
 	1083.1.1 = {
 		death = yes

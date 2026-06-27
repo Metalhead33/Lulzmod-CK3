@@ -1,0 +1,9 @@
+﻿l_english:
+ nick_punished:0 "the Punished"
+ nick_punished_desc:1 "Where [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] got this moniker from, is best left unexplored.."
+ nick_punished_young: "the Punished"
+ nick_punished_young_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat] will not be punished - [CHARACTER.GetShortUINameNoTooltipNoFormat] is the punishment."
+ nick_punished_ironic: "$nick_punished_young$"
+ nick_punished_ironic_desc: "$nick_punished_young_desc$"
+ nick_punished_old: "$nick_punished_young$"
+ nick_punished_old_desc: "$nick_punished_young_desc$"
