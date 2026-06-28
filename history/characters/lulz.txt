@@ -378,7 +378,7 @@
 	name = "Petter"
 	dynasty = 191919121
 	religion = "catholic"
-	culture = "geat"
+	culture = "swedish"
 	dna = dna_petter
 	portrait_override = {
 		portrait_modifier_overrides={
